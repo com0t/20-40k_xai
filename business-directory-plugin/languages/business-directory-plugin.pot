@@ -1,0 +1,5921 @@
+# Copyright (C) 2021 Business Directory Team
+# This file is distributed under the GPLv2 or any later version.
+msgid ""
+msgstr ""
+"Project-Id-Version: Business Directory Plugin 5.15.2\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/business-directory-plugin\n"
+"POT-Creation-Date: 2021-11-18 20:49:25+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/abstracts/class-payment-gateway.php:107
+#. translators: %s: field name
+msgid "This field is required (%s)."
+msgstr ""
+
+#: includes/abstracts/class-payment-gateway.php:166
+msgid ""
+"There was an unexpected error trying to cancel your subscription. Please "
+"contact the website's administrator mentioning this problem. The "
+"administrator should be able to cancel your subscription contacting the "
+"payment processor directly."
+msgstr ""
+
+#: includes/admin/class-admin.php:189
+msgid ""
+"Find out how to create a compelling, thriving business directory from "
+"scratch in this ridiculously actionable (and FREE) 5-part email course."
+msgstr ""
+
+#: includes/admin/class-admin.php:198
+msgid "Want to know the Secrets of Building an Awesome Business Directory?"
+msgstr ""
+
+#: includes/admin/class-admin.php:200
+msgid "Yes, please!"
+msgstr ""
+
+#: includes/admin/class-admin.php:202 includes/admin/tracking.php:215
+msgid "No, thanks"
+msgstr ""
+
+#: includes/admin/class-admin.php:264
+msgid "Invalid email address."
+msgstr ""
+
+#: includes/admin/class-admin.php:298
+msgid "Business Directory Admin"
+msgstr ""
+
+#: includes/admin/class-admin.php:299
+#: includes/admin/settings/class-settings-bootstrap.php:703
+#: includes/admin/settings/class-settings-bootstrap.php:704
+#: includes/helpers/class-app.php:93
+#: includes/helpers/functions/templates-ui.php:307
+msgid "Directory"
+msgstr ""
+
+#: includes/admin/class-admin.php:310 templates/admin/home.tpl.php:65
+msgid "Fee Plans"
+msgstr ""
+
+#: includes/admin/class-admin.php:313 templates/admin/home.tpl.php:60
+msgid "Form Fields"
+msgstr ""
+
+#: includes/admin/class-admin.php:342 includes/admin/class-admin.php:343
+#: includes/licensing.php:220
+msgid "Modules"
+msgstr ""
+
+#: includes/admin/class-admin.php:343
+msgid "Business Directory"
+msgstr ""
+
+#: includes/admin/class-admin.php:847
+msgid "Could not send renewal email."
+msgstr ""
+
+#: includes/admin/class-admin.php:981
+#: includes/admin/helpers/tables/class-form-fields-table.php:127
+#: includes/admin/helpers/tables/class-payments-table.php:54
+#: templates/email/listing-added.tpl.php:7
+#: templates/email/listing-edited.tpl.php:13
+#: templates/email/listing-reported.tpl.php:9
+msgid "ID"
+msgstr ""
+
+#: includes/admin/class-admin.php:983 includes/admin/class-admin.php:991
+#: includes/admin/settings/class-settings-bootstrap.php:729
+msgid "Listing Count"
+msgstr ""
+
+#: includes/admin/class-listing-owner.php:62
+#: includes/admin/class-listing-owner.php:89
+msgid "Please select a user"
+msgstr ""
+
+#: includes/admin/class-listing-owner.php:87
+#: includes/admin/controllers/class-admin-listings.php:221
+msgid "Listing Owner"
+msgstr ""
+
+#: includes/admin/class-listings-personal-data-provider.php:58
+msgid "Listing ID"
+msgstr ""
+
+#: includes/admin/class-listings-personal-data-provider.php:109
+msgid "Image URL"
+msgstr ""
+
+#: includes/admin/class-listings-personal-data-provider.php:123
+msgid "Business Directory Listings"
+msgstr ""
+
+#: includes/admin/class-listings-personal-data-provider.php:157
+msgid ""
+"An unknown error occurred while trying to delete information for listing "
+"{listing_id}."
+msgstr ""
+
+#: includes/admin/class-payment-personal-data-provider.php:50
+msgid "Payment Transaction"
+msgstr ""
+
+#: includes/admin/class-payment-personal-data-provider.php:51
+msgid "Payer Email"
+msgstr ""
+
+#: includes/admin/class-payment-personal-data-provider.php:60
+msgid "Listing Payments Information"
+msgstr ""
+
+#: includes/admin/class-payment-personal-data-provider.php:93
+msgid ""
+"An unknown error occurred while trying to delete listing payment "
+"information for transaction {transaction_id}."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Business Directory Plugin"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-controller.php:82
+#: templates/admin/payments-note.tpl.php:13
+#: templates/delete-listing-confirm.tpl.php:19
+msgid "Are you sure you want to do this?"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-csv.php:41
+#: templates/admin/csv-import.tpl.php:312
+msgid "Help"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-fees.php:47
+#: includes/admin/helpers/tables/class-fees-table.php:62
+#: includes/admin/helpers/tables/class-payments-table.php:57
+#: includes/admin/upgrades/migrations/manual-upgrade-18_0-featured-levels.php:273
+#: templates/admin/metaboxes-listing-information-plan.tpl.php:73
+#: templates/admin/payments-details.tpl.php:110
+#: templates/email/listing-payment-completed.tpl.php:21
+#: templates/payment/payment_items.tpl.php:5
+msgid "Amount"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-fees.php:49
+#: includes/admin/helpers/tables/class-fees-table.php:64
+#: includes/admin/settings/class-settings-bootstrap.php:919
+#: includes/admin/upgrades/migrations/manual-upgrade-18_0-featured-levels.php:275
+msgid "Images"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:185
+#: includes/controllers/pages/class-submit-listing.php:511
+#: templates/email/listing-reported.tpl.php:7
+msgid "Listing Information"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:193
+msgid "Listing Timeline"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:211
+msgid "Listing Reports"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:266
+msgid "Expires on"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:274
+msgid "Attributes"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:337
+#: includes/helpers/class-listing-display-helper.php:132
+msgid "Featured"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:475
+#: includes/class-cpt-integration.php:19
+#: includes/compatibility/class-navxt-integration.php:204
+#: templates/submit-listing.tpl.php:15
+msgid "Edit Listing"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:480
+#: templates/delete-listing-confirm.tpl.php:3
+msgid "Delete Listing"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:32
+msgid ""
+"You can create these custom fields inside \"Form Fields\" or let Business "
+"Directory do it for you."
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:37
+#: includes/controllers/pages/class-submit-listing.php:841
+msgid "Go to \"Form Fields\""
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:128
+#: includes/helpers/functions/general.php:1358
+#: includes/helpers/functions/general.php:1363
+msgid "Go back"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:338
+#: includes/admin/settings/class-settings-bootstrap.php:787
+#: templates/email/listing-added.tpl.php:10
+#: templates/email/listing-edited.tpl.php:16
+#: templates/email/listing-reported.tpl.php:11
+msgid "Title"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:339
+#: templates/admin/fees-form.tpl.php:219
+#: templates/email/listing-added.tpl.php:21
+#: templates/email/listing-edited.tpl.php:29
+msgid "Category"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:340
+msgid "Excerpt"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:341
+msgid "Content"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:342
+msgid "Tags"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:343
+#: includes/form-fields.php:445 templates/checkout-billing-form.tpl.php:75
+#: themes/default/templates/excerpt_content.tpl.php:22
+msgid "Address"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:344
+msgid "Address 2"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:345
+#: templates/admin/payments-details.tpl.php:161
+#: templates/checkout-billing-form.tpl.php:87
+msgid "City"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:346
+#: templates/admin/payments-details.tpl.php:157
+msgid "State"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:347
+#: templates/admin/payments-details.tpl.php:153
+#: templates/checkout-billing-form.tpl.php:102
+msgid "Country"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:348
+#: includes/form-fields.php:453 templates/admin/payments-details.tpl.php:165
+msgid "ZIP Code"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:349
+msgid "FAX Number"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:350
+#: includes/fields/class-fieldtypes-phone-number.php:13
+#: templates/listing-contactform.tpl.php:38
+msgid "Phone Number"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:351
+msgid "Ratings Field"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:352
+msgid "Twitter"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:353
+#: includes/form-fields.php:411
+msgid "Website"
+msgstr ""
+
+#: includes/admin/controllers/class-settings-admin.php:476
+msgid "Your license key provides access to new features and updates."
+msgstr ""
+
+#: includes/admin/controllers/class-settings-admin.php:478
+msgid "You're using Business Directory Plugin Lite. Enjoy!"
+msgstr ""
+
+#: includes/admin/controllers/class-settings-admin.php:536
+#: includes/admin/helpers/tables/class-fees-table.php:175
+#: includes/admin/helpers/tables/class-form-fields-table.php:104
+#: templates/admin/metaboxes-listing-flagging-row.tpl.php:19
+#: templates/admin/payments-note.tpl.php:14
+#: templates/admin/themes-item.tpl.php:58
+#: templates/parts/listing-buttons.tpl.php:33
+#: templates/parts/listing-buttons.tpl.php:67
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/controllers/class-themes-admin.php:44
+msgid "Themes"
+msgstr ""
+
+#: includes/admin/csv-import.php:135
+#. translators: %s: Sample business name
+msgid "Business %s"
+msgstr ""
+
+#: includes/admin/csv-import.php:326
+msgid "You are not allowed to do that."
+msgstr ""
+
+#: includes/admin/csv-import.php:423
+msgid "There was an error uploading the file:"
+msgstr ""
+
+#: includes/admin/csv-import.php:428
+msgid "Please upload the correct file type."
+msgstr ""
+
+#: includes/admin/helpers/class-listing-information-metabox.php:15
+#: includes/admin/helpers/tables/class-payments-table.php:53
+#: includes/admin/settings/class-settings-bootstrap.php:679
+#: includes/admin/settings/class-settings-bootstrap.php:680
+#: includes/helpers/class-app.php:91
+#: templates/admin/payments-details.tpl.php:50
+msgid "Listing"
+msgstr ""
+
+#: includes/admin/helpers/class-listing-timeline.php:121
+#: includes/class-listings-api.php:33
+msgid "Listing renewed"
+msgstr ""
+
+#: includes/admin/helpers/class-modules-list.php:182
+msgid "Installed"
+msgstr ""
+
+#: includes/admin/helpers/class-modules-list.php:187
+#: includes/admin/helpers/tables/class-fees-table.php:260
+#: templates/admin/themes-item.tpl.php:43
+msgid "Active"
+msgstr ""
+
+#: includes/admin/helpers/class-modules-list.php:192
+msgid "Not Installed"
+msgstr ""
+
+#: includes/admin/helpers/class-modules-list.php:225
+#: includes/controllers/class-smtp.php:317
+#: templates/admin/themes-item.tpl.php:53
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/helpers/class-modules-list.php:235
+#: includes/admin/helpers/class-modules-list.php:236 includes/licensing.php:268
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/admin/helpers/csv/class-csv-import.php:676
+msgid "Listing imported by admin. Payment skipped."
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:30
+#. translators: %1$s: open link html, %2$s close link
+msgid "There are no fees right now. %1$sCreate one%2$s."
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:154
+msgid "Disable"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:160
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:256
+#: includes/admin/helpers/tables/class-fees-table.php:258
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:264
+#: includes/helpers/functions/templates-ui.php:431
+msgid "Default"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:31
+#: includes/fields/class-fieldtypes-social.php:138
+#: templates/admin/csv-import.tpl.php:327
+msgid "Type"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:88
+#: templates/admin/metaboxes-listing-information-plan.tpl.php:84
+#: templates/admin/metaboxes-listing-information-plan.tpl.php:99
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/page-debug.php:40
+msgid "Plugin Settings"
+msgstr ""
+
+#: includes/admin/page-debug.php:70
+msgid "Environment"
+msgstr ""
+
+#: includes/admin/page-debug.php:115
+msgid "Plugin Info"
+msgstr ""
+
+#: includes/admin/page-debug.php:159
+msgid "OK"
+msgstr ""
+
+#: includes/admin/page-debug.php:161
+msgid "Missing tables: %s"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:13
+#: includes/controllers/pages/class-submit-listing.php:1244
+#: includes/form-fields.php:428 templates/admin/payments-details.tpl.php:137
+#: templates/listing-contactform.tpl.php:33
+#: templates/listing-flagging-form.tpl.php:39
+msgid "Email"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:21
+msgid "Module Settings"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:23
+#: includes/admin/settings/class-settings-bootstrap.php:288
+msgid "Miscellaneous"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:37
+msgid "License Key"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:58
+msgid "SEO"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:255
+#: includes/class-assets.php:328
+#: includes/fields/class-fieldtypes-textarea.php:200
+#: templates/admin/metaboxes-listing-information-plan.tpl.php:110
+#: templates/admin/metaboxes-listing-information-plan.tpl.php:117
+msgid "No"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:256
+msgid "Yes, and make it optional"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:257
+msgid "Yes, and make it required"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:264
+#: includes/admin/settings/class-settings-bootstrap.php:278
+#: includes/controllers/pages/class-submit-listing.php:524
+msgid "Terms and Conditions"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:269
+msgid "User Agreement"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:270
+msgid "Display and require user agreement to Terms and Conditions"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:294
+msgid "Data Collection"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:295
+msgid ""
+"Allow Business Directory to anonymously collect information about your "
+"installed plugins, themes and WP version?"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:296
+msgid "Learn more"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:302
+msgid "Searching"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:307
+msgid "Display advanced search form"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:325
+msgid ""
+"Enabling this sacrifices result quality to improve speed. This is helpful "
+"if you're on shared hosting plans, where database performance is an issue."
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:380
+msgid "Quick search data"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:405
+msgid ""
+"If no fields are selected, the following fields will be searched in Quick "
+"Searches:"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:407
+msgid ""
+"The Quick Search is a single search box, but you may choose what data is "
+"searched. Searching too many fields can result in very slow search "
+"performance."
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:438
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:440
+msgid "Buttons"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:442
+msgid "Sorting"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:571
+msgid ""
+"Business Directory Plugin uses the standard WordPress comments. Most themes "
+"allow for comments on posts, not pages. Some themes handle both. Since the "
+"directory is displayed on a page, we need a theme that can handle both. Use "
+"the 2nd option if you want to allow comments on listings. If that doesn't "
+"work, try the 3rd option."
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:575
+msgid "Include theme comment form (standard option)"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:576
+msgid "Include directory comment form (use only if 2nd option does not work)"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:594
+msgid "Prevent featured (sticky) status on directory pages?"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:622
+msgid "Owner of anonymous listings"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:634
+msgid "Default listing status"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:638
+#: includes/admin/settings/class-settings-bootstrap.php:651
+msgid "Pending (Require approval)"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:672
+msgid "Message Defaults"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:677
+msgid "Listing label"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:678
+msgid "What is a single listing called?"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:689
+msgid "Listing label (Plural)"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:690
+msgid "What are your listings called?"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:691
+#: includes/admin/settings/class-settings-bootstrap.php:692
+#: includes/helpers/class-app.php:92
+msgid "Listings"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:701
+msgid "Directory label"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:702
+msgid "What should we call your directory?"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:714
+msgid ""
+"This text is displayed on the first page of the Submit Listing process. You "
+"can use it for instructions about filling out the form or information to "
+"get started."
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:727
+#: templates/listing-contactform.tpl.php:30
+#: templates/listing-flagging-form.tpl.php:35
+msgid "Name"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:841
+msgid "Show Buttons"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:885
+msgid "Show the \"Directory\" and \"Return to Directory\" button."
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:892
+msgid "Styling"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:898
+msgid "Button style"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:901
+msgid "Override WP theme button styling"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:909
+msgid "Primary color"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:912
+msgid "This is used for form buttons and form rootline."
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1082
+msgid "Coming Soon image"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1122
+#: includes/fields/class-fieldtypes-social.php:92
+#: includes/fields/class-fieldtypes-url.php:162
+#: templates/email/listing-added.tpl.php:13
+#: templates/email/listing-edited.tpl.php:19
+#: templates/email/listing-reported.tpl.php:13
+#: templates/email-access-keys.tpl.php:6
+msgid "URL"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1255
+msgid "Thank you for your payment."
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1284
+msgid ""
+"If you are using this gateway, we recommend you disable it if you wish to "
+"collect payments in this currency."
+msgid_plural ""
+"If you are using these gateways, we recommend you disable them if you wish "
+"to collect payments in this currency."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1373
+#: includes/admin/settings/class-settings-bootstrap.php:1574
+msgid "Email Notifications"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1378
+msgid "Notify admin via email when..."
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1396
+msgid "CC this email address too"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1402
+msgid ""
+"You can modify the text template used for most of these emails in the "
+"<templates-link>Templates</templates-link> tab."
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1410
+msgid "Notify users via email when..."
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1477
+#. translators: %s: email shortcode
+msgid "Email: %s"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1480
+#. translators: %s: phone shortcode
+msgid "Phone Number: %s"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1492
+msgid "Sender's email address"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1493
+msgid "Sender's phone number"
+msgstr ""
+
+#: includes/admin/settings/class-settings-bootstrap.php:1710
+#: templates/admin/uninstall-complete.tpl.php:4
+msgid "Uninstall"
+msgstr ""
+
+#: includes/admin/settings/class-settings.php:515
+msgid "%s cannot include spaces, commas, or &"
+msgstr ""
+
+#: includes/admin/tracking.php:222
+msgid "Allow Tracking"
+msgstr ""
+
+#: includes/admin/upgrades/class-installer-installation-error.php:15
+msgid "Business Directory - Installation Failed"
+msgstr ""
+
+#: includes/admin/upgrades/class-installer-installation-error.php:17
+msgid ""
+"Business Directory installation failed. An exception with following message "
+"was generated:"
+msgstr ""
+
+#: includes/admin/upgrades/class-installer-installation-error.php:22
+msgid "Please <contact-link>contact customer support</a>."
+msgstr ""
+
+#: includes/admin/upgrades/class-manual-upgrade-helper.php:89
+msgid "Business Directory - Manual Upgrade Required"
+msgstr ""
+
+#: includes/admin/upgrades/class-manual-upgrade-helper.php:91
+msgid ""
+"Business Directory features are currently disabled because the plugin needs "
+"to perform a manual upgrade before continuing."
+msgstr ""
+
+#: includes/admin/upgrades/class-manual-upgrade-helper.php:93
+msgid "Perform Manual Upgrade"
+msgstr ""
+
+#: includes/admin/upgrades/class-manual-upgrade-helper.php:110
+#: includes/admin/upgrades/class-manual-upgrade-helper.php:111
+#: includes/admin/upgrades/class-manual-upgrade-helper.php:152
+msgid "Business Directory - Manual Upgrade"
+msgstr ""
+
+#: includes/admin/upgrades/class-manual-upgrade-helper.php:174
+msgid ""
+"Business Directory features are currently disabled because the plugin needs "
+"to perform a manual upgrade before it can be used."
+msgstr ""
+
+#: includes/admin/upgrades/class-manual-upgrade-helper.php:176
+msgid "Click \"Start Upgrade\" and wait until the process finishes."
+msgstr ""
+
+#: includes/admin/upgrades/migrations/manual-upgrade-18_0-featured-levels.php:21
+#: includes/admin/upgrades/migrations/manual-upgrade-18_0-featured-levels.php:22
+#: includes/admin/upgrades/migrations/manual-upgrade-18_0-featured-levels.php:192
+#: includes/admin/upgrades/migrations/manual-upgrade-18_0-featured-levels.php:201
+msgid "Business Directory - Featured Levels Migration"
+msgstr ""
+
+#: includes/admin/upgrades/migrations/manual-upgrade-18_0-featured-levels.php:272
+#: templates/admin/fees-form.tpl.php:17
+msgid "Fee Label"
+msgstr ""
+
+#: includes/admin/upgrades/migrations/manual-upgrade-18_0-featured-levels.php:274
+msgid "Duration"
+msgstr ""
+
+#: includes/admin/upgrades/migrations/migration-18_0.php:251
+msgid "Could not migrate fee \"%1$s\" (%2$d)"
+msgstr ""
+
+#: includes/admin/upgrades/migrations/migration-3_7.php:181
+msgid "Renewal fee \"%1$s\" for category \"%2$s\""
+msgstr ""
+
+#: includes/admin/views/modules/list.php:10
+msgid "Directory Modules"
+msgstr ""
+
+#: includes/admin/views/modules/list.php:46
+#: includes/admin/views/modules/list.php:47
+msgid "View Docs"
+msgstr ""
+
+#: includes/admin/views/modules/list.php:63
+#: templates/admin/themes-item.tpl.php:42
+#. translators: %s: Status name
+msgid "Status: %s"
+msgstr ""
+
+#: includes/admin/views/review.php:17
+msgid "Are you enjoying Business Directory Plugin?"
+msgstr ""
+
+#: includes/admin/views/review.php:20
+msgid "Not Really"
+msgstr ""
+
+#: includes/admin/views/review.php:23
+msgid "Yes!"
+msgstr ""
+
+#: includes/admin/views/review.php:27
+msgid ""
+"Awesome! Could you do me a BIG favor and give Business Directory Plugin a "
+"review to help me grow my little business and boost our motivation?"
+msgstr ""
+
+#: includes/admin/views/review.php:29
+msgid "Co-Founder and CTO of Business Directory Plugin"
+msgstr ""
+
+#: includes/admin/views/review.php:32
+msgid "No thanks, maybe later"
+msgstr ""
+
+#: includes/admin/views/review.php:35
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: includes/admin/views/review.php:39
+msgid "I already did"
+msgstr ""
+
+#: includes/admin/views/review.php:43
+msgid ""
+"Sorry to hear you aren't enjoying building with Business Directory Plugin. "
+"We would love a chance to improve. Could you take a minute and let us know "
+"what we can do better?"
+msgstr ""
+
+#: includes/class-assets.php:326
+#: templates/admin/metaboxes-listing-information-plan.tpl.php:86
+msgid "Never"
+msgstr ""
+
+#: includes/class-assets.php:327
+#: includes/fields/class-fieldtypes-textarea.php:201
+#: templates/admin/metaboxes-listing-information-plan.tpl.php:110
+#: templates/admin/metaboxes-listing-information-plan.tpl.php:117
+msgid "Yes"
+msgstr ""
+
+#: includes/class-assets.php:337
+msgid ""
+"Preview is only available after you've saved the first draft. This is due "
+"to how WordPress stores the data."
+msgstr ""
+
+#: includes/class-cpt-integration.php:20
+msgid "New Listing"
+msgstr ""
+
+#: includes/class-cpt-integration.php:21
+msgid "View Listing"
+msgstr ""
+
+#: includes/class-cpt-integration.php:22
+#: includes/helpers/functions/templates-ui.php:369
+#: templates/main-box.tpl.php:23
+msgid "Search Listings"
+msgstr ""
+
+#: includes/class-cpt-integration.php:23
+msgid "Directory Listings"
+msgstr ""
+
+#: includes/class-cpt-integration.php:24
+msgid "No listings found"
+msgstr ""
+
+#: includes/class-cpt-integration.php:25
+msgid "No listings found in trash"
+msgstr ""
+
+#: includes/class-cpt-integration.php:46
+msgid "Directory Categories"
+msgstr ""
+
+#: includes/class-cpt-integration.php:47
+msgid "Directory Category"
+msgstr ""
+
+#: includes/class-cpt-integration.php:58
+msgid "Directory Tags"
+msgstr ""
+
+#: includes/class-cpt-integration.php:59
+msgid "Directory Tag"
+msgstr ""
+
+#: includes/class-cpt-integration.php:253
+#. translators: %s: listing count
+msgid "%s listing updated."
+msgid_plural "%s listings updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-cpt-integration.php:255
+#. translators: %s: listing count
+msgid "%s listing not updated, somebody is editing it."
+msgid_plural "%s listings not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-cpt-integration.php:257
+#. translators: %s: listing count
+msgid "%s listing permanently deleted."
+msgid_plural "%s listings permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-cpt-integration.php:259
+#. translators: %s: listing count
+msgid "%s listing moved to the Trash."
+msgid_plural "%s listings moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-cpt-integration.php:261
+#. translators: %s: listing count
+msgid "%s listing restored from the Trash."
+msgid_plural "%s listings restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-fees-api.php:65
+msgid "Free Listing"
+msgstr ""
+
+#: includes/class-meta.php:155
+#: includes/controllers/pages/class-submit-listing.php:32
+#: includes/helpers/functions/templates-ui.php:329
+#: templates/submit-listing.tpl.php:17
+msgid "Add Listing"
+msgstr ""
+
+#: includes/class-meta.php:165
+#: includes/controllers/pages/class-all-listings.php:6
+#: includes/helpers/functions/templates-ui.php:316
+msgid "View All Listings"
+msgstr ""
+
+#: includes/class-payment-gateways.php:165
+#. translators: %1$s: open link html, %2$s close link
+msgid ""
+"You have payments turned on but do not have a public fee plan. Directory "
+"users won't be able to submit a listing until you add a public fee plan. Go "
+"to %1$sFee Plans%2$s to add or edit your fee plan(s)."
+msgstr ""
+
+#: includes/class-wpbdp.php:365
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: includes/class-wpbdp.php:368
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wpbdp.php:572
+msgid "Could not find listing ID"
+msgstr ""
+
+#: includes/class-wpbdp.php:579
+msgid ""
+"Could not verify the image upload request. If problem persists contact site "
+"admin."
+msgstr ""
+
+#: includes/class-wpbdp.php:586 includes/fields/class-fieldtypes-image.php:322
+msgid "Could not find image ID"
+msgstr ""
+
+#: includes/class-wpbdp.php:618
+msgid ""
+"The directory features are disabled at this time because a <a>manual "
+"upgrade</a> is pending."
+msgstr ""
+
+#: includes/class-wpbdp.php:625
+msgid ""
+"The directory is not available at this time. Please try again in a few "
+"minutes or contact the administrator if the problem persists."
+msgstr ""
+
+#: includes/compatibility/class-navxt-integration.php:208
+#: includes/widgets/widget-search.php:126
+#: templates/admin/payments-index.tpl.php:13
+#: templates/deprecated/search.tpl.php:8 templates/search-form.tpl.php:27
+#: templates/search.tpl.php:5
+msgid "Search"
+msgstr ""
+
+#: includes/controllers/class-addons.php:25
+msgid "Your plugin has been installed. Please reload the page to see more options."
+msgstr ""
+
+#: includes/controllers/class-addons.php:74
+msgid ""
+"Sorry, your site requires FTP authentication. Please download plugins from "
+"BusinessDirectoryPlugin.com and install them manually."
+msgstr ""
+
+#: includes/controllers/class-addons.php:131
+msgid "Your plugin has been activated. Please reload the page to see more options."
+msgstr ""
+
+#: includes/controllers/class-smtp.php:102
+msgid "SMTP"
+msgstr ""
+
+#: includes/controllers/class-smtp.php:146
+msgid "Making Email Deliverability Easy for WordPress"
+msgstr ""
+
+#: includes/controllers/class-smtp.php:147
+msgid ""
+"WP Mail SMTP allows you to easily set up WordPress to use a trusted "
+"provider to reliably send emails, including listing notifications."
+msgstr ""
+
+#: includes/controllers/class-smtp.php:172
+msgid "WP Mail SMTP screenshot"
+msgstr ""
+
+#: includes/controllers/class-smtp.php:174
+msgid "Over 1,000,000 websites use WP Mail SMTP."
+msgstr ""
+
+#: includes/controllers/class-smtp.php:175
+msgid "Send emails authenticated via trusted parties."
+msgstr ""
+
+#: includes/controllers/class-smtp.php:176
+msgid "Transactional Mailers: Pepipost, SendinBlue, Mailgun, SendGrid, Amazon SES."
+msgstr ""
+
+#: includes/controllers/class-smtp.php:177
+msgid "Web Mailers: Gmail, G Suite, Office 365, Outlook.com."
+msgstr ""
+
+#: includes/controllers/class-smtp.php:197
+msgid "Step 1"
+msgstr ""
+
+#: includes/controllers/class-smtp.php:204
+#. translators: %s: Name of the plugin
+msgid "Install and Activate %s"
+msgstr ""
+
+#: includes/controllers/class-smtp.php:220
+msgid "Install WP Mail SMTP from the WordPress.org plugin repository."
+msgstr ""
+
+#: includes/controllers/class-smtp.php:244
+msgid "Step 2"
+msgstr ""
+
+#: includes/controllers/class-smtp.php:264
+msgid "Set Up WP Mail SMTP"
+msgstr ""
+
+#: includes/controllers/class-smtp.php:265
+msgid "Select and configure your mailer."
+msgstr ""
+
+#: includes/controllers/class-smtp.php:298
+msgid "Install WP Mail SMTP"
+msgstr ""
+
+#: includes/controllers/class-smtp.php:300
+msgid "Install"
+msgstr ""
+
+#: includes/controllers/class-smtp.php:312
+msgid "WP Mail SMTP Installed & Activated"
+msgstr ""
+
+#: includes/controllers/class-smtp.php:315
+msgid "Activate WP Mail SMTP"
+msgstr ""
+
+#: includes/controllers/class-smtp.php:336
+msgid "Start Setup"
+msgstr ""
+
+#: includes/controllers/class-smtp.php:342
+msgid "Go to SMTP settings"
+msgstr ""
+
+#: includes/controllers/pages/class-checkout.php:180
+#: includes/controllers/pages/class-manage-listings.php:104
+msgid "Pay Now"
+msgstr ""
+
+#: includes/controllers/pages/class-checkout.php:180
+msgid "Complete"
+msgstr ""
+
+#: includes/controllers/pages/class-flag-listing.php:56
+#. translators: %1$s: listing name, %2$s: open link html, %3$s close link html
+msgid "The listing %1$s has been reported. %2$sReturn to directory%3$s"
+msgstr ""
+
+#: includes/controllers/pages/class-flag-listing.php:109
+msgid "Your current IP address already reported this listing."
+msgstr ""
+
+#: includes/controllers/pages/class-flag-listing.php:122
+msgid "You must select the reason to report this listing as inappropriate."
+msgstr ""
+
+#: includes/controllers/pages/class-flag-listing.php:126
+msgid "You must enter the reason to report this listing as inappropriate."
+msgstr ""
+
+#: includes/controllers/pages/class-flag-listing.php:131
+msgid "Please enter your name."
+msgstr ""
+
+#: includes/controllers/pages/class-flag-listing.php:135
+msgid "Please enter your email."
+msgstr ""
+
+#: includes/controllers/pages/class-listing-contact.php:263
+msgid "l F j, Y \\a\\t g:i a"
+msgstr ""
+
+#: includes/controllers/pages/class-manage-listings.php:104
+#: templates/renew-listing.tpl.php:11
+msgid "Renew Listing"
+msgstr ""
+
+#: includes/controllers/pages/class-renew-listing.php:36
+msgid "That listing cannot yet be renewed."
+msgstr ""
+
+#: includes/controllers/pages/class-show-listing.php:12
+msgid "This is just a preview. The listing has not been published yet."
+msgstr ""
+
+#: includes/controllers/pages/class-submit-listing.php:557
+msgid "Listing Images"
+msgstr ""
+
+#: includes/controllers/pages/class-submit-listing.php:625
+msgid "Account Creation"
+msgstr ""
+
+#: includes/controllers/pages/class-submit-listing.php:824
+msgid "Go to \"Fee Plans\""
+msgstr ""
+
+#: includes/controllers/pages/class-submit-listing.php:880
+msgid "Please choose a fee plan."
+msgstr ""
+
+#: includes/controllers/pages/class-submit-listing.php:1065
+msgid "Please check the form for errors, correct them and submit again."
+msgstr ""
+
+#: includes/controllers/pages/class-submit-listing.php:1228
+msgid "Create a user account on this site"
+msgstr ""
+
+#: includes/controllers/pages/class-submit-listing.php:1235
+msgid "Username"
+msgstr ""
+
+#: includes/controllers/pages/class-submit-listing.php:1257
+msgid "Clear Form"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-date.php:35
+#. translators: %1$s: date format, %2$s: Date format example
+msgid "%1$s (ex. %2$s)"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-date.php:72 includes/form-fields.php:739
+#. translators: %1$s: Field label, %2$s: Accepted date format
+#. translators: %1$s: field label, %2$s: format
+msgid "%1$s must be in the format %2$s."
+msgstr ""
+
+#: includes/fields/class-fieldtypes-date.php:78 includes/form-fields.php:778
+#. translators: %s Field label
+#. translators: %s: field label
+msgid "%s must be a valid date."
+msgstr ""
+
+#: includes/fields/class-fieldtypes-image.php:55
+msgid "Display caption?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-image.php:131
+#. translators: %s: Field label
+msgid "\"%s\" Field unavailable at the moment."
+msgstr ""
+
+#: includes/fields/class-fieldtypes-image.php:155
+#: templates/submit-listing-images-upload-form.tpl.php:38
+msgid "Select Media"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-select.php:24
+msgid "Select List"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-select.php:112
+msgid "-- Choose One --"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-select.php:139
+msgid "-- Choose Terms --"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-select.php:205
+msgid "‚Äî None ‚Äî"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-select.php:262
+msgid "Field Options (for select lists, radio buttons and checkboxes)."
+msgstr ""
+
+#: includes/fields/class-fieldtypes-select.php:262
+#: templates/admin/csv-export.tpl.php:117 templates/admin/csv-import.tpl.php:51
+#: templates/admin/csv-import.tpl.php:120
+#: templates/admin/csv-import.tpl.php:150
+#: templates/admin/csv-import.tpl.php:163
+#: templates/admin/csv-import.tpl.php:215 templates/admin/fees-form.tpl.php:17
+#: templates/admin/fees-form.tpl.php:38 templates/admin/fees-form.tpl.php:58
+msgid "required"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-select.php:264
+msgid "One option per line"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-select.php:274
+msgid "Allow empty selection on search?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-select.php:292
+msgid "Field list of options is required."
+msgstr ""
+
+#: includes/fields/class-fieldtypes-social.php:72
+msgid "Field Display Order"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-social.php:112
+msgid "Text"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-social.php:120
+msgid "Text to be displayed for social field"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:214
+msgid ""
+"Warning: Users can use this feature to get around your image limits in fee "
+"plans."
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:215
+msgid "Allow images in HTML?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-url.php:14
+msgid "URL Field"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-url.php:32
+msgid "Open link in a new window?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-url.php:35
+msgid "Use rel=\"nofollow\" when displaying the link?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-url.php:174
+msgid "Link Text (optional)"
+msgstr ""
+
+#: includes/form-fields.php:32
+msgid "Post Title"
+msgstr ""
+
+#: includes/form-fields.php:33
+msgid "Post Content"
+msgstr ""
+
+#: includes/form-fields.php:34
+msgid "Post Excerpt"
+msgstr ""
+
+#: includes/form-fields.php:35
+msgid "Post Category"
+msgstr ""
+
+#: includes/form-fields.php:36
+msgid "Post Tags"
+msgstr ""
+
+#: includes/form-fields.php:37
+msgid "Post Metadata"
+msgstr ""
+
+#: includes/form-fields.php:39
+msgid "Custom"
+msgstr ""
+
+#: includes/form-fields.php:376
+msgid "Listing Title"
+msgstr ""
+
+#: includes/form-fields.php:385
+msgid "Listing Category"
+msgstr ""
+
+#: includes/form-fields.php:394
+msgid "Short Description"
+msgstr ""
+
+#: includes/form-fields.php:402 templates/admin/payments-details.tpl.php:109
+msgid "Description"
+msgstr ""
+
+#: includes/form-fields.php:420
+msgid "Phone"
+msgstr ""
+
+#: includes/form-fields.php:437
+msgid "Listing Tags"
+msgstr ""
+
+#: includes/form-fields.php:581
+msgid "Email Validator"
+msgstr ""
+
+#: includes/form-fields.php:582
+msgid "URL Validator"
+msgstr ""
+
+#: includes/form-fields.php:583
+msgid "Don't Allow Urls"
+msgstr ""
+
+#: includes/form-fields.php:584
+msgid "Whole Number Validator"
+msgstr ""
+
+#: includes/form-fields.php:585
+msgid "Decimal Number Validator"
+msgstr ""
+
+#: includes/form-fields.php:586
+msgid "Date Validator"
+msgstr ""
+
+#: includes/form-fields.php:587
+msgid "Word Count Validator"
+msgstr ""
+
+#: includes/form-fields.php:588
+msgid "Telephone Number Validator"
+msgstr ""
+
+#: includes/form-fields.php:595 templates/admin/csv-import.tpl.php:326
+msgid "Field"
+msgstr ""
+
+#: includes/form-fields.php:619 includes/form-fields.php:630
+#. translators: %s: field label
+msgid "%s is required."
+msgstr ""
+
+#: includes/form-fields.php:647
+#. translators: %s: field label
+msgid "%s is badly formatted. Valid URL format required. Include http://"
+msgstr ""
+
+#: includes/form-fields.php:667
+msgid "URLs are not allowed."
+msgstr ""
+
+#: includes/form-fields.php:690
+#. translators: %s: field label
+msgid "%s is badly formatted. Valid Email format required."
+msgstr ""
+
+#: includes/form-fields.php:703
+#. translators: %s: field label
+msgid "%s must be a number. Decimal values are not allowed."
+msgstr ""
+
+#: includes/form-fields.php:716
+#. translators: %s: field label
+msgid "%s must be a number."
+msgstr ""
+
+#: includes/form-fields.php:786
+#. translators: %s: field label
+msgid "Caption for %s is required."
+msgstr ""
+
+#: includes/form-fields.php:803
+#. translators: %1$s: field label, %2$d: max word count
+msgid "%1$s must have less than %2$d words."
+msgstr ""
+
+#: includes/form-fields.php:825
+#. translators: %1$s: field label, %2$s allowed values
+msgid "%1$s is invalid. Value most be one of %2$s."
+msgstr ""
+
+#: includes/form-fields.php:842
+#. translators: %s: field label
+msgid "%s is badly formatted. Valid Phone Number format required."
+msgstr ""
+
+#: includes/gateways/class-gateway-authorize-net.php:358
+msgid ""
+"An error occurred while trying to cancel your subscription. Please try "
+"again later or contact the site administrator."
+msgstr ""
+
+#: includes/gateways/class-gateway-authorize-net.php:362
+msgid ""
+"An error occurred while trying to cancel Authorize.net subscription with ID "
+"%s. You can try again later or cancel subscription from gateway dashboard."
+msgstr ""
+
+#: includes/helpers/class-authenticated-listing-view.php:14
+msgid "Select"
+msgstr ""
+
+#: includes/helpers/class-authenticated-listing-view.php:17
+msgid "Selected"
+msgstr ""
+
+#: includes/helpers/functions/general.php:565
+#: templates/admin/fees-index.tpl.php:67
+msgid "Free"
+msgstr ""
+
+#: includes/helpers/functions/listings.php:80
+msgid "Untitled Listing"
+msgstr ""
+
+#: includes/helpers/functions/templates-ui.php:323
+msgid "Manage Listings"
+msgstr ""
+
+#: includes/licensing.php:143
+#. translators: %1%s: opening <a> tag, %2$s: closing </a> tag
+msgid ""
+"The license key could not be verified. Please %1$scheck your license%2$s to "
+"get updates."
+msgstr ""
+
+#: includes/licensing.php:196 includes/licensing.php:199
+msgid "Licenses"
+msgstr ""
+
+#: includes/licensing.php:266
+msgid "Build more powerful directories"
+msgstr ""
+
+#: includes/licensing.php:267
+msgid "Add category images, maps, filter by location, payment gateways, and more."
+msgstr ""
+
+#: includes/licensing.php:269
+msgid "Already purchased?"
+msgstr ""
+
+#: includes/licensing.php:287
+#. translators: %s: item type.
+msgid "%s will not get updates until license is reauthorized."
+msgstr ""
+
+#: includes/licensing.php:308
+msgid "Enter License Key here"
+msgstr ""
+
+#: includes/licensing.php:309
+msgid "Authorize"
+msgstr ""
+
+#: includes/licensing.php:409
+msgid "Invalid item ID"
+msgstr ""
+
+#: includes/licensing.php:422
+msgid "No license key provided"
+msgstr ""
+
+#: includes/licensing.php:471 includes/licensing.php:508
+msgid "License key is invalid"
+msgstr ""
+
+#: includes/licensing.php:475
+msgid "Deactivation failed"
+msgstr ""
+
+#: includes/licensing.php:520
+msgid "The license key was revoked."
+msgstr ""
+
+#: includes/licensing.php:524
+#. translators: %1%s: opening <a> tag, %2$s: closing </a> tag
+msgid ""
+"If you think this is a mistake, please contact %1$sBusiness Directory "
+"support%2$s and let them know your license is being reported as revoked by "
+"the licensing software. Please include the email address you used to "
+"purchase with your report."
+msgstr ""
+
+#: includes/licensing.php:587
+msgid ""
+"It was not possible to establish a connection with the Business Directory "
+"server. The connection failed with the following error:"
+msgstr ""
+
+#: includes/licensing.php:600
+msgid ""
+"It was not possible to establish a connection with the Business Directory "
+"server. A problem occurred in the SSL/TSL handshake:"
+msgstr ""
+
+#: includes/licensing.php:647
+msgid ""
+"It looks like your server is not authorized to make outgoing requests to "
+"Business Directory servers. Please contact your webhost and ask them to add "
+"our IP address 52.0.78.177 to your allow list."
+msgstr ""
+
+#: includes/licensing.php:734
+msgid "Business Directory license key is missing."
+msgstr ""
+
+#: includes/licensing.php:735
+msgid "Business Directory license key has expired"
+msgstr ""
+
+#: includes/licensing.php:736
+msgid "Could not verify Business Directory license."
+msgstr ""
+
+#: includes/licensing.php:747
+msgid "Review license keys"
+msgstr ""
+
+#: includes/licensing.php:862
+msgid "Missing data. Please reload this page and try again."
+msgstr ""
+
+#: includes/licensing.php:867
+msgid "Please enter a license key."
+msgstr ""
+
+#: includes/models/class-reviews.php:129
+#. translators: %s: User name, %2$d: number of entries
+msgid "Congratulations %1$s! You have collected %2$d listings."
+msgstr ""
+
+#: includes/payment.php:34
+msgid "We couldn't find a payment associated with the given subscription."
+msgstr ""
+
+#: includes/payment.php:41
+msgid "The payment gateway \"<payment-gateway>\" is not available."
+msgstr ""
+
+#: includes/payment.php:69
+msgid "Gateway Transaction ID:"
+msgstr ""
+
+#: includes/payment.php:81
+msgid "Bill To:"
+msgstr ""
+
+#: includes/payment.php:92
+msgid "Print Receipt"
+msgstr ""
+
+#: includes/payment.php:180
+msgid "Pending Abandonment"
+msgstr ""
+
+#: includes/payment.php:187
+msgid "Abandoned"
+msgstr ""
+
+#: includes/themes.php:941
+msgid "ZIP file is not a valid Business Directory theme file."
+msgstr ""
+
+#: includes/utils.php:470
+msgid "File size (%1$s) exceeds maximum file size of %2$s"
+msgstr ""
+
+#: includes/utils.php:479
+msgid "File size (%1$s) is smaller than the minimum file size of %2$s"
+msgstr ""
+
+#: includes/utils.php:537
+msgid "Image width (%1$s px) is smaller than the minimum width of %2$s px."
+msgstr ""
+
+#: includes/utils.php:545
+msgid "Image height (%1$s px) is smaller than the minimum height of %2$s px."
+msgstr ""
+
+#: includes/utils.php:553
+msgid "Image width (%1$s px) is greater than maximum width of %2$s px."
+msgstr ""
+
+#: includes/utils.php:561
+msgid "Image height (%1$s px) is greater than maximum height of %2$s px."
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:9
+msgid "Title:"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:15
+msgid "Number of listings to display:"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:24
+msgid "Thumbnails"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:28
+msgid "Show thumbnails"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:35
+msgid "Use \"Coming Soon\" photo for listings without an image?"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:41
+msgid "Image width (in px):"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:43
+#: includes/views/widget/widget-settings.php:50
+msgid "Automatic"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:48
+msgid "Image height (in px):"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:55
+msgid "Thumbnail Position (Desktop):"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:60
+#: includes/views/widget/widget-settings.php:78
+msgid "Left"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:63
+#: includes/views/widget/widget-settings.php:81
+msgid "Right"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:66
+#: includes/views/widget/widget-settings.php:84
+msgid "Top"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:73
+msgid "Thumbnail Position (Mobile):"
+msgstr ""
+
+#: includes/views/widget/widget-settings.php:91
+msgid "Fields To Show"
+msgstr ""
+
+#: includes/widgets/class-listings-widget.php:191
+msgid "There are currently no listings to show."
+msgstr ""
+
+#: templates/admin/csv-export.tpl.php:5
+msgid ""
+"An unknown error occurred during the export. Please make sure you have "
+"enough free disk space and memory available to PHP. Check your error logs "
+"for details."
+msgstr ""
+
+#: templates/admin/csv-export.tpl.php:65
+msgid ""
+"If you plan to re-import the listings into your directory and don't want "
+"new ones created, select this option!"
+msgstr ""
+
+#: templates/admin/csv-export.tpl.php:93 templates/admin/csv-import.tpl.php:115
+msgid "CSV File Settings"
+msgstr ""
+
+#: templates/admin/csv-export.tpl.php:116
+#: templates/admin/csv-import.tpl.php:149
+msgid "Image Separator"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:34
+#. translators: %1$s is a opening <a> tag, %2$s is a closing </a> tag.
+msgid ""
+"We strongly recommend reading our %1$sCSV import documentation%2$s first to "
+"help you do things in the right order."
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:45
+msgid "Import Files"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:50
+msgid "CSV File"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:83
+msgid "ZIP file containing images"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:119
+msgid "Column Separator"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:142
+msgid "TAB"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:162
+msgid "Category Separator"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:175
+msgid "Import settings"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:179
+msgid "Post status of new imported listings"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:196
+msgid "Post status of existing imported listings"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:214
+msgid "Missing categories handling"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:222
+msgid "Auto-create categories"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:227
+msgid "Generate errors when a category is not found"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:244
+#: templates/admin/csv-import.tpl.php:251
+msgid "Assign listings to a user?"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:268
+msgid "Default listing user"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:274
+msgid ""
+"This user will be used if the username column is not present in the CSV "
+"file."
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:279
+msgid "Number of listings imported on every cycle"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:287
+msgid ""
+"If you are having trouble importing listings due to memory problems, try "
+"reducing the import batch size to 5 or 1 and then re-attempt. This will "
+"result in a longer batch import time, but will increase the chance of "
+"success on shared hosting platforms and other resource-constrained servers."
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:292
+msgid "Disable email notifications during import?"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:299
+msgid "Disable email notifications."
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:316
+msgid ""
+"The following are the valid header names to be used in the CSV file. "
+"Multivalued fields (such as category or tags) can appear multiple times in "
+"the file. Click <a href=\"%s\">\"See an example CSV import file\"</a> to "
+"see how an import file should look like."
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:325
+msgid "Header name/label"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:328
+msgid "Required?"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:329
+msgid "Multivalued?"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:361
+msgid "Semicolon separated list of listing images (from the ZIP file)"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:368
+msgid "Listing author's username"
+msgstr ""
+
+#: templates/admin/debug-info.tpl.php:5
+msgid ""
+"The following information can help our team debug possible problems with "
+"your setup."
+msgstr ""
+
+#: templates/admin/debug-info.tpl.php:8
+msgid "Download Debug Information"
+msgstr ""
+
+#: templates/admin/fees-add-fee.tpl.php:4 templates/admin/fees-form.tpl.php:245
+msgid "Add Listing Fee"
+msgstr ""
+
+#: templates/admin/fees-edit-fee.tpl.php:4
+msgid "Edit Listing Fee"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:30
+msgid "Fee Description"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:38
+msgid "How long should the listing run?"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:41
+msgid "run listing for"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:51
+#: templates/plan-selection-plan.tpl.php:39
+msgid "days"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:53
+msgid "run listing forever"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:58
+msgid "Number of images allowed"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:73
+msgid "Private Fee Plan (visible to admins only)?"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:90
+msgid "Is recurring?"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:102
+msgid "Should the listing auto-renew at the end of the listing term?"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:109
+msgid "Make listings on this plan featured (sticky)?"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:121
+msgid ""
+"This floats the listing to the top of search results and browsing the "
+"directory when the user buys this plan."
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:127
+msgid "Listing background color:"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:133
+msgid "Used to differentiate listings inside this plan from others."
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:245
+#: templates/admin/settings-email.tpl.php:104
+#: templates/submit-listing-section.tpl.php:30
+msgid "Save Changes"
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:7
+msgid "Add New Listing Fee"
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:17
+msgid "Payments are currently turned off."
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:21
+#. translators: %1$s is a opening <a> tag, %2$s is a closing </a> tag.
+msgid ""
+"To manage fees you need to go to the %1$sManage Options - Payment%2$s page "
+"and check the box next to 'Turn On Payments' under 'Payment Settings'."
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:34
+msgid "Order fees on the frontend by:"
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:44
+msgid "‚Üë Ascending"
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:45
+msgid "‚Üì Descending"
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:53
+msgid "Drag and drop to re-order fees."
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:66
+#. translators: %1$s is directory payment mode (Free or Paid)
+msgid "All fee plans may not be available in \"%1$s\" mode."
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:67
+msgid "Paid"
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:92
+msgid "Set up a payment gateway to charge a fee for listings"
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:94
+msgid "Add a payment gateway to increase conversion rates"
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:113
+#. translators: %s: payment gateway name */
+msgid "Add the %s gateway as a payment option."
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:119
+msgid "Upgrade"
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:127
+msgid "Set up Authorize.net as a payment option."
+msgstr ""
+
+#: templates/admin/fees-index.tpl.php:130
+msgid "Set Up"
+msgstr ""
+
+#: templates/admin/form-fields-addoredit.tpl.php:8
+msgid "Add Form Field"
+msgstr ""
+
+#: templates/admin/form-fields-addoredit.tpl.php:133
+msgid "Maximum number of words"
+msgstr ""
+
+#: templates/admin/form-fields-addoredit.tpl.php:263
+msgid "Require this field on the Advanced Search screen."
+msgstr ""
+
+#: templates/admin/form-fields-confirm-delete.tpl.php:4
+msgid "Delete Form Field"
+msgstr ""
+
+#: templates/admin/form-fields-confirm-delete.tpl.php:11
+msgid "Are you sure you want to delete that field?"
+msgstr ""
+
+#: templates/admin/form-fields-confirm-delete.tpl.php:17
+msgid "Delete Field"
+msgstr ""
+
+#: templates/admin/home.tpl.php:55
+msgid "Manage Options"
+msgstr ""
+
+#: templates/admin/home.tpl.php:74
+msgid "Manage Paid Listings"
+msgstr ""
+
+#: templates/admin/metaboxes-listing-information-other.tpl.php:3
+#: templates/email-access-keys.tpl.php:5 templates/login.tpl.php:69
+#: templates/login.tpl.php:71
+msgid "Access Key"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:5
+msgid "Payment %s"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:6
+msgid "Not Found"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:10
+#: templates/admin/payments-details.tpl.php:23
+msgid "‚Üê Return to \"Payment History\""
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:21
+msgid "Payment Not Found"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:42
+msgid "Overview"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:46
+#: templates/admin/payments-details.tpl.php:80
+msgid "Payment ID"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:56
+msgid "Status"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:65
+msgid "Date"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:69
+msgid "Time"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:74
+msgid "Gateway"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:76
+#. translators: Gateway: (Not yet set)
+msgid "(Not yet set)"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:91
+msgid "Delete Payment"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:93
+msgid "Save Payment"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:104
+msgid "Details"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:108
+msgid "Item Type"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:121
+#: templates/payment/payment_items.tpl.php:23
+msgid "Total"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:132
+msgid "Customer Details"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:142
+#: templates/checkout-billing-form.tpl.php:17
+msgid "First Name"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:147
+#: templates/checkout-billing-form.tpl.php:22
+msgid "Last Name"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:169
+msgid "Address Line 1"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:173
+#: templates/checkout-billing-form.tpl.php:81
+msgid "Address Line 2"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:182
+msgid "Notes & Log"
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:187
+msgid "No notes."
+msgstr ""
+
+#: templates/admin/payments-details.tpl.php:207
+msgid "Add Note"
+msgstr ""
+
+#: templates/admin/payments-index.tpl.php:11
+msgid "Search Payments:"
+msgstr ""
+
+#: templates/admin/privacy-policy.tpl.php:12
+msgid "Suggested text:"
+msgstr ""
+
+#: templates/admin/privacy-policy.tpl.php:12
+msgid ""
+"When you submit a directory listing, the content of the listing and its "
+"metadata are retained indefinitely. All users can see, edit or delete the "
+"personal information included on their listings at any time. Website "
+"administrators can also see and edit that information."
+msgstr ""
+
+#: templates/admin/privacy-policy.tpl.php:13
+msgid ""
+"Website visitors can see the contact name, website URL, phone number, "
+"address and other information included in your submission to describe the "
+"directory listing."
+msgstr ""
+
+#: templates/admin/privacy-policy.tpl.php:14
+msgid "Payment Information"
+msgstr ""
+
+#: templates/admin/privacy-policy.tpl.php:20
+#. translators: %s is a link with the URL of the current site.
+msgid ""
+"If you pay to post a directory listing entering your credit card and "
+"billing information directly on %s, the credit card information won't be "
+"stored but it will be shared through a secure connection with the following "
+"payment gateways to process the payment:"
+msgstr ""
+
+#: templates/admin/settings-email.tpl.php:8
+msgid "Untitled"
+msgstr ""
+
+#: templates/admin/settings-email.tpl.php:36
+msgid "Click to edit email"
+msgstr ""
+
+#: templates/admin/settings-email.tpl.php:37
+msgid "Click to edit"
+msgstr ""
+
+#: templates/admin/settings-email.tpl.php:54
+msgid "Email Subject"
+msgstr ""
+
+#: templates/admin/settings-email.tpl.php:60
+msgid "Email Body"
+msgstr ""
+
+#: templates/admin/settings-email.tpl.php:62
+msgid "Email body text"
+msgstr ""
+
+#: templates/admin/settings-email.tpl.php:66
+msgid "You can use the following placeholders:"
+msgstr ""
+
+#: templates/admin/settings-email.tpl.php:102
+msgid "Preview email"
+msgstr ""
+
+#: templates/admin/settings-email.tpl.php:103
+#: templates/admin/themes-delete-confirm.tpl.php:12
+#: templates/listing-flagging-form.tpl.php:65
+msgid "Cancel"
+msgstr ""
+
+#: templates/admin/settings-page.tpl.php:7
+msgid "Directory Settings"
+msgstr ""
+
+#: templates/admin/settings-page.tpl.php:8
+#: templates/admin/settings-reset.tpl.php:24
+msgid "Reset Defaults"
+msgstr ""
+
+#: templates/admin/settings-reset.tpl.php:3
+msgid "Business Directory - Reset Defaults"
+msgstr ""
+
+#: templates/admin/settings-reset.tpl.php:7
+msgid "‚Üê Return to \"Manage Options\""
+msgstr ""
+
+#: templates/admin/settings-reset.tpl.php:15
+msgid ""
+"Use this option if you want to go back to the original factory settings for "
+"BD."
+msgstr ""
+
+#: templates/admin/settings-reset.tpl.php:16
+msgid "Please note that all of your existing settings will be lost."
+msgstr ""
+
+#: templates/admin/settings-reset.tpl.php:18
+msgid "Your existing listings will NOT be deleted doing this."
+msgstr ""
+
+#: templates/admin/sidebar.tpl.php:7
+msgid "Need help?"
+msgstr ""
+
+#: templates/admin/sidebar.tpl.php:13
+msgid "Let us know!"
+msgstr ""
+
+#: templates/admin/sidebar.tpl.php:18
+msgid "Plugin documentation"
+msgstr ""
+
+#: templates/admin/sidebar.tpl.php:23
+msgid "Quick Start Guide"
+msgstr ""
+
+#: templates/admin/sidebar.tpl.php:28
+msgid "Video Tutorials"
+msgstr ""
+
+#: templates/admin/themes-delete-confirm.tpl.php:1
+#: templates/admin/themes-delete-confirm.tpl.php:13
+msgid "Delete Directory Theme"
+msgstr ""
+
+#: templates/admin/themes-install.tpl.php:4 templates/admin/themes.tpl.php:6
+msgid "Upload Directory Theme"
+msgstr ""
+
+#: templates/admin/themes-install.tpl.php:16
+#. translators: %s is the link for Business Directory Premium Themes.
+msgid "This is a theme or skin from %s and is NOT a regular WordPress theme."
+msgstr ""
+
+#: templates/admin/themes-install.tpl.php:30
+msgid "Business Directory Theme archive (ZIP file)"
+msgstr ""
+
+#: templates/admin/themes-install.tpl.php:39
+msgid "Upload"
+msgstr ""
+
+#: templates/admin/themes-item.tpl.php:8
+msgid "Updating theme..."
+msgstr ""
+
+#: templates/admin/themes-item.tpl.php:8
+msgid "Theme updated."
+msgstr ""
+
+#: templates/admin/themes-item.tpl.php:13
+#. translators: %1$s is opening <a> tag, %2$s is closing </a> tag
+msgid "New version available. %1$sUpdate now.%2$s"
+msgstr ""
+
+#: templates/admin/themes-item.tpl.php:43
+msgid "Inactive"
+msgstr ""
+
+#: templates/admin/themes.tpl.php:7
+msgid "Manage Theme Tags"
+msgstr ""
+
+#: templates/admin/themes.tpl.php:21
+#. translators: %1$s is opening <a> tag, %2$s is closing </a> tag
+msgid ""
+"%1$sDirectory Themes%2$s are pre-made templates for the Business Directory "
+"Plugin to change the look of the directory quickly and easily. We have a "
+"number of them available for purchase %1$shere%2$s."
+msgstr ""
+
+#: templates/admin/themes.tpl.php:26
+msgid ""
+"They are different from regular WordPress themes and are not a replacement. "
+"They change the look and feel of the directory only."
+msgstr ""
+
+#: templates/admin/uninstall-complete.tpl.php:12
+msgid "Uninstall completed."
+msgstr ""
+
+#: templates/admin/uninstall-complete.tpl.php:15
+msgid "Return to Dashboard."
+msgstr ""
+
+#: templates/admin/uninstall-confirm.tpl.php:43
+#. translators: %1$s: open link html, %2$s: close link html
+msgid "Go to %1$sPlugins->Installed Plugins%2$s"
+msgstr ""
+
+#: templates/admin/uninstall-confirm.tpl.php:53
+#. translators: %1$s: open italic html, %2$s: close italic html
+msgid ""
+"Click on \"Delete\" for Business Directory Plugin. %1$sTHIS OPERATION IS "
+"SAFE--your data will NOT BE LOST doing this%2$s"
+msgstr ""
+
+#: templates/admin/uninstall-confirm.tpl.php:59
+msgid "Wait for the delete to finish"
+msgstr ""
+
+#: templates/admin/uninstall-confirm.tpl.php:60
+msgid ""
+"The plugin is now removed, but your data is still present inside of your "
+"database."
+msgstr ""
+
+#: templates/admin/uninstall-confirm.tpl.php:65
+#. translators: %1$s: open link html, %2$s: close link html
+msgid "You can reinstall the plugin again under %1$sPlugins->Add New%2$s"
+msgstr ""
+
+#: templates/admin/uninstall-confirm.tpl.php:74
+msgid "Take me to the Plugins screen"
+msgstr ""
+
+#: templates/admin/uninstall-confirm.tpl.php:79
+msgid "Get debug info"
+msgstr ""
+
+#: templates/businessdirectory-listings.tpl.php:30
+#: templates/deprecated/search.tpl.php:23
+#: templates/parts/listings-loop.tpl.php:5 templates/search.tpl.php:30
+msgid "No listings found."
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:8
+msgid "Personal Info"
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:11 templates/login.tpl.php:63
+#: templates/login.tpl.php:65
+msgid "Email Address"
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:12
+msgid "We will send a receipt to this e-mail address."
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:30
+msgid "Credit Card Info"
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:33
+#: templates/checkout-billing-form.tpl.php:35
+msgid "Card Number"
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:34
+msgid "The digits on the front of your credit card."
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:39
+msgid "CVC"
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:40
+msgid "The 3 digit (back) or 4 digit (front) security code on your credit card."
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:41
+msgid "Security Code"
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:45
+#: templates/checkout-billing-form.tpl.php:47
+msgid "Name on the Card"
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:46
+msgid "The name as it appears printed on the front of your credit card."
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:51
+msgid "Expiration Date"
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:52
+msgid "Format: MM/YY"
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:72
+msgid "Billing Details"
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:76
+msgid "Please enter the address where you receive your billing statement."
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:82
+msgid ""
+"Additional details (suite, apt no, etc.) associated with your billing "
+"address."
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:92
+msgid "State / Province"
+msgstr ""
+
+#: templates/checkout-billing-form.tpl.php:97
+msgid "Postal Code"
+msgstr ""
+
+#: templates/checkout.tpl.php:10
+msgid "Checkout"
+msgstr ""
+
+#: templates/checkout.tpl.php:31
+msgid ""
+"Recurring fee plans require a payment method to renew your listing at the "
+"end of the term."
+msgstr ""
+
+#: templates/checkout.tpl.php:37
+msgid "Select a Payment Method"
+msgstr ""
+
+#: templates/checkout.tpl.php:41 templates/submit-listing-section.tpl.php:24
+msgid "Next"
+msgstr ""
+
+#: templates/delete-listing-confirm.tpl.php:24
+msgid "Yes. Delete my listing."
+msgstr ""
+
+#: templates/delete-listing-confirm.tpl.php:25
+msgid "No. Take me back to the directory."
+msgstr ""
+
+#: templates/deprecated/search.tpl.php:16 templates/search.tpl.php:12
+msgid "Search Results"
+msgstr ""
+
+#: templates/deprecated/search.tpl.php:29 templates/manage-listings.tpl.php:14
+#: templates/manage_listings.tpl.php:16
+#: templates/submit-listing-done.tpl.php:36
+msgid "Return to directory"
+msgstr ""
+
+#: templates/email/listing-edited.tpl.php:19
+#: templates/email/listing-reported.tpl.php:13
+msgid "(not published yet)"
+msgstr ""
+
+#: templates/email/listing-payment-completed.tpl.php:25
+msgid "Plan"
+msgstr ""
+
+#: templates/email-access-keys.tpl.php:1
+msgid ""
+"Below you'll find the access keys for all the listings registered with your "
+"e-mail address on our site."
+msgstr ""
+
+#: templates/listing-contactform.tpl.php:42
+msgid "Message"
+msgstr ""
+
+#: templates/listing-contactform.tpl.php:55
+msgid "Send"
+msgstr ""
+
+#: templates/listing-flagging-form.tpl.php:3
+msgid "Report Listing"
+msgstr ""
+
+#: templates/listing-flagging-form.tpl.php:19
+#. translators: %s: listing title
+msgid "You are about to report the listing \"%s\" as inappropriate. "
+msgstr ""
+
+#: templates/listing-flagging-form.tpl.php:28
+#. translators: %s: user name
+msgid ""
+"You are currently logged in as %s. Listing report will be sent using your "
+"logged in contact email."
+msgstr ""
+
+#: templates/listing-flagging-form.tpl.php:45
+msgid "Please select the reason to report this listing:"
+msgstr ""
+
+#: templates/listing-flagging-form.tpl.php:53
+msgid "Please enter the reasons to report this listing:"
+msgstr ""
+
+#: templates/listing-flagging-form.tpl.php:56
+msgid "Additional info."
+msgstr ""
+
+#: templates/listing-flagging-form.tpl.php:71
+#. translators: %s: listing title
+msgid "You already reported the listing \"%s\" as inappropriate."
+msgstr ""
+
+#: templates/listing-flagging-form.tpl.php:78
+#. translators: %1$s: open link html, %2$s close link html
+msgid "Return to %1$slisting%2$s."
+msgstr ""
+
+#: templates/login.tpl.php:30 templates/parts/login-required.tpl.php:16
+msgid ""
+"You are not currently logged in. Please login or register first. When "
+"registering, you will receive an activation email. Be sure to check your "
+"spam if you don't see it in your email within 60 minutes."
+msgstr ""
+
+#: templates/login.tpl.php:36 templates/parts/login-required.tpl.php:19
+msgid "Login"
+msgstr ""
+
+#: templates/login.tpl.php:41 templates/parts/login-required.tpl.php:40
+msgid "Not yet registered?"
+msgstr ""
+
+#: templates/login.tpl.php:43 templates/parts/login-required.tpl.php:42
+msgid "Lost your password?"
+msgstr ""
+
+#: templates/login.tpl.php:49
+msgid "... or use an Access Key"
+msgstr ""
+
+#: templates/login.tpl.php:57
+msgid "Please enter your access key and email address."
+msgstr ""
+
+#: templates/login.tpl.php:73
+msgid "Use Access Key"
+msgstr ""
+
+#: templates/login.tpl.php:74
+msgid "Request access key?"
+msgstr ""
+
+#: templates/manage-listings.tpl.php:3
+msgid ""
+"Your current listings are shown below. To edit a listing click the edit "
+"button. To delete a listing click the delete button."
+msgstr ""
+
+#: templates/manage-listings.tpl.php:9 templates/manage_listings.tpl.php:11
+msgid "You do not currently have any listings in the directory."
+msgstr ""
+
+#: templates/manage-recurring-cancel.tpl.php:20
+#. translators: %1$s: amount, %2$s: number of days
+msgid "%1$s every %2$s days."
+msgstr ""
+
+#: templates/manage-recurring.tpl.php:29
+#. translators: %1$s: amount, %2$s: number of days, %3$s: expiration date
+msgid "%1$s each %2$s days. Next renewal is on %3$s."
+msgstr ""
+
+#: templates/parts/listing-buttons.tpl.php:40
+msgid "Return to Directory"
+msgstr ""
+
+#: templates/parts/pagination.tpl.php:7
+msgid "&larr; Previous "
+msgstr ""
+
+#: templates/parts/pagination.tpl.php:8
+msgid "Next &rarr;"
+msgstr ""
+
+#: templates/payment/payment_items.tpl.php:4
+msgid "Item"
+msgstr ""
+
+#: templates/plan-selection-plan.tpl.php:41
+msgid "Recurring"
+msgstr ""
+
+#: templates/plan-selection-plan.tpl.php:45
+msgid "Never Expires"
+msgstr ""
+
+#: templates/plan-selection-plan.tpl.php:74
+msgid ""
+"This plan can't be used for admin submits. For a recurring plan to work, "
+"end users need to pay for it using a supported gateway."
+msgstr ""
+
+#: templates/plan-selection-plan.tpl.php:79
+msgid "Private fee plan"
+msgstr ""
+
+#: templates/search-form.tpl.php:28
+msgid "Clear"
+msgstr ""
+
+#: templates/search.tpl.php:21
+msgid "Search Again"
+msgstr ""
+
+#: templates/submit-listing-images-single.tpl.php:30
+msgid "Image caption or description"
+msgstr ""
+
+#: templates/submit-listing-images-single.tpl.php:32
+msgid "Delete image"
+msgstr ""
+
+#: templates/submit-listing-images-single.tpl.php:36
+msgid "Thumbnail image"
+msgstr ""
+
+#: templates/submit-listing-images-upload-form.tpl.php:25
+msgid "Upload Images"
+msgstr ""
+
+#: templates/submit-listing-images-upload-form.tpl.php:40
+#: templates/submit-listing-images-upload-form.tpl.php:47
+msgid "or"
+msgstr ""
+
+#: templates/submit-listing-images-upload-form.tpl.php:46
+msgid "Drop files here"
+msgstr ""
+
+#: templates/submit-listing-images-upload-form.tpl.php:48
+msgid "Select images from your hard drive"
+msgstr ""
+
+#: templates/submit-listing-images-upload-form.tpl.php:55
+#. translators: %s is the number of uploaded files.
+msgid "Uploading %s file(s)... Please wait."
+msgstr ""
+
+#: templates/submit-listing-images-upload-form.tpl.php:60
+msgid ""
+"Your image slots are all full. You may click \"Delete Image\" to upload a "
+"new image."
+msgstr ""
+
+#: templates/submit-listing-images.tpl.php:10
+msgid "Current Images"
+msgstr ""
+
+#: templates/submit-listing-section.tpl.php:18
+msgid "Back"
+msgstr ""
+
+#: templates/submit-listing-section.tpl.php:28
+msgid "Complete Listing"
+msgstr ""
+
+#: templates/submit-listing-section.tpl.php:32
+msgid "Continue to Payment"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://businessdirectoryplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Provides the ability to maintain a free or paid business directory on your "
+"WordPress powered site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Business Directory Team"
+msgstr ""
+
+#: includes/abstracts/class-view.php:107
+msgctxt "views"
+msgid "Invalid credentials."
+msgstr ""
+
+#: includes/controllers/pages/class-search.php:11
+msgctxt "views"
+msgid "Find A Listing"
+msgstr ""
+
+#: includes/admin/class-admin.php:191
+msgctxt "drip pointer"
+msgid "Email Address:"
+msgstr ""
+
+#: includes/admin/class-admin.php:223
+msgctxt "admin"
+msgid "Business Directory"
+msgstr ""
+
+#: includes/admin/class-admin.php:238
+msgctxt "admin"
+msgid "You're all set. Visit your new <a>Business Directory</a> page."
+msgstr ""
+
+#: includes/admin/class-admin.php:413
+msgctxt "admin"
+msgid "Untitled Menu"
+msgstr ""
+
+#: includes/admin/class-admin.php:721
+msgctxt "admin"
+msgid "Dismiss this notice."
+msgstr ""
+
+#: includes/admin/class-admin.php:785 includes/admin/class-admin.php:795
+msgctxt "admin"
+msgid "The listing has been updated."
+msgid_plural "The listings have been updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin.php:821
+msgctxt "admin"
+msgid "The fee was successfully assigned."
+msgstr ""
+
+#: includes/admin/class-admin.php:831
+msgctxt "admin"
+msgid "Listing was renewed."
+msgid_plural "Listings were renewed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin.php:843
+msgctxt "admin"
+msgid "Renewal email sent."
+msgstr ""
+
+#: includes/admin/class-admin.php:856
+msgctxt "admin"
+msgid "Listing report deleted."
+msgid_plural "Listing reports deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-admin.php:905
+msgctxt "admin"
+msgid "Access keys sent."
+msgstr ""
+
+#: includes/admin/class-admin.php:907
+msgctxt "admin"
+msgid "The access keys couldn't be sent."
+msgstr ""
+
+#: includes/admin/class-admin.php:1064
+msgctxt "admin"
+msgid ""
+"<b>Business Directory Plugin</b> requires a page with the "
+"<tt>[businessdirectory]</tt> shortcode to function properly."
+msgstr ""
+
+#: includes/admin/class-admin.php:1066
+msgctxt "admin"
+msgid ""
+"You can create this page by yourself or let Business Directory do this for "
+"you automatically."
+msgstr ""
+
+#: includes/admin/class-admin.php:1071
+msgctxt "admin"
+msgid "Create required pages for me"
+msgstr ""
+
+#: includes/admin/class-admin.php:1124
+msgctxt "admin"
+msgid ""
+"<strong>Business Directory Plugin</strong> requires <strong>PHP "
+"5.6</strong> or later, but your server is running version "
+"<strong>%s</strong>. Please ask your provider to upgrade in order to "
+"prevent any issues with the plugin."
+msgstr ""
+
+#: includes/admin/class-admin.php:1148
+msgctxt "admin"
+msgid ""
+"We noticed you want your Business Directory users to register before "
+"posting listings, but Registration for your site is currently disabled. Go "
+"[here] and check \"Anyone can register\"."
+msgstr ""
+
+#: includes/admin/class-listing-fields-metabox.php:24
+msgctxt "admin"
+msgid "Fields"
+msgstr ""
+
+#: includes/admin/class-listing-fields-metabox.php:26
+msgctxt "admin"
+msgid "Images (%s)"
+msgstr ""
+
+#: includes/admin/class-listing-fields-metabox.php:27
+msgctxt "admin"
+msgid "Images"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:201
+msgctxt "admin"
+msgid "Directory Listing Fields / Images"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:265
+msgctxt "admin"
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:26
+msgctxt "admin"
+msgid ""
+"<b>Business Directory Plugin</b> requires fields with the following "
+"associations in order to work correctly: <b>%s</b>."
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:28
+msgctxt "admin"
+msgid ""
+"<b>Business Directory Plugin</b> requires a field with a <b>%s</b> "
+"association in order to work correctly."
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:42
+msgctxt "admin"
+msgid "Create these required fields for me"
+msgstr ""
+
+#: includes/admin/class-admin.php:317
+msgctxt "admin menu"
+msgid "Payment History"
+msgstr ""
+
+#: includes/admin/class-admin.php:320
+msgctxt "admin menu"
+msgid "Import & Export"
+msgstr ""
+
+#: includes/admin/class-admin.php:323
+msgctxt "admin menu"
+msgid "Debug"
+msgstr ""
+
+#: includes/admin/controllers/class-settings-admin.php:45
+msgctxt "admin menu"
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-listings-with-no-fee-plan-view.php:58
+msgctxt "listings view"
+msgid "No Fee Plan"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-controller.php:84
+msgctxt "admin confirm"
+msgid "No, go back"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-controller.php:85
+msgctxt "admin confirm"
+msgid "Yes, I'm sure"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-csv.php:40
+msgctxt "admin csv-import"
+msgid "See an example CSV import file"
+msgstr ""
+
+#: includes/admin/csv-import.php:177
+msgctxt "admin csv-import"
+msgid "Whatever"
+msgstr ""
+
+#: includes/admin/csv-import.php:182
+msgctxt "admin csv-import"
+msgid "Example CSV Import File"
+msgstr ""
+
+#: includes/admin/csv-import.php:183
+msgctxt "admin csv-import"
+msgid "‚Üê Return to \"CSV Import\""
+msgstr ""
+
+#: includes/admin/csv-import.php:340
+msgctxt "admin csv-import"
+msgid "Please upload or select a CSV file."
+msgstr ""
+
+#: includes/admin/csv-import.php:369
+msgctxt "admin csv-import"
+msgid ""
+"An error was detected while validating the CSV file for import. Please fix "
+"this before proceeding."
+msgstr ""
+
+#: includes/admin/csv-import.php:378
+msgctxt "admin csv-import"
+msgid "Import is in \"test mode\". Nothing will be inserted into the database."
+msgstr ""
+
+#: includes/admin/helpers/csv/class-csv-import.php:533
+msgctxt "admin csv-import"
+msgid ""
+"Could not create listing category \"<category-name>\". The operation failed "
+"with the following error: <error-message>."
+msgstr ""
+
+#: includes/admin/helpers/csv/class-csv-import.php:539
+msgctxt "admin csv-import"
+msgid "Could not create listing category \"%s\""
+msgstr ""
+
+#: includes/admin/helpers/csv/class-csv-import.php:730
+msgctxt "admin csv-import"
+msgid "Username \"%s\" does not exist"
+msgstr ""
+
+#: includes/admin/helpers/csv/class-csv-import.php:757
+msgctxt "admin csv-import"
+msgid "There is no Fee Plan with ID = <fee-id>"
+msgstr ""
+
+#: includes/admin/helpers/csv/class-csv-import.php:788
+msgctxt "admin csv-import"
+msgid "Missing required field: %s"
+msgstr ""
+
+#: includes/admin/helpers/csv/class-csv-import.php:833
+msgctxt "admin csv-import"
+msgid "Listing category \"%s\" does not exist"
+msgstr ""
+
+#: includes/admin/helpers/csv/class-csv-import.php:904
+msgctxt "admin csv-import"
+msgid "The string <string> couldn't be converted into a valid date."
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:5
+msgctxt "admin csv-import"
+msgid "A fatal error occurred during the import. The reason given was: \"%s\"."
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:9
+msgctxt "admin csv-import"
+msgid ""
+"A fatal error occurred during the import. If connection wasn't lost during "
+"the import, please make sure that you have enough free disk space and "
+"memory available to PHP. Check your error logs for details."
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:12
+#: templates/admin/csv-import-progress.tpl.php:19
+msgctxt "admin csv-import"
+msgid "‚Üê Return to CSV Import"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:17
+msgctxt "admin csv-import"
+msgid "Import Canceled"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:18
+msgctxt "admin csv-import"
+msgid "The import has been canceled."
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:25
+msgctxt "admin csv-import"
+msgid "Import Progress"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:28
+msgctxt "admin csv-import"
+msgid "Files"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:31
+msgctxt "admin csv-import"
+msgid "Rows in file"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:34
+msgctxt "admin csv-import"
+msgid "Progress"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:38
+msgctxt "admin csv-import"
+msgid "Import has not started. Click \"Start Import\" to begin."
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:39
+msgctxt "admin csv-import"
+msgid "Importing CSV file..."
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:45
+msgctxt "admin csv-import"
+msgid "Start Import"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:46
+msgctxt "admin csv-import"
+msgid "Cancel Import"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:53
+msgctxt "admin csv-import"
+msgid "Import finished"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:56
+msgctxt "admin csv-import"
+msgid "Import was completed successfully."
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:60
+msgctxt "admin csv-import"
+msgid "Import was completed but some rows were rejected."
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:63
+msgctxt "admin csv-import"
+msgid "Import Summary"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:65
+msgctxt "admin csv-import"
+msgid "Rows in file:"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:68
+msgctxt "admin csv-import"
+msgid "Imported rows:"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:71
+msgctxt "admin csv-import"
+msgid "Rejected rows:"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:76
+msgctxt "admin csv-import"
+msgid "Import Warnings"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:79
+msgctxt "admin csv-import"
+msgid "Line #"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:80
+msgctxt "admin csv-import"
+msgid "Line"
+msgstr ""
+
+#: templates/admin/csv-import-progress.tpl.php:81
+msgctxt "admin csv-import"
+msgid "Warning"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:27
+msgctxt "admin csv-import"
+msgid "Here, you can import data into your directory using the CSV format."
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:64 templates/admin/csv-import.tpl.php:95
+msgctxt "admin csv-import"
+msgid "... or <a>select a file uploaded to the imports folder</a>"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:74 templates/admin/csv-import.tpl.php:106
+msgctxt "admin csv-import"
+msgid "(Upload new file)"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:129
+msgctxt "admin csv-import"
+msgid "Comma (,)"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:135
+msgctxt "admin csv-import"
+msgid "Semicolon (;)"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:200
+msgctxt "admin csv-import"
+msgid "Preserve existing status"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:233
+msgctxt "admin csv-import"
+msgid "Keep existing listing images?"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:238
+msgctxt "admin csv-import"
+msgid "Keep existing images."
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:239
+msgctxt "admin csv-import"
+msgid "Appends new images while keeping current ones."
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:257
+msgctxt "admin csv-import"
+msgid "Use a default user for listings?"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:263
+msgctxt "admin csv-import"
+msgid ""
+"Select a default user to be used if the username column is not present in "
+"the CSV file."
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:306
+msgctxt "admin csv-import"
+msgid "Test Import"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:307
+msgctxt "admin csv-import"
+msgid "Import Listings"
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:354
+msgctxt "admin csv-import"
+msgid ""
+"Fee ID (integer) associated to a listing. Use this column when adding or "
+"updating listings from external sources."
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:375
+msgctxt "admin csv-import"
+msgid "Internal Sequence ID used to allow listing updates from external sources."
+msgstr ""
+
+#: templates/admin/csv-import.tpl.php:382
+msgctxt "admin csv-import"
+msgid ""
+"Date of listing expiration formatted as YYYY-MM-DD. Use this column when "
+"adding or updating listings from external sources."
+msgstr ""
+
+#: includes/admin/controllers/class-admin-csv.php:47
+msgctxt "admin csv"
+msgid "Import"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-csv.php:48
+msgctxt "admin csv"
+msgid "Export"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-fees.php:46
+msgctxt "fees order"
+msgid "Label"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-fees.php:48
+msgctxt "fees order"
+msgid "Duration"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-fees.php:50
+msgctxt "fees order"
+msgid "Custom Order"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-fees.php:110
+msgctxt "fees admin"
+msgid "Fee plan added."
+msgstr ""
+
+#: includes/admin/controllers/class-admin-fees.php:112
+msgctxt "fees admin"
+msgid "Fee plan updated."
+msgstr ""
+
+#: includes/admin/controllers/class-admin-fees.php:171
+msgctxt "fees admin"
+msgid "Fee \"%s\" deleted."
+msgstr ""
+
+#: includes/admin/controllers/class-admin-fees.php:183
+msgctxt "fees admin"
+msgid "Fee disabled."
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:20
+msgctxt "fees admin"
+msgid "fee"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:21
+msgctxt "fees admin"
+msgid "fees"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:61
+msgctxt "fees admin"
+msgid "Label"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:63
+msgctxt "fees admin"
+msgid "Duration"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:65
+msgctxt "fees admin"
+msgid "Attributes"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:138
+msgctxt "fees admin"
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:185
+msgctxt "fees admin"
+msgid "<strong>Fee ID:</strong> <fee-id>"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:209
+msgctxt "fees admin"
+msgid "Variable"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:214
+msgctxt "fees admin"
+msgid "%1$s + %2$s per category"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:222
+msgctxt "fees admin"
+msgid "Forever"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:224
+msgctxt "fees admin"
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:228
+msgctxt "fees admin"
+msgid "%d image"
+msgid_plural "%d images"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:233
+msgctxt "fees admin"
+msgid "All categories"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:268
+msgctxt "fees admin"
+msgid "Sticky"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:272
+msgctxt "fees admin"
+msgid "Recurring"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-fees-table.php:276
+msgctxt "fees admin"
+msgid "Private"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-payments-table.php:55
+msgctxt "fees admin"
+msgid "Date"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-payments-table.php:56
+msgctxt "fees admin"
+msgid "Payment History"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-payments-table.php:58
+msgctxt "fees admin"
+msgid "Status"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:138
+msgctxt "fees admin"
+msgid "Plan Category Policy:"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:143
+msgctxt "fees admin"
+msgid "Plan applies to all categories"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:144
+msgctxt "fees admin"
+msgid "Plan applies to only certain categories"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:148
+msgctxt "fees admin"
+msgid "Limit plan to the following categories:"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:172
+msgctxt "fees admin"
+msgid "Click to add categories to the selection."
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:186
+msgctxt "fees admin"
+msgid "Pricing"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:194
+msgctxt "fees admin"
+msgid "Pricing model"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:198
+msgctxt "fees admin"
+msgid "Flat price"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:199
+msgctxt "fees admin"
+msgid "Different price for different categories"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:200
+msgctxt "fees admin"
+msgid "Base price plus an extra amount per category"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:206
+msgctxt "fees admin"
+msgid "Fee Price"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:214
+msgctxt "fees admin"
+msgid "Prices per category"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:220
+msgctxt "fees admin"
+msgid "Price"
+msgstr ""
+
+#: templates/admin/fees-form.tpl.php:234
+msgctxt "fees admin"
+msgid "Extra amount (per category)"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:60
+msgctxt "admin category filter"
+msgid "All categories"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:175
+msgctxt "admin listings"
+msgid ""
+"This listing doesn't have a fee plan assigned. This is required in order to "
+"determine the features available to this listing, as well as handling "
+"renewals."
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:311
+msgctxt "admin listings"
+msgid "Never"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:341
+msgctxt "admin listings"
+msgid "Recurring"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:345
+msgctxt "admin listings"
+msgid "Free"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:349
+msgctxt "admin listings"
+msgid "Payment Not Found"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:353
+msgctxt "admin listings"
+msgid "Payment %s"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:362
+msgctxt "admin listings"
+msgid "Reported"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:700
+msgctxt "admin listings"
+msgid "Listing's payment history successfully deleted"
+msgstr ""
+
+#: templates/admin/metaboxes-listing-flagging-row.tpl.php:29
+msgctxt "admin listings"
+msgid "Selected Option: "
+msgstr ""
+
+#: templates/admin/metaboxes-listing-flagging-row.tpl.php:33
+msgctxt "admin listings"
+msgid "Aditional Info: "
+msgstr ""
+
+#: templates/admin/metaboxes-listing-flagging.tpl.php:8
+msgctxt "admin listings"
+msgid "This listing has not been reported."
+msgstr ""
+
+#: templates/admin/metaboxes-listing-flagging.tpl.php:30
+msgctxt "admin listings"
+msgid "Clear listing reports."
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:322
+msgctxt "listing attribute"
+msgid "No Fee Plan"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:423
+msgctxt "listing status"
+msgid "Reported"
+msgstr ""
+
+#: includes/models/class-listing.php:934
+msgctxt "listing status"
+msgid "Unknown"
+msgstr ""
+
+#: includes/models/class-listing.php:935
+msgctxt "listing status"
+msgid "Legacy"
+msgstr ""
+
+#: includes/models/class-listing.php:936
+msgctxt "listing status"
+msgid "Incomplete"
+msgstr ""
+
+#: includes/models/class-listing.php:937
+msgctxt "listing status"
+msgid "Pending Payment"
+msgstr ""
+
+#: includes/models/class-listing.php:938
+msgctxt "listing status"
+msgid "Complete"
+msgstr ""
+
+#: includes/models/class-listing.php:939
+msgctxt "listing status"
+msgid "Pending Upgrade"
+msgstr ""
+
+#: includes/models/class-listing.php:940
+msgctxt "listing status"
+msgid "Expired"
+msgstr ""
+
+#: includes/models/class-listing.php:941
+msgctxt "listing status"
+msgid "Pending Renewal"
+msgstr ""
+
+#: includes/models/class-listing.php:942
+msgctxt "listing status"
+msgid "Abandoned"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:491
+msgctxt "admin actions"
+msgid "View Payments"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:496
+msgctxt "admin actions"
+msgid "View Payment"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:633
+msgctxt "admin actions"
+msgid "Publish listings"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:634
+msgctxt "admin actions"
+msgid "Mark as \"Pending Review\""
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:635
+msgctxt "admin actions"
+msgid "Hide from directory (mark as \"Draft\")"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:637
+msgctxt "admin actions"
+msgid "Renew listings"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:638
+msgctxt "admin actions"
+msgid "Set listings as \"Expired\""
+msgstr ""
+
+#: includes/admin/controllers/class-admin-listings.php:645
+msgctxt "admin actions"
+msgid "Send access keys"
+msgstr ""
+
+#: includes/admin/controllers/class-admin-payments.php:19
+msgctxt "payments admin"
+msgid "Payment deleted."
+msgstr ""
+
+#: includes/admin/controllers/class-admin-payments.php:37
+msgctxt "payments admin"
+msgid ""
+"You're seeing payments related to listing: \"%1$s\" (ID #%2$d). <a>Click "
+"here</a> to see all payments."
+msgstr ""
+
+#: includes/admin/controllers/class-admin-payments.php:56
+msgctxt "payments admin"
+msgid "Payment details updated."
+msgstr ""
+
+#: includes/admin/helpers/tables/class-payments-table.php:12
+msgctxt "payments admin"
+msgid "payment"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-payments-table.php:13
+msgctxt "payments admin"
+msgid "payments"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-payments-table.php:19
+msgctxt "payments admin"
+msgid "No payments found."
+msgstr ""
+
+#: includes/admin/helpers/tables/class-payments-table.php:32
+msgctxt "payments admin"
+msgid "All"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-payments-table.php:124
+msgctxt "payments admin"
+msgid "View Payment History"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:124
+msgctxt "form-fields admin"
+msgid "Form Preview"
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:183
+msgctxt "form-fields admin"
+msgid "Form fields updated."
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:206
+msgctxt "form-fields admin"
+msgid ""
+"<b>Important</b>: Since the \"<a>Display email address fields "
+"publicly?</a>\" setting is disabled, display settings below will not be "
+"honored and this field will not be displayed on the frontend. If you want "
+"e-mail addresses to show on the frontend, you can <a>enable public display "
+"of e-mails</a>."
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:285
+msgctxt "form-fields admin"
+msgid "Field deleted."
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:325
+msgctxt "form-fields admin"
+msgid "Required fields created successfully."
+msgstr ""
+
+#: includes/admin/controllers/class-form-fields-admin.php:377
+msgctxt "form-fields admin"
+msgid "Tags updated."
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:20
+msgctxt "form-fields admin"
+msgid "form field"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:21
+msgctxt "form-fields admin"
+msgid "form fields"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:29
+msgctxt "form-fields admin"
+msgid "Order"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:30
+msgctxt "form-fields admin"
+msgid "Label / Association"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:32
+msgctxt "form-fields admin"
+msgid "Validator"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:33
+msgctxt "form-fields admin"
+msgid "Field Attributes"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:133
+msgctxt "form-fields admin"
+msgid "Shortname"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:155
+msgctxt "form-fields admin"
+msgid "Required"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:155
+msgctxt "form-fields admin"
+msgid "Optional"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:162
+msgctxt "form-fields admin"
+msgid "Private"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:169
+msgctxt "form-fields admin"
+msgid "This field value is shown in the excerpt view of a listing."
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:170
+msgctxt "form-fields admin"
+msgid "In Excerpt"
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:177
+msgctxt "form-fields admin"
+msgid "This field value is shown in the single view of a listing."
+msgstr ""
+
+#: includes/admin/helpers/tables/class-form-fields-table.php:178
+msgctxt "form-fields admin"
+msgid "In Listing"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-checkbox.php:92
+msgctxt "form-fields admin"
+msgid "Select All"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-checkbox.php:110
+#: includes/fields/class-fieldtypes-radiobutton.php:90
+msgctxt "form-fields admin"
+msgid "Field Options (for select lists, radio buttons and checkboxes)."
+msgstr ""
+
+#: includes/fields/class-fieldtypes-checkbox.php:122
+msgctxt "form-fields admin"
+msgid "Include \"Select all\"?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-checkbox.php:126
+msgctxt "form-fields admin"
+msgid "Display \"Select all\" option among options above."
+msgstr ""
+
+#: includes/fields/class-fieldtypes-checkbox.php:142
+#: includes/fields/class-fieldtypes-radiobutton.php:117
+msgctxt "form-fields admin"
+msgid "Field list of options is required."
+msgstr ""
+
+#: includes/fields/class-fieldtypes-image.php:58
+msgctxt "form-fields admin"
+msgid "Field Caption required?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:193
+msgctxt "form-fields admin"
+msgid "Allow HTML input for this field?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:196
+msgctxt "form-fields admin"
+msgid "Allow IFRAME tags in content?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:206
+msgctxt "form-fields admin"
+msgid "Allow WordPress shortcodes in this field?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:211
+msgctxt "form-fields admin"
+msgid "Display a WYSIWYG editor on the frontend?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:218
+msgctxt "form-fields admin"
+msgid ""
+"<b>Advanced users only!</b> Unless you've been told to change this, don't "
+"switch it unless you know what you're doing."
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:219
+msgctxt "form-fields admin"
+msgid "Apply \"the_content\" filter before displaying this field?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:222
+msgctxt "form-fields admin"
+msgid "Use shortened version of Description field as excerpt"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:223
+msgctxt "form-fields admin"
+msgid ""
+"Enable always (override the Short Description given with a shortened Long "
+"Description)"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:224
+msgctxt "form-fields admin"
+msgid ""
+"Enable conditionally (override ONLY when Short Description is empty with a "
+"shortened Long Description)"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:225
+msgctxt "form-fields admin"
+msgid "Disable (use the Short Description all the time, empty or not)"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:227
+msgctxt "form-fields admin"
+msgid ""
+"Truncates the description field to the value set here. To display all of "
+"the description, set to 0."
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:228
+msgctxt "form-fields admin"
+msgid ""
+"Number of Characters from Short Description/Excerpt to Display in List View "
+"(only)"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:233
+msgctxt "form-fields admin"
+msgid "Automatically generate excerpt from content field?"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-twitter.php:83
+msgctxt "form-fields admin"
+msgid "Show followers count?"
+msgstr ""
+
+#: templates/admin/form-fields-addoredit.tpl.php:29
+msgctxt "form-fields admin"
+msgid "Field Association"
+msgstr ""
+
+#: templates/admin/form-fields-addoredit.tpl.php:29
+#: templates/admin/form-fields-addoredit.tpl.php:54
+#: templates/admin/form-fields-addoredit.tpl.php:77
+msgctxt "form-fields admin"
+msgid "required"
+msgstr ""
+
+#: templates/admin/form-fields-addoredit.tpl.php:54
+msgctxt "form-fields admin"
+msgid "Field Type"
+msgstr ""
+
+#: templates/admin/form-fields-addoredit.tpl.php:77
+msgctxt "form-fields admin"
+msgid "Field Label"
+msgstr ""
+
+#: templates/admin/form-fields-addoredit.tpl.php:87
+msgctxt "form-fields admin"
+msgid "Field description"
+msgstr ""
+
+#: templates/admin/form-fields-addoredit.tpl.php:87
+msgctxt "form-fields admin"
+msgid "optional"
+msgstr ""
+
+#: templates/admin/form-fields-addoredit.tpl.php:104
+msgctxt "form-fields admin"
+msgid "Field-specific settings"
+msgstr ""
+
+#: templates/admin/form-fields-addoredit.tpl.php:11des/admin/helpers/tables/class-form-fields-orm-fi1adminxport"
+mhsting"
+msgstr ""
+
+#:/admin/controlledminlassle f ""
+
+#: includes/admin/helpers/tabng"
+msgstr ""
+
+#:/admdng"
+msgstrme edit "
+"bu#: in5Sby \in/form-fiform-fPinxpo7
+msgctxt ""fees orhp:8redit.tpl.phpion"
+msgstr ""
+
+:307ncludmdn-fiform-fPsmsgid "Field  ""feesiform-fPinxpo7
+msgctxt ""fees orhp:8redit.tarts/pagines/class-fof"
+msgid "Hide-fierectory"
+msgstr ""
+
+#: templates/parts/pagination.tpl.php:tarts/pagines/class-fof"
+msgid "Hide-fierectory"
+mm-fields admin"
+msgid "Disable (use the Short Description all the 3fv csehp:11pdated."h"form-fields admin"
+es/admin/controln/cs/clad "C"
+msgid "%1$s + %2$s per category"rm-fields admin"
+es/adrm-fields ms."
+msgstr "ils</5Sb imierectory"str ""Sphp:table.pDisable (use the Short Descriptionoonal"
+msgstrl"
+msgort-progres ""
+gstr: ins.tpl.php:81min"
+mse (u5s/clgid "See an example CSV import file"
+msgstr ""
+
+#: itablsgstoit.tpl.phon-plan.tpadmin/controldmin/helimport file"
+msgstr "ld Assmages"
+proplection-plan.tpl.php:79
+msgid "Private fee plan"
+msgstr ""elimport file"
+msgstr "ld Assmages"
+proplection-plexcerpt from content field?"
+msgstr ""
+
+#: includes/fields/class-f3fv
+msgstr d rsgctxt ludes/fimoimierectory"lers/class-admin-listings.pm-fiphp:21
+s#: includes/fields/class-fieldtypes-textarea.phmon.tpl.php:tastory"
+msgstr ""
+
+#: ,es/admapxt "pF07
+min/class-l regist96
+msgctxttempthe ability to maintain a free or paiincludes/gctxpaiincl.st96
+msstr ""
+"required"
+msgstr ""
+
+#: templtes/plan-selection-plan.tpl.php:41
+msgid "Recurring"
+msgstr ""
+
+#: templates/plan-selectionIncludeintain a free or paiincludes/gctxpaiincl.st96
+msstr ""
+"refields/class-fieldtypes-ctxt "a
+
+#: lates/ahelpers/tables/class-form-fields-table.php:155
+msgctxt "form-fields adm[1] ""
+
+eLe. To display all of "
+"the din."
+mssgstr "4/csv-imporvtoredit.tpl.pgctxt "fordmin/107
+n1stigstr ""
+
+#: templates/admin/csv-impoLe. To diskm""
+
+#: includes/admin/helpers6is lifor"
+
+#: includes/models/class-listing.php:940
+msgctxt "I/form-tstr ""rn.php:285
+msgctes/mAegory"1ohp:48
+msgct3csv-import.php:177
+msgctxt "admin csv-imporg"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-checkbox.php:92
+msgctxu
+
+#:AChin.ph templates/admin/ includes/textaro display all of "
+"the din."
+8mage"
+msgid_plural "%d images"
+msgrs
+#: templates/admin/csv-impo
+msgn"
+
+#g stat"form-fields admin"
+
+#: ie din."
+8mage"
+msgid_plural "%dimit pl1
+m "In Listing"
+2#: includes/fields/class-fieh ""
+
+#:ncludes/admin/controllers/cid "Imp5ed as YYYY-MM-DD. Use this column when "
+"adding or updating listings froi_
+#: d_plur?
+#: d_pflLe. To display all of "
+"the din."
+mssgs55
+msgctxt "form-fields adm[1] ""
+
+eLe. To display alle plus an extra amount per category"
+mA
+#: d_plur?
+#: d_pflLe. To display al4csv-imporvtoredit.tpl.pgctxt "admu"p:234
+msgcr
+msgctxt 4ce CSV i
+msgctxt l4csv-imporvtoredit.tpl.pgctxt "
+msgstr ""
+
+#: includes/adm-fields-ta4gress.tpl. inclc" option among options above."
+ "fop5ed as YYYY-MM-DD. Use this column when "
+"adding or updating listings froi_
+#: table.pCsabled, display settings below.tpl.phpntr ""
+
+#. "shortened Long Descriptionp:79
+msgid "Private fee plan"
+msgstr ""elimport file"
+msldstroller smtWorm-vtoredit.tpl.pgctxt "admu"p:234
+msgcr
+msgctxt 4c3 All"
+msgstr ""
+
+nldtyastr ""
+
+#: includes/admin/controllers/class-ad3Phis cludes/ait "foAp:234/aws"mu"p:23smu"p:234
+msent"
+ms listings froi_
+#: d_plur?
+#: d_pflLs column moAp:234/aws"mu"p:23smu"p:234
+msent"
+ms listings froIisplay all of "
+"the din."
+8m4c3 All"
+msgstr ""
+
+nldtyastr ""
+
+#: include itasgid "All this page bmin"
+mrs froIisplay all of "addoredit.tpl.php:87
+msgctxt "form-fields a-(pE2ln "fees admed."
+mi ""
+
+o
+msgstr ""1t4sitTo display al4csv-imporvtoredit.tpl.pgctxt "admu"p:23tings.ps."
+msglisting.php:941
+msgctxt "listing status"
+msgSphp:92
+msgctxu
+
+Ft.tpl.php:129
+msgctxt "admin csv-import"
+msgid "Cp plan"
+msgstr ""elimport fieaeldtype:Requi to PHp234
+msent"
+ms listings froi_
+#: d_plur?
+#: d_pflLs column moAp:234/aws"38ICp plan"
+ d_pflLpastr ""
+
+#: includes/admin/tr ""
+vtr " from content ficlass-fi36\h1str ""rn.php:285
+msgctes/mAegory"1ohp:48
+msgct3csv-impieldsdescription, set to 0."esv( plan"
+4ting.php:936
+msgctxt "listing s3csv-imTo display all of "
+"the din.Roctxt 5neisgcn "%d images"
+msgrs
+#: temps5id "List this ctable.php:138
+msgctxt "fees admin"
+msgid "Edit"
+ms includes/fields/class-fieldtypeeh ""
+
+#:ncin csv-import"
+msgid "Preserve y wit5 jsldtypes-checkeld-specidmin/hers onastr ""
+
+#: include itasgid "All elds admin"dit"
+ms gstr ""
+
+#: includes/adm-fields-ta4gress.tpl. xt "
+msgstr ""
+
+#: inEer cateu5celds a-(pEsctxt "elds admin "All elrm" optionnEm2. Use te:81min"
+mse (u5s/clgid "See an exaadmi"l
+#: includes/aexternal sources."
+msgstr ""
+
+#: includes/admeldsCs/c#: includesgstr ""
+v6Krsplay all of "
+"the d Fry \I4 "ils</5Sb imieamsgid "Payment Historywkivate"
+msgstr ""
+
+#: includeserve y wi23766
+msgctxt  ""
+
+#: includemporvtIid "Import"
+msgstr ""
+
+#: includes/admin/contro."
+m all the 3fv csiMcvtoredit1nastr ""
+udemlers/class-admiass-sabled, display settings below will not be "
+"honored and this field will notldtypemin/controlsgctcy:"ss-admin-listings.php:345
+msgctxt "dminsgid "No Fee Plan"
+msgstr ""
+
+#: ictcy:"ss-admin-listindctcy:"ss-amy."
+msgstr ""
+"En5Sb thmiass-sable d FrSis cngs"
+msw will not be "
+"honored and this oEdit"
+ms incmorederpt view of a listing."
+msgble d FrSis cngs"
+msw will not be "
+"honored an  bmicriptiosplay al4csv-imporvtoredit.tpl.pgctxt "admu"p:23mo "All elrm" as YYYY-MM-DD. Usetpl.phmsgstr </5Sb iloredir updsts"mu"p:23smu"p:234
+msent"
+ms list "foira2oredi
+#: includeo "Al.tpl.php:64 templates/admin/cs udes/models/1/ad
+msent"
+updsmu"p:234
+m ""fees olass-fss-fieldtypes-textareacsv-imfd days"
+ms
+msgctxt "imfd days"
+ms
+msgctxt "imfdit.tpl.php:87
+msgctxt "form-fields a-(pE2lphp:27
+
+#:29t-ess.tpl.<orm-fi1adayment/ll\"?"
+msgstr ""
+
+#: includes/fields/class-fieldtypepur 104
+'d dayhp:183
+msgcditid "Ahp:8dels/1/ad
+msent"
+updsmu"p:234
+nide tees ades-ltcy:"ss-admistietpl.s-sclass-lp:8dels/1/ad
+msent"
+udp:8dels/1/mdes/admin/clonten5Sbfeeorm-fi1ada "Al.tSfieldes/mod: includes/fields/class-fieldtypepon-listings.pmds ass-fieldtypes-checkbox.php:1: includes/admin/controllers/class-ad3Phis ncludes/fielgctxt c listings froi_
+#: d_plur?
+#: d_pflLs column mo/contSfielfi1aday
+msgctxt "form-fields admin"es/admin/clonten5Sbfeeorm-fi1ada "AlfTlp,,ur?
+#_
+#:Kextep0tings froi_
+#: d_payhp:1include: tem ""
+
+#:ncin csv-import"
+msgid "Preseradmin-listings.php:496
+msgctxt "admin a1sero"This fieldrm-fields a-(pE2lphp:27
+
+#:29t-ess.tpl.<orm-zfd "Missing required field: %xt "ad:ions above."
+ "fop5ed as YYYees-tablRcsv-impo""
+msgstr ""ds were rejecImportcontro."
+m all the 3fv csiMMissin:ions aontrollers/cid "Imp5ed as YYYY-MM-DD. Usmbcsv-Category Policy:"ere r-listi the 3fv csiMMissin:ions aontrollmsgstr ""
+
+#: includes/fields/class-fis
+msgidY-MM-DD. y:"ere r-lcmsgid "Preseradmin-lort-progcontrollers/class-form-fields 3ates/fields/class-fis
+msgidY-MM-DD. y:"ere r-lcmsgid "Preseradmin-lort-progcontrollerd"
+v6Krsplay all oEdes/adm-fields-ta4gress.tpl. xYY-MM-DD. Usetpl.phmsgstr </5Sb iseradmin-esta4gress.tpl. xYY-MM-DD. Usetpl.ates/admin/form-fields-addoredit.tpl.php:54
+#: templates/admin/form-fields-addoredit.tpl.php/class-DD. Usetpl.ates/admin/form-fields-addored
+msgctxt "admin"
+msgid ""
+"<b>Businehp:22ly "
+msgstr ""
+
+#: inEein/csv-idit.tpl.pgctxt "admu"p ""ds were rejecImportcontrosgid "Payment Historywtr " froi_
+w"
+msgsSrt-pror paiincludes/gctxpaiincl.st96
+msstr ""
+"required"
+msgsttldtypemin/controlsgctcy:"ss-admin-list
+"<be-UU3-in/fo temr ""tables/class-for rHistores/fig.phpudes/models/1/ad
+msent"
+\279
+msgidp"<be-UU3-ie r-lcmn-list0controlsid "Required"min/c ""el6
+msgct Historsenolicy:"eps/admeldsCs/c#: includesgstr in/controt"
+\2"<be-UU3-ie r-lcmcludmeestings"
+msgstr ""
+
+#: temsgstr ""
+
+#: includes/admin/controllergs fr ""
+
+:.i20
+mss.tpl.php:17
+msgctxt "admin typemin/cofor rH"
+msgstmtem "Al.tSfieldes/mod: incln-csvpes/forsenolicy:0
+mss.tpl.php:17
+mllergs includes/fields/class-fieldtypes.tpl.php:17
+msgctxt "admin typemmn-llicy:0
+mss.tpl.php:17
+mllergs includes/fields/class-fieldtypes.tpl.php:17
+msgcoCtadmin"
+mrt.oomsgk
+
+#: inen/csv-imp
+mss.tpl.php:17
+mllergs includes/fxt "form-fiDescri#: templates/admin/cssePadmi79
+msgidps/1/ad
+msent"
+\279
+msgidp"<be-UU3-ie r-lcmn-list0controlsid "Required"min/c ""el6
+msgct Histoforseno29
+msgctxt l.php:"
+
+#: Impokes/fxt "form-fiDescri#: templates/admin/cs
+#: in"Sticky"
+mass-fl.php:"
+
+#: Impokes/fxt "form-fiDescriCin"ds adsgijected rows:"
+msgstr ""
+
+#: templates/admin/csv-import-progres Histofin/c ""el6
+msgct Histoforseno29sgctxt "ad
+#: Impokes/fxt "form-fiDescriCin"ds 9oigsgctxtbe inseludes/admin/helpers/csv/cl ""
+
+#: includes/admin/helpers/tables/c:234
+m ""fees olass-fss-fielday
+msgctxt "form-fields admin"es/admin/clon(d_i
+msgstmtem "Al.tSfieldes/mod: incln-csvcy:"ssds admin"easgid "Algct H[ images"
+msgrs
+#: templates/a"
+
+#: Impokd/metaboxes"
+msgstr ""
+
+#: iid "Variam-fieldsjecelds/class-Plass-fss-fielday
+msgctxt "formes-tabl5>u"p:28
+m orm-msgctxt/adminble.poxes"
+mM for details."
+msgstr ""
+
+#: templates/admin/csv-import/fieldfields admin"
+msgid "Field Captioar ""
+
+msgstr """ds were rejecImportcontro."
+m all the 3fv csiMMissin:icurrino29sgctxt "ad
+#: Impokes/fxt "form-fiDescriCiome rows weid "P/admin/s new image7 
+msgctxt "admin csv-import"
+msgid "Import finished"
+msgstr ""
+
+#: templatcln-Nass-payments-table.php:19
+msgct1mpla68
+msgctxt "fees admin"
+msgidmEid "tplvvv>ection-plan.tpl.php:41gctxt "fees admin"
+msgstridmEid "t3:xes-listing-flaggonten5Ses.pm-fi1ada "AlfTlp,,ur?
+#_
+#:Kextep0tings froih=iaO4
+msgrs
+#:t "form-fables/cl7fields/class-fieldtypes-chec6ample CSV impe.php:214
+msgctxt "fees admin"
+msgid " and "t "form-fields admin"
+msgid "required"
+msgstr ""
+
+#: on-plan.tplt finntrosgid "Payment Historywtr "s"
+meea into your directory using the CSVaadmin/fees-form.tpl.phpp:234/aws"mun"s"
+"mu"t41g"t "ea intusgirt.oomsgk
+ents admin"
+msgid"s"
+.sgctxtid "tp-list0controlsid "Req -mportaO4
+msgrsgd "t3forsdmEid "t3:xes-l9
+msgc.tpl.php:129
+msgctxt "admin c0cont-imporvi7ees admin"
+msgid "<strongcludes/lds admip:9s
+#: Impokes/fxt "form-fiDescriCin"ds 9oigsgctxtbe inseludes/admin/n-listingwT
+
+#: include<eibutes"
+msgstr ""
+
+#: incluable.php::214
+msgctxC9msgid "ruired"m "adm5admin"
+es/admin/conr7fees.php:171
+ms#: Ifees.php:1"
+
+#: templates/plan-selectionIncludeintain a free or paiincludes/gctxpaiincl.st9acsgctxt 4ce CSV i
+msgctxt l4csv-imporvtoredit.tpl.pgctxt "
+msgstr ""p:171
+ms#: Ifees.php:1"
+
+#: tcs"
+msuadmisgctxt "fo3gctxt "
+msgstr ""p:171
+ms#: Ifees.php:1"
+
+#: tcs"
+msuadmi/71
+ms#: Ifegid "(Updmin c0cont-imporvi7ees admin"
+msgid "<shp:171
+ms#: Ifees.php:1"
+
+#: templates/plan-seln"
+msgid "<strongcludes/lds admip:9s
+#: Impokes1"
+
+#: tcs".php:935
+mi"mun"s"
+"mu"t41g"t "ea intusgirm#: taseln"
+msgid "<strongcludes/xt "admlates/admiihe C/admi#: inEl.php:54
+FrSisMs"
+"mu"t41g"t "ea intusg4ngsntusgirm#: taseln"
+msgid "<strongwSisMs"
+"mu"t41g"t "ea intusg4ngsntusgirm#: (b/SisMs"
+a irmhelimpin"easgid "Algct H[ images"
+msgrs
+#: templates/a"
+
+#: Impokd/metaboxes"
+msgstr ""
+
+#: iid .usgirm#: ta"Alogs froi_
+#: d_plur?
+#: d_pflLs column mo/contSfielfi1aday
+msgctxt "form-fields adm7Bp:129
+msgctxt "admin c0conts-addoredit.tpl.php:54
+#: temy5tions is require#: d_pflLs column mo/contSfielfi1aday
+msgcoudm7Bp:ntusgirm#: taslla%-admin-seln"
+msmisplayadmin"
+msgid "F7 4pm-fiphp:21
+s#:Bp:1291ions i%-admin-seln"
+msmisplactxtskongclflLe. ctxtsdmin/csv-import-progress.tpl.php:39
+msgctxt "admi trm-fiDescri#udes/admin/controllers/class-admin-listings.php:6U11s-li\6N of "
+"the din.Roctxt 5(rm-f/controllers/claddes/adm"
+msgid "All categories"
+msgstr ""
+
+#m-fiDescriMM-DD. Usetpl.phmsgstr </5Sb iseradmin-estries:"
+msgstr ""
+
+#: templates/admin/feesusnd "<strory"(3a"
+msgirtcont
+#: inr "" Usetpl.phmsgstr </5Sb iseradmin-estries:gstr ""
+
+#: templates/admin/feesngclflLe. ctxtsdmin/csv-import-progress.tpl.php:39
+msgctxt "ack "tpl.phmsgstr </5Sb iseradmin-Ftr ""
+
+#: templates/admin/fees-form.tpl.php:14conts-sylpersess.tpl.php:39
+msgelectistin3ogress.tpl.php:39
+msgctxt "admm7Bp:129
+msgctxt "admin c0conts-addoredit.tpl.php:54
+#: temy5tions is require#: 0hp:39
+msgelectistin3ogress.tpl.php:39
+msgctxtsngcl/class-fees-tr ""
+
+#: templates/admin/csv-import-progress.tpl.php:80
+msgctxt "admin csv-impor ""
+
+#Haldrmbs. "shortened Long Descriptionp:79
+msgid "PrivatePmsgctx "admvtin3o "See an exaadmi"ed
+msgctxt "admin"
+msgid ""
+"<3hIemplatessgctxt gctxt "fordmiid "Required"min/c ""el6
+mdred"min/c ""el6
+elds admiid /uired"rollers/class-form-fields-admin.phdn field to 4otxt gctxt "fordmiid "ReqwPdEsrP307nclss-deintain a free or paiincludes/gctxpai:es/admin/metaboxes-listing-flagging-row.tpl.php:29
+msglds-admin.phdn field to 4otxt gctx.s adm"
+msgstr in"
+msgid "tcy:"ss-ad/96
+msgciincmplate. To disprPing-row.tpl.gs"
+msw wi-textarea.php:228
+msgctxt "form-fields admin"
+msgid ""H.tpl.gs"
+msw wi-textarea.php:228
+msgctxt -imporvorsdmEid "t3:xes-l9
+msgc.tpl.php:129
+msgctxt "admin c0cont-imporvi7ees art.tsplaes/aboxes7sw witarea.phsmin/f4cted romAn-Nass-painsgid "No Fee Plan"
+msgstr "eldtype,"admin/m4ludes/fields/clasdmin csv-impe reject-irm-fielres/models/1/ad
+msent"
+upd es/admin/cOe reject-irm-fielres/models/1/ad
+msent"
+u4 "admi trm-fiDescri#udes/admin/controllers/class-admin-lcludes/ct-irm-fielres/mo,n-lcluelds admageimporo
+msgsPo 4otxtrm.tpl.php:143
+msgctxt "fees admin"
+msgid "Plan applies to all categories"
+msgstr ""moimierectory"lers/class-admin-lisMfielr19
+msgctxt id "
+msgles/imporo
+ ments"
+msgstr "fielress.tpl.p sel ""
+seradlur?
+#: td.phsmin/f4cttsrTur directory using the CSV fm ""fees olass-fss-fielday
+msgctln-lclies to allt"
+updSabox"
+msgstmierectory"lers/class-admin-lisMfioadmin.phdn fmtxt sting.php:941
+msgctxt "listirm#: taseln"
+msgid "<strongwSisMs"
+"mu"t41g"t "phdn fmlt3:xes-l9
+mionp:79
+mtn-lcludetmsgstr ""
+
+#: temptxt "formo7ees art.tspDfmlt3:fss-fielday
+msgctln-lclies to allt"
+upgstically generate .lre<strongwSin-lcludeir
+msgid ""
+splay alees-o-lcludetmsgstr ""
+
+#: temptxt "formo7ees art.tspDvdn admin/csv-redew images while keeping current ones."
+msgstr ""
+
+#: templayally generate class"
+msgstr ""
+
+#: includes/fields/class-fieldtypes-textarea.php:218
+msgctxt "formit.tplesgctxt "admin listings"
+msgid "Th- "Ferate .lre<strongwSin-lcludeir
+msgid ""
+splay alees-o-lcludetmsgstr ""
+
+#: teees ad,6
+#: "admwmsgcmBes ad,6
+#: "admwmsgcmBes php"
+msgstr ""
+
+#: templayally generate class"
+msgstr ""
+
+#:rtdmin"
+msgid "<shp:171
+masd romAn-Nass-painsgid "No Fee Plan"
+msgs.da "AlfTlp,,ur?
+#_
+#:Kextep0tings fmsgstr ""
+
+#: on-gcmBes pht "phdn fmrstr ""
+
+#: 34p:375edit.tpl.php:87
+msgctxt "form-fields admin"
+msgid "optional"
+msgstr ""
+
+#: templates/admin/form-fitlimport file"
+msgstr "ld Assmages"
+proplection-plan.tpl.php:79
+msgid "Private feec.p': templates/admin/form-fields-alimpor/c ""eHaldrmiitrxt "fees admin"
+wsgctxt "form-fields admin"
+msgid "optir </5Ctxt "-textarein"
+msgiral "%d d3in/helpea(
+msgstr "ld Assmages"
+proplection-plan.tpl.php:79
+msgid "Private feec.n/controllers/class-admin-listings.php:6U11s-li\6N d3Erices-listingsmrU
+msgstr ""
+
+# c0cont-iPHaldv5"
+msuas/fielilategory"
+msgstr 5dtypes-ieldctxt "admin listings"
+msgid "Th- "Ferate .lre<s/controlla-li\6N d3Erices-listingsmrU
+msgstr ""
+
+# c0t.tpl.php:39
+msgctxtsngcl/claseldctxt "admin .lreWn,/admin/form-eions is"
+msgiN d3Erices-listingsmrU
+msgstadmu"p:istingsmrU
+1w228
+miein/form""
+
+#: includes/fields/class-fieldtypem
+msgi""
+
+# c0cont-iPHaldv5"
+msulassdmin-listings.php:496
+msgctxt "admin a1sero"This fieldrm-fields a-(pE2lphp:27
+
+#:29t-ess.tpl(/c#: isdticorm-fieform-fields admin"
+msgid "op2#: includes/fields/class-fieh ""
+
+#:ncludes/admin/cocn ""
+
+#: te.php:6U11t,64 templates/admin/cs udes/models/1/ad
+msent"
+v"\Ti"t "phdn fmlt3:xes-l9
+mionp:79
+mtn-lcludehp:3eform-fiel/1/ad
+msent"
+vss-fielday
+msgctln-lclies to allt"
+updSabox"
+ms
+mseorm-cImpo example CSV /controlla-li\6N d3Erices-listingsmrU
+in/csv-imtdminall lds oredment"+ %2$s SV /controlla-li\6N ddSV /contromisabled."
+msln-cs5Sbrs/ludehp:3ef:27
+
+#Sn-lit.tartsfielday
+msgctln-lclies to allt"
+upoU
+msgstr ""
+mphdnfieldtypepon-listings.pmds aday
+msgctln-lclies to allt"
+upoU
+msggstr ""
+
+#s"
+msgid "Tields a
+#: td4onto allt"8
+miei-listii\6N ddSV /contromisatxt "ad
+ s"
+mslm-fields-admin.phdn field topl.php:79
+msgid "Private feec.p': templawy generate class"
+msgstr ""n-lcligid "form fields"
+msgstr ""
+
+#: includes/admin/hm-fieltings"
+mlhm-fieltiCdmiate ers/class "form-fies-admin-lisMgstr ""tromiei""
+
+#:P2ltiCdmiate n-lclite claLes admi"form-xt g"
+msgstr : te.pE2lphp:27
+laLes admtaseln"fields/class-fieldtypem
+msgisMgstr yingsmrU
+1w228
+mi.msgid "optional"
+msgstr ""
+
+#: telicy:"ere r-listo4nml354.tpl.php:206
+msgctxt "fees admin"
+msgid "Fee Price"
+msgstr ""
+
+#: templates/admin/fees-form.tpdmin/feemin"
+msgid "In Listing"
+msg6/lphp:27
+
+#:29t-ess.tpl(/c#: isdtitd4onto allt"8
+miei-listii\6N des admin"
+msgid "Fee Price"sgstrxt "admit ""
+
+#: templates/admin/fees-forms/fieldmes-taa ""(wxn2td4onto/admin/fere<s/coacmees-m.tpl.phh
+msgid 354.tpl.php:20mVcl)oLp:496
+sfieldfields admin"
+msgid "Field Captio4onto allt"8
+miei-lisa>i""
+
+#:P2ltiCdmiate n-lclite claLes admi"form-xt g"
+le alwa3in/helpea(
+msgstr "ld Assmages"
+proplection-plan.tpl.php:79
+msgid "Privtxt "form-fields admin"
+msg dseradmin-lor.php:491
+msgctxt "admin actionmaoadmin/helpsgctxt-es olas</b>: Since the \Cnrtmiat ""n-lcligid "form fields"
+msgstr ""
+
+#: incluxt "admin actionmaoadmin/helllfi1aday
+msgcoudm7Bp:ntusgirm#: taslla1(wy generate class"
+msgstr ""n-lcsrectory using the CSV fm ""fees olass-fss-fielday
+msgctln-lclies to allt"
+updSabox"
+msgstmierectory"lers/class-admin-lisMfioadmin.ph ""feeiPPu6:equired"
+msgstr ""
+
+#: on-plan.tplt finntrosgi.tpl.php:54
+#: templates/admin/forstr ""elimport fieaeldtype:Requi toN a fi1aday
+msgcoun content?"
+msgsToroarea.phphp:5gctxt "cld Assmmin"
+msgidox"
+msgstmierectory"lers/class-admin-lisMfieh ""
+
+#:ncludes/admin/cocn ""
+
+#: te.php:6U11t,64 templates/admin/cfss"
+msgstr ""n-lcsrectory using the CSV fm ""fees olass-fss-fielday
+msgctln-lclies to allt"
+updSel.php:87
+msgctxt "form-fields admi ""feeiPPu6:equired"
+msgstr "4sgctln-les ol0
+msgid "Pee
+msgctldmin2
+updSel6N of wdueir[0] ""
+msgstram" as Ydstroorm-fieldW
+
+#:ncludtttep updatingstr ""
+
+# nnd "Pee
+t content?"
+msgsToroarea.phphp:5gctxt "cld Assmmin"
+msgidox"
+msgstmiChing s3csv ""tep unclud. admee
+t c6U11t,es/admin/controllers/cli5gctxt "cld Assmeldtytes/aYieludtttep updatinWmsgid "Pavfss"
+m2sgctxt ostrerectorC 3smmin-fPsmsgid "Field  ""feesiforr4,es/adminmin-fPmmin"
+msgidox"
+mamGostrerectorC 3smmin-fPsmsgid  Options (3
+msgctxt "fees admin"
+msgid "Plorywkivate"
+msgstr ""
+
+#: includeserve 57.iskmrC 3c "fold  ""fles/class-ndox"
+clflLgidox"
+mamGostrerectorC 3smmin-fPsmsgid  Options (3
+msgctxt "fees admin"
+msgid "Plorywkivate"
+msgsPt "admin p:12
+msgSV fm ""fees olass-fss-fielday
+msgctln-lclies to allt"
+updSaateu5celds a-(pEsctxt "elds admin "All elrm" optsm-fiDescriCin"ds adsgijected rows:"
+msgstr ""
+
+#: templates/hile k3eform-fiel/1/ ""
+
+#: temp ao
+msgid "U"min/crs/tables/class-  Options (3
+msgctxt "fees admin"
+msgid "Ploryw1n"
+msgid "Plorywkivate"
+msgsPt "admin p:12
+msgSV fm ""fees olass-fss-fielday
+msgctln-lclies to albrs/luld  this, lorywk:li5? status"%e"
+msgsPt "admin p:12
+msgSV fm ""feenields-orm-fi1adminxport"
+mlerslfi1adminxn actionmaoad"Expired\""
+msgstr ""
+
+'86eule.php:4/controllers/class-admin-listings.php:491"
+msorm-fields-admin.p sdmin/csv-import-progress.tpl.php:39
+msgctxt "admi trm-fiDescrisgct8-plan.""
+
+'8r1gctxt s-checkboxtrm-fiDescrisgct8-plan.""
+
+'8r1gctxt s-checmgay
+mfnlates/alotrol8escri4n conteminxport"
+mlerslfi1adminxn actionmaoad"Expired\""
+msgstr ""
+
+'86eule.php:4plates/hiled"
+msgstr "4y all of "
+Iinxport"
+EgSV fm ""fees olass-fss-fielday or/c ""eHaldrmiphp:4plati"
+msgst Policy:"ere r-listi the 3fv csiMMissin:ions aonlds-addoredit.tpl.php:54
+msLedi4Melds-tablers/class-admin-listings.php:32g payll of "
+Iinxport"
+EgSV fm ""feestermine 46eule.php:4/cIi ni 
+msgcoun conttes/aV fm ""tt.tspDvdn admin/csv-redew images while keeping current on7
+mllergs includes/fields/class-fieldtypes.tpl.php:17
+msgctxt "admin typemmnadmin"
+msgid "Preldss-listi4Act ere<Eorm-fsgst
+msgsToroareadMMissin:ions aonlds-addoredit.tpl.p2l: incofeemsgi imiay all oadmin"
+msgid "EfPreldsngctxt "fordmin/107
+n1stigstr ""
+
+#: templates/admin/csv-impoLe. To diskm""
+
+2?"
+msgnnlection-plan.tpl7s-cherB:dmin/csv-importoroare"
+
+#: includes<dsgid "tUds were rej:4/ermidit.tpl.php:11des/admin/hel6oryw15gctxt ns/fields/cnahp:142
+#: includes/fields/class-fieldoxtep0tings froi_
+#: d_payhp:1include: tem ""
+
+#:ncin csv-import"
+msgid "Pres:11des/admin/hers/class-a,trollers/cninclude: temass-ad_payhp:1inclu ass-fn-fPsmsgid  .tpl4splay all of "
+"the din.Roctxt 5neisgcn "%d images"
+msgrs
+vanced users only!</b> Unless you've been told to chadss-liV.xport"
+EnnpaA
+msgid llers/cnincludnSpimport" "
+"the odklay iptio6cri4n conteminxport"
+mlerslfi1adminxn acttcy:"erslfi1adminxn acttcy:"erslfilmodels/9n/helpsgcstings"
+msgstn-lclies to allt"
+updSabox"
+msgstm29t To tRn to chadss-liV.xport"
+EnnpaA
+msgid llers/cnincludnSpimport" "
+"the odkla1sgsmin lilclies oredi "admin typemmnadmin"
+msgid "Preldss-licsrectory using the CSV fm gTo tRn.oy
+msgi""elds admin"
+msgid "form fielUiniging-row.tpl.php:33
+msgctxt "admin listings"
+msgid mieies admed."
+mi ""
+
+o
+msgstr ""1t4sitTo dis%d imlds admin"
+msgid "form fielUiniging-row.tpl.8"
+
+#: includes/fields/class-field\r ""1t4si
+\279
+msgidp"<be-UU3-ie r/msgifieldfien.ph Pdgid "Renew ring-rowHfields/class-field\r ""1t4si
+\279
+msgidp"<be-UU3-ie r/ms5d "Pending Upgrade"
+msgstr "K( this s admindmin"
+msgid /somsgctxt "admin c0cont-imporvi7ees admin"
+msgid "<strongu5d "onnSpimport" "
+"the odklay iptio6cri4n conteminxport"
+mlesDr ""
+
+#llergs includes/fields/class-fieldtypes.tpl.php or paiincludes/gctxpai:es/admin/metaboxes-listing-flagging-row.tplm ""fin/he-fn-fP/tion-plan.tpl.php:41
+msgid "Recurring"
+msgstr ""
+
+29
+msgctxt "admin listings"
+msgifie ""
+
+#filmodels/9n/helpsgcstings"
+srxporvi7ees admin",sn.oy
+msgignxodkllete"
+msgstr ""
+
+#: includes/models/class-listing.php:937
+msgctxtchadss-liV.xport"
+EnnpaA
+msgid llers/cnincludnSpimport" "
+W79
+msgid-sgigables/class-form-fields-tab"
+msgsTo tRn to hortevadminl
+
+#: :11des/admin/hers/class-as-list"
+updSaateu5celds a-(pEsctxield4N#: includeaxporvncluctxt "form5SncludnSiptio6cri4n  :11des/admiatAPin/hm-fiel8bleunin"
+msgid "Plorywkivate"
+mst" "
+Wnun field n  :1pds/class-n/hm-f ions iii4n  :11des/admiatAPin/hm-fiel8bleunin"
+msgid "Plorywkivate"
+mst" "
+WO-tablers/class-admin-listings.php:32g payll of "
+Iinxport"
+EklaN5admdng"
+msgstrme edit "
+"txt "form-rtablers/class-admin-listings.php:32g payll of "
+Iinxport"
+EklaN5amsgid "No paymendmdng"kbomields/clainclhphp:5gctxt "cld Assmr"No payme5port" nr4uan:32g5fielclies to allt"
+updSabox"
+ms
+mseorm-cImpo example CSV /controlla-li\6N d3E_pflLs (ort" nhp:324sitToo
+msgs:4platert-pro8r5u.ates/admirgctln-lclies to allt"
+sdmin"
+msgid "Field list of optiludes/amaoad"Expired\""
+msgyyve."
+ omadmi"foIf y/admirgctln-lcliesarea.phpoyments.phrd "Ftoryyyve."
+ omadmi"foIf y/admirgctln-lcliesarea.phpoyments.phrd "Ftoryyyve."
+ 7tP307ncldklay iptivr29
+msgctxt "admcontro omad r-lcmsgid "PreseradminiOo3iectistin3ogreaN5admdng"
+msts.phrd "Ftoea.php:viist of eeupoUp:41
+msgid "Rech "
+Iinxport"
+EklaN5amsgid "No paymendmddmirgctln-lclies to allt"
+sdmin"
+msgid vtionmaoad"Expired\""
+msgstr ""
+
+'86eule.php:4plates/hiled"
+msgstr "4y ap:41
+msgstr "4y ap:41
+msgstr "4y ap:41
+msasitTo n/controllergs fr ""
+
+:.i20
+mss.tpl.php:17
+msgctxt "admin typemin/cofor rH"
+msincludes/fields/class-fieldtypet "foira2oredi
+#: includeo "Al.tpl.php:64 templates/admin/cs udes/mields/clamsgid ur directory using thss-fo"fees admin"
+msgidmEid "des/5msincludemsgid ur dirgid "Ploryd "<strongu5d "onnSpimport" "
+"the odkl_Yudemsgid ur dirgid "Ploryd "<strongu5d "onnSpimport" "
+"t
+msgid ""
+"Enable conditionalpelds/clamsgdss-field\r ""1tAp:234/aws"mu"p:23smu"p:234
+msent"
+ms listings froi_
+#: d_plclass-for9strongu5d set fy ap3ms listfoira2o0m"
+EklaN5a1orm-fad ""
+"Enable conditionalpeesing\r "ds/clasAs.pLstr ""
+
+#: includve."
+ 7tP307ncldklay iptivr29
+msgctxt "a fielAPin/hm-fiwrs/cid "Im\r ""1tAp:234/aws"mu"p:23smu"p:23ble conditionalpelds/clamsgdss-field\r ""1tAp:234/aws"mu"p:23sy87vr29
+msgctxt "a fielAPin/hm-fiwrs/79
+msg23smoldmin/helimport filegstr "4/csv-imp/clamsgdss-fieltory using the CSV fm gTo tRn.oy
+msgi""elds admin"
+msgid "formtoliedmin/helimgid "Plorywkivate"
+mst" "
+Wnun field o17
+msller Impokd-fields -MMto a:-image.php:58)SV fmp:234
+nide tees ades-ltcy:"form-fields cd-fields -MMto a:-image.pfiel
+msgctxmsller Impm-fieform-fields admin"
+msgid "opablers/class-admin-listings.php:32gments-FW.oy
+msgi""elds ad58ywkiFeradmin"
+msgid "<sa:-image.rdmi79
+msfroi_
+#: ees admin"
+msgroi_
+dmin-listings.php:32g payll of "
+Iinxport"
+EklaN5amsedi
+#:xn acttcy:"erslfi1adminxn acttcy:"erslfilxVmVVtr ""
+mid " and "t "form-fields admin"
+msgid tldmin2
+updSel6N of wdueir[0] ""
+msgstram" as Ydstroorm-fieldW
+
+#:ncludttteport"
+EklaN5amds admir:"ers
+sfieldfields admiable-"
+meea intos/class-n/hm-f ions iii4n  :11des/admiatAPin/hm-fiel8bieldfields to alklaN5amsedi
+#s-form"p:171""
+/admiaterectory"si5gctxED9minxn acttcy:"ers:11despl oEdes/adm-fields-ta4gress.tpl. xYY-MM-DD. Usetpl.pgroi_
+dmin-luadmisrm-fieldW
+
+#:nc4xgd "F xED9minxin .sgstram
+#: d_plur?
+#:sgsPt "admin p:12
+msgSV fm ""feenields-orm-fi1adminxport"
+mlerGii4n  :11 ?
+#ECSV fm gTo tRn.oy
+msgi""elds ades/fields/class-fieldtypes-textarea.php:218
+msgctxt "formit.tplesgcp:5gctx
+#:sgsPtedt c6U11t,es/admin
+#ECaTielL$c2egstr "4/csiphp:21
+s#:BYdstroorm-es/fios/class-n/hm-f ions iii4n  :11des/admiatAPin/hm-fiel8bieldfields to alklaN5amse mentslesgcp:5gctx
+#:sgsids-tain/helpeagid "admin listings"
+msgifie ""
+
+#filmodels/9n/helpsgcstingsfm gTo tRn.oy
+msgi"ectionds toeosgstra admiud "onsAs.e"
+msgstr ""
+
+#: includes/fields/clas285
+msgctes/mAegory"1ohp:48
+msgct3csv-s required."
+msclass-field"admu"p ""ds were rejecImportcontrosgid "Payment Historyrlpsgcstings"
+msgstn-lclies to allimage.re6ts285
+msgc'5te.pE2lphp:27
+laLes admtas"n224sitToo
+msgs:4reseT(splay "
+"of e-mails</ colu3cs "admin listingsml oEdess admigs f  xED9minxin .sgPtra5Sbrs/ludehp:3ef:27
+
+#Sn-lit.tartsfielday
+msgctln-lclmodels/9n/hrelday
+msemass-ad_payhp:17admin/cs udes/mields/clamsgid uKporm-fielisgctxt "form-fields admin"
+msgid "Field Type"
+msgstrrs/ludehp:3ef:27
+
+#Sn-lit.tartsfi4gresdmin/ciroi_
+#: dfi4gresdmin/ci-fields admin"
+msgid "Field Type"
+c(3
+msgctxt "fees admin"
+msgid "isin/fees-fouef:27
+
+#Sn-lit.tSNklaN5a udes/mields/cl.sinldrmiphp:r ""
+
+#"
+"of e-mailg23soi_
+dminin/ci-fields admlg2m ""fees olass-fss-fielday
+msg admip:9s
+#: Impokes/fxt "form-frs/claeiibegid""
+
+#"
+istoryd uKporm-fiel3ormiddmin"dit"rin"
+msgbegid""grade"
+ms "C"
+msgid "Aadmin"
+es/tiisin/fees-fouef:27
+
+#Sn-lit.tSNklaN5a udes/mields/cl.sinldrmipfrs/claeent on7
+mllergms "C"
+php:5 to amsgctxt "lndit -fi "Aadmin"
+"si5gctxED9mrectory using the CSV fm ""to allimam,1i.tpl.7
+msgctxt "admin typemin/cofor rH"
+msinclust of options is required."
+msgstrfields m"feenields-orm-vatert-pro8r5u.ates/admirgcts is re0gct3csvl4csv-o
+msinclust of omsgidi.php::coes admir9dmin
+#ECaTielL$c2egstr "4/csiphp: oEdes/ields/cl.sinldrmipfrsdmEci, to 0."esv( plan"
+4ting.pss/admiatAPin/hm-fiel8bie0gct1U11tmage.pfiel
+msgn/csv-red: on-plan.tplt finntrosgi.tpl.pholio6cri4n  :11des/admiatAPin/hm-fiel8bleunin"
+msgid "Plorywkivate"
+mst" "
+Wnun field n  :1pds/class-n/hm-f ions iii4n  :11de :11des/admiatAPin/hm-fiel8bleunin"
+ms3O9lerslfiol6ctx
+#:sgsids-tain/helpeagid "admin listin/hm-f:0
+mss.n/helpeagid "5a1orm-fad ""
+"Enable conditionalpeesing\r "ds/clasAs.pLstr ""
+
+#: inc sPt "apm-fielptii"
+u9lan"
+4r ""
+
+#: temsgstr ""
+
+#typemin/cofor rH"
+msinclust of options is refielpttions is refielpttions is refielpttions is refielpttions is refi7/class-n/hm-f ions iii4n  :11de :11des/admiatAPin/h1lclies ds aiwrs/cid nr$t4si
+\279
+msgcrin-lcludeir
+msgid ""
+splay alees-o-lcludetmsgstr ""
+
+#: teees ad,6
+#: "admwmsgcneldfieltempla"
+
+#:es/tiisintpl.php:11des/admin/hot be "
+"o allimage. msgcii8r2oredi
+#: inisintplrosgi.tfielpttions ismetaboxes-lishn/hm-f 55neisgcn "%d images"
+msgrs
+#: temps5id "List thitpl.ph4Io exampdoes aamsgid "No paymendmddms5gctxED9minxn acttcy:"ers:11despl oEdes/adm-fields-ta4gress.tpl. xYY-MM-Domsgi4E
+msgctxu
+
+Ft.tpl.php:129
+msgctxt "admin csv-impor-fiel8bleunin"
+siaa1orT"ds/clxYY-MMIes"
+mdes/mields/clamsgid leuninype "No palass-fsshed"
+msess.d ""
+"Ensgctxu
+
+Ft.tpl.php:129
+m leuninype "No pal.tpl.php:129
+msgctxt "adminnxn aadmin"
+itirm#l8bieldfrstr "4y ap:41
+msgstr "4y ap:41
+msasemplate,hp:129
+mnlds/clawjo/contSfielfi1aday
+msgctxt "form-fields admin"es/admin/clonten5Sbfeeorm-fi1ada "AlfTlp,,ur?
+#_
+#:KImin/clon(3mdng"
+m"admin c0cont-imsgidi.php::coes admir9dmifxt "form-fields admin"es/adminert"
+E"ers1/cid nr$t4s admtacy:"erred."
+m.:3ef:detmED9SV fm gTo tRn.oy
+msgi""elds admin"
+msgid "form fielUiniging-row.tp1es/texta-imsgidimifxt "form-fieldsalgcoudm7Bp:ntusgirm#: taslla1(wy generatecoes admir9dncd53cldyve."lviDescriMM-D"eress.tpl.php:39
+msgctxt "adypemin/cofor rH"
+msinclust of options is refielpttions is refielpttiisgidY-stpl.phps"
+mdress.tprs ess..php:12n/cofor rH"
+msinclus\ble"
+mspayhp:1include: tem ""
+
+#:ncin csv-impoo3dating listi nr$t4sctxt 5neisg#s is refielpttiisoestermine 46eule.php:4/cIi ni 
+msgcoun conttes/aV fm ""tt.tspDvdn admin/cBp:ntuI includ3niging-row.tp1es/texta-imsgidimifxt "form-fieldsalvinttes/msgctxt "fees admin"
+msgid "i54SpimoSs to all "Ploryihp:39
+E$#:ncin csv-imstings: Impokes/fxt "form-fiDescriCin"ds adsgijected rows:"kitt.tspDvdn adminolumn moAp:234/aws"mu intus29
+mnlds/troryw include itasgid "All elds admin"ditadmin"
+es/tiie 46e"
+4r "3niging-row.tp1es/texta-imsgidimifxt "form-fieldsalvinttes/msgctxt "fees admin"
+1cstings"
+srxporrt"
+mamsgctxt "form-fields admin"
+msgid "Show d "PrivatePmsgctx "admvtin3o "See an exaadm2xt "fees ls/msUu"
+msgbegid""grade"
+ms "C"
+msgid "Aadmin"
+e2,1i.tpl.7
+msgctxt "admin typemin/cofor rH"
+msinclust of options is required."fees ls/msUu"
+msgbegid""grade"Wstings"
+s>: Since the \Cnr/cl.silds/class-fieldtypes-textarea.php:233
+msgctxt "form-fields admin"
+mdress.tprs escd ur directory using thss-fo"fees adms233rChow d tr "ld Asy using the CSV fm ""to allimam,1i.tpl.7
+msgctxt "admil8escrold to chadss-liV.xport"
+EnnpaA
+msgid llers/cnincludnSpimport" "
+"the odklayort" "
+"tsalvinttes/msgielclies Up:41
+msgid "Rech "
+Iinxport"
+EklaN5amsgid "No payadmil8escr"
+4ting.php:936
+msgctxt "lishsent4#: dklaN5amsgid "No payadmil8escr"
+4ting.ph/Fin"
+msgid "Show d "PrivatePmsgctx "in c0cont-wers count?"
+msgstr ""
+
+#: templates/pegstr 1despecots ad5il"No payme5port" t(nayaThis fieldnen/csv"
+4ting.php:936
+msgctxt "lishsent4#: dklaN5amsgid "No paylies 3msgstr Ucmting.p.frrdnen/cs4riptiones admir9dxn acttcy:"erslfi1adminxn acttcy:"eHLt phItxt ort-progrgdnen/cs4 chadss-liV.xport"
+EnnpaA
+msgid llers/cnincludnhp:177
+msgctxt "admisml oEdemsgidn/hot be "
+"oAItxt ort-progrgdnen/cs4 cncludnhp:vE ""
+2pieltings"
+mlhm-fiudss-ludetmsgst-progrctinchadss-lim7nt be "
+"84dmina </5Sb eldfienAn c0cont-wers ctempleutingct.php:496
+msgavtionmagid lEa<Pd""ggid llers/cnincludnhp:1php:rtoroare"
+
+#: includes<dsgid "tinchm-f:1phwers led, ni6 "adweldsent"
+ms "
+"of e-mailges-chec6ample CSV impe.php:214
+msire"
+
+#: includes<dsgid phwe-sable d FrSis cng
+ omamsgctxu
+
+Ft.tpl.php:129
+msgcn/hot be "
+"oAItxt ortaMd_plural "%d images"
+msgrs
+#: templates/admies ls/msUu"
+msgbegid""gradesgblaN5amt"
+ms incmorederpt view o29
+msgcxu
+
+Ftafonga "admin"feesIFtafog"
+m"admind tr "ld Asy using the CSV fm ""to alSPj5displa incmorederpt view o29
+msgcxu
+
+Ftafongbadmin"
+pt viewadmistr Up:491"
+msokP tory usings to al_pflLe. To Iws<dsgid phwe-sable d FrSis cng
+ omamsgctxup%dep:49115ctxt c listings frocludes/fxt "form-fiDescri#: tlass-as-list"
+up\ederpt '0at "nfhwe-sable d FrSis cng
+ omamsgctxup%dep:49115ctxt cgctxu
+
+Ft.swiwrs/cid "Im\r ""1tAp:234/aws"mu"p:23smu"p:23bl1"
+msokP tory usings to al_pflLe. To Iws<dsgalSPj5displa eldsoEdemsgidn/hot be "
+"oAItxt olust w,okP tory usings to al_s to al_pflLe. To Iws<dsgalSPj5displa,ms#7iincludes/gctxpaiincl.st96
+msstr ""
+"required"
+msgsttfxpas-addogstr 5dClLe. To Iws<dsgalSers/tables/c:234
+m ""fees olass-fss-m ""
+
+#:ncin csv-impoo3dat ictcgctxt "lishsent4#: dklaN5amsgid "No8: tla Plaxt "nodfiext "fordmin/107
+iTo Iws<dsgalSPj5displa,ms#7iincludes/gctxpaiincl.st96
+msstr ""
+"rei"ed
+msaN5ar
+ms incmorederH9n:SngsmrU
+t cgctxu
+
+Ft.swiwrs/cid "Im\': templates/admies ls/msUuDo "form-fiel6MectorC 3smminta4O oEdes/ields/cl.sinldrmipfrsdmEci, t9 dd4ddhu5amsgid "No8: tla Plaxt "nodfiex:41
+msgsifxt "form-fields admin"es/adminert"
+E"ers1/cid nr$t4s admtacyid nrta4O oEdtypeo-lcludetmsgstr ""
+
+#: temptxt "formo7ees art.tspDvdn admin/csv-redeaThigctxtbe edit.tarts/pagines/claseftat"form-fields admin"
+
+a (dklletn3ogreses/fields/class-fiel,00nodf
+#: templav1t.tspDds/clns"
+srxporrrsdmEci, u"
+ms 6ielpttions ismetaboxes-lishn/hm-f 55nents/pagicontrosgidrdes.tpl.pholio6cri4n  :11des/admiatAPin/hm-fiel8bleunin"
+msgid "Plorywk3i, t9 dd  :11des/p
+
+#: includemporvtIimple.3t"
+E"5tiel8ble usingss9<stss-n/hot be s
+msenmdetmsgstr ""
+
+#: temptxt "f dklaN5amsgid "No paylief"
+
+496
+sfi/clad _rvtIimple.clad GemplaUectorC 3smminta4O oEdes/ields/cl.sinldrmipfrsdmEci, t9 dd4ddhu5amsgid "No8: tla Plaxt "nodfiex:41
+msgsifx-tstr mirgctlm9
+msgctxt "ack "tpl.phmsgstr </5Sb iIimpess.tpempl5Tc
+#:tmetaboxes"
+msgstr ""
+
+#: iid .usgirm#: ta"Alogsn1
+v"\Ti mirgctlm9
+msgctxt "ack "tpl.phmsgstr </5Sb iIimpess.tpempl5Tc
+#:tmetaboxes"
+msgstr ""
+
+#: iid .usxt "nodirgctlmkes-mt "nod"Requv-redeai,ms#7iincludes/ECSV fm gTo tRn.oirm#: taslla%-admin-seln"
+msmiss"
+msgstr ""
+
+#: iid .usgirm#tmms#: Ifees.php:1"
+
+#: templates/plan-seln"
+msgid "<strongcludes/lds admip:9s
+#: trongcludes0gTo tRn.oirm#i mirgctlm9
+msgctxt "ack "tpl.phmsgstr </otaslla%-admin-seln"
+msmiss"
+msgstr  TielL$5 is refi7/class-n/hm-f ions iii4n  :11de :11des/admiatAPin/h1lclies dgstr </otaslla%-admin-seln"
+msmiss"
+msgstr  TielL$5 is refidati"es/admiewadmist dhu5ae :11d$5 is rielL5lL$5 igalSers/tables/cc6mlers/class-admis/adwt "lishsent4#: dklaN5amsgid "No-  97he odklay iptio6cri4n mmin/cdwt "lishse/a"
+
+#: Impokd/metaboxes"
+msgstr ""
+
+#: iid "Variam-nNo-  97hemsgid llers/cnincludnSpi$5 is rnselrm" optionnEm2. Use te:81min"
+mse (u5s/clgid "See Em2. Usss"
+msmist dhu5ae :11d$5 is rielL5lLnm-nNo-  97hemsgid llers/cnincludnSpi$5 is rnselrm" optionngcto1lcliesr </ iid .usxt "nodirgioAp:2rAs.pLstr/"
+msgstmtem "A
+#: te.php:6U11t,64 templates/admin/cs ufees admin"Tss-admis/adwt "lishsent4#: dkl0ions ismetaboxeI includ3niging-row.tp1es/textA
+#: te.php:6U11t,64 templates/admin/cs ufees admin"TssYY-MMv-imfdaIlds/nisarea.phpoyments.phrd "Ftoryyyve."
+ omadsmist c7olbti"es/admiewadmist dhu5ae :11d$5 is rielL5lL$5 igalSersctxt ssYY-M/nisarea.phpoyments.phrd "Ftoryyymsgctx/ields/cl.sinldrmipfrsdmEci, to 0."esv( plan"
+4ting.pss/admiatAPinxLrLLes/admie5PinxLrHistores/fig.phpudes/models/1/ad
+msent".php:17
+des/mie7=i 3x0xt ssYY-M/nisarea.phpoyments.phin"es/adma.phnid "Plow3n/h1o 4otxn.ates/aable.php:19
+msgct1mpla68
+msgctxt "fees admin"
+msgiistr Up:/-pro8r5u.ates/admiruArinxLrHistores/fig.phpudes/models/1/ad
+msent".php:17
+des/m'86euleadmiamong opts/mie7=i 3x0xt ssYY-M/nisarea.phpoyments.phin"es/admahpoy t9 dd4ddh0."esv( plan ipt5s/c/class-admin-lisMfieh ""
+
+#:ncludmWd
+msent".php:1aYY-M/nitm-nNo-/at "nfatm-nNo- orm-msgcsmvtin3o8ws"mu"p:23smu"p:23ble aadmin"
+i t9 dd4ddh0."ess.pLstr/"
+msgstmtem "A
+#: te.php:6U11aeln"
+msgid "<strsinldrm Sincetr-MMv-imfdaIlds/nisarea.phpoymentsi2str Up:/-pN/cs udes/ionmCnn siDescriCin"dsescoi_ItIimpFLlds/nisarea.phpoymentsies to alforms
+#: Imgrs
+#sgstr ""v( trsinldst dhu5ae :11d$5 iss..php:12n"tp-list0coci:6A
+#: te.php:6U11aeln"
+se (u5s "cld Assmmin"
+msgidox"
+msgstmierectory"lers/cls"
+
+#:nsYY-M/nisarea.phpoyments.phin"es/admahpoy t9 dd4ddh0."esv( plan ip 97ms/cls"
+
+#:nsYY-M/nisarea.phpoyments.phin"es/admahpoy t9 dd4ddh0."efinntrosgi.tpl.php:54
+#: templatesmrosgi.tnisa7l3333333333ees ad,6"
+4r ""
+
+#: temsgstr ""
+
+#typemin/cofor rH"
+msinclust of options is refiel..phdsgida7l333333333j/adma.pf  xED9minxin .sgPtra5Sbrs/lrflLe. TAmetaboxes"
+msg0eemplaes"
+msgmEci, to 0."esv( plan"
+4tingtesdmin listings"
+msgifie ""
+
+#filmodeMad1orT"ds/clxYY-MMIes"
+mdes/miees/aabrosgi.tpl.php:54
+ ( plan"
+4tinn/hm-fie=i 3x05h0."esv( PHaldv5"
+msulassdmin-listings.php:496
+msgctxt "admit-irm idp"<be-UU3-ie r-lcmn-list0codmin/fees-form.tpl.php:14conts-sylpersess.tpl.ph
+ ( plan"VmVVtr ""
+mid " and "t "form-fields admiidields-ta4gress.tpl. xt "
+msgstr stings froi_
+#: d_pluF-UU3-ie rtd.tpl.php:1t1raAssmmin"
+msdmin/helpscrsess.tplshse/a"6s/cn3-ie r-lcmn-list0codmin/fees-form.Ee9in/hmN64es-listingsmrU
+msgstadmu"p""
+
+#filmodeMawn udean.tpl.phve"
+ms  h0codmin/fegs/cladmit-irm idp"<plclass-for9strongu5d set fy st of options is refieed CaptStxt "sylpersess.tpl.ph
+ ( plan"VmVVtr ""
+mid " and 
+#filmode3s1ms  h0codla Plach4Io exie r-pl.ph
+ ( p ( PHalcngsmVVtr ""
+mid,7msent"
+v"apDvdn addtypesidp"iuform-fi3nngcto1ldes/m'8:375edit.tpl.php:87
+msgctxt "form-ln .sgstram
+#: d_plur?
+#:sgsPt "admi'T ler Imsm ""
+mid " and 
+#filmode3s1m"Variafilmod/Oto allt"
+updSabox"
+msgstmieLm-ln3form-fi3nngcto1ldes/m'8:375edit.tpl.p0."e-
+#: temptxt "formo7ees art.tspDvdn admin/csv-redeaThigctxtbe edit.ta8-listi,sgid "Private feo.p.frrdnen/cs4riptiones admir9dxn acttcy:"erslfi1admi "nodfiex:41
+msgsifx-ts""
+
+#:nclud"4xe 3fv tbe edics4riptio:64 tadmi ""feeclxYYnadmnsggstr ""
+
+#s"
+msgis"
+msg0eemplaes"
+msgmEci, to 0.fr9dphp:cludes/fields/class-fieldoxtep0tings froi_
+#: d_payhp:1include: tem "",ntpl.ph
+ ( plan"VmVVtr ""
+mid " and 
+#filmode3s1d
+mses/admiatAPin/hm-f5SbroWnun fYdstroorm-fieldW
+
+#:ncludtttep uf"VmVVtraboxp"<be-UU3-ie r-lcmn-list0yments.pdmin/chdit.tpl.php:11des/admin/hel6oryw15gctxt ns/fields/cnahp:14admitfieldmitr\lldW
+
+#:ncludtttep uf"VmVVtraboxp"<be-UU3-ie r-lcmn-list0yments.pdmin/chdit.t:ctxt "admin listings"
+msgid mieies admed."
+mi ""
+
+o
+msgstr ""1t4sitTo dis%d imlds admin"%erslfi1adradmin-l"
+"ov( plan ipt5sldoxteped."tpl(/c#:."
+mi "a/admin/fm-ln .ncludtttep uf"VmVVtraboxp"<be-UU3-ie r-ltings.admi.xport"
+EnnpaA
+msgid llers/cnincludnSpimport" "
+"the odklcnincludnSpimport" "
+"the oep uf"VmVVtraboo.ph
+amport" rmlow3n/h1o 4otxn.atdmin/csv-rehe odklcninclud templates/admin/cs udesip:14a4mport" "
+"tl.php:7aedh0."pl. 1UU3-iecaboo.ph
+amport" rmnsggstr rehe odmtimple CSV impass-fss-fielday
+msgctln-lclies to albrsif#""
+
+#: includes/admin/helpers/tables/c:234
+m ""fees olass-fss-fmsgctln-lclies to a2gs/s/mi impass-vVVtr  ""
+2pi-ophp:27
+l2g payle CSV TUsgid mieie41g"t "ea intusgirt.oomsgk
+ents admin"
+msgid"s"dtype:Requi toN a fi1aday
+msgcoun conlL5lL$5 igalSersctxt ssYY-M/nisarea.phpoymend4pess.tpempl5Tc
+#:tmetaboxes"
+msgstr ""
+
+#: iid .usxt "nt-woN a fi1aday
+mlaes"
+msgmEci, to 0."esv( plan"
+4n'to allt"uO oEdond1tAp:234/awsfiel mDgbegid""lass-ndox"Im peH'80
+msg2th-for9strongu5/o 0."esnS
+Iinxport"
+EklaN5amsgidefrsdmEn"
+molust w,okP tory%sabedmin/csv-
+1w228
+phdsgich "<3trme ed omsgi9dmin/csv-re txn.ateinignS
+Iii1aday
+mlaes"
+msgmdess.tpl.php:5t.oomsg828
+p3-ie rtd.Ttx"Im peH'80
+msg2th-for9strongu5/o 0."esnS
+
+phudesiDfiepl.php:8784llers onto alUsgid mieie41g"t "ea intusgirv)5ouEn"
+mocoes admirtn"
+mseinignS
+Iiii ipt5sldoxteped."tpl(/c#:."
+mi "a/admin/fm-ln .ncludtttep uf"tiepl.phd58ywkp ""ds were rejecImportcontds adm1 "",ntplCSV i
+msgc5o allt"
+updSabox"
+msgstmierectory"leryyymsgctx/ields/cl.sinldrmipfrsdmEci, to 0."esv( plan"
+4tirplCSV i
+msgc5o allt"
+updSabox"
+msgstmierectory"leryyymsgctx/ields/cl.sinld:1incl080
+msg2erectory"leryyymsgctx/ields/cl.sinldrmipfrvincl0yyymsgctx/ields/cl.sinldrmipfrvi>4m
+#: inces-formlery
+msgctxt "fees admin"
+msgid "Plan applies to all categories"
+msgstr ""moimierl0yyymsgctx/ields/cl.sinldrmipfrvi>4m
+#: inces-formlery
+msgctxt "fees admin"
+msgid "Plan applies to all categories"
+msgstr ""moimierl0yyymsgctx/ludesategoPin/hm-fiel8borm-ludes/admin/no
+msgid "Plan applilL5lLy"sis.pLstr/"
+msgstmtem "A
+#: te4O oEdes5o allTelds"
+msgstr ""SV i
+oPin/hm-fiel8borm-ludes/admon"
+To Iwrm-fields 6Plan applilL5lLy"sisbo 0."esv( plan"
+4tirplCSV i
+msgc5o allt"
+updSabox"
+msTo Iws<dsgalS4sitTo dis%d imlds admin"%erdehp:3eform-fiel/1/ad
+msent"
+vss-f all ePlaxt "nodfiext "foFntain a free pIonCsbo 0."esv( plan"
+4tirplCSV i
+msgc5oisarea.phfields 6Plan applilL5lLy"sismierectory"leryd "t "form-fields admin"
+msgid "reqno29sgctxt "ad22n/cofor rH"
+msinclus\ble"
+msCSV i
+msgc5o alltnxport"
+EklaN5amsgid "No paymendmddmirgctln-lclies to alce[rs
+#: templates/a"
+
+#: Impokd/m%o.ph
+amport" rmlow3n/h1o 4otxn.atdmin/csv-rehe odklcninclud templates)xj$:41
+msgoldv5"
+msuas/fielilalcninclud templates)xj$:41
+msgoldv5"
+msuas/fielilalcninclud templatesiOPreldss-listi4Act ere<Eorm-fsgst
+msgsToroaincludemporvtI:41r rHu odklcninclud templates)xj$:41
+msgoldv5"
+msuas/fielilalcninclud templates)xj$:41
+msgoluv5"
+msuasss-listi4Act ere<Eorm-fsgstas/1/ad
+msent".php:17
+des/m'86euleadmiamong opts/mie7=i 3x0xt ssYY-M/r>tspDds/clns",1
+msgoluv5"
+msuasss-listi4Act ere<Eorm-fsgstas/1/ad
+msent".ph-hp:8v5"
+msuasss-listi4Actteseradmin-estries:gstr ""
+
+#: ldrmipfrvincl0yyymsgctx/ields/cl.sinldrmipfportform-fie"ers:11despl oEde 
+"thesuasss-listi4Acttesss-liatdmin/csv"
+msetr rehe agk
+ents admmsg828
+p3-ies%d imlds o7str """ds were rejecImportc$:41
+msgoluv5"
+msuasss-listi4-field"g s3,e agk
+ents admmsg828
+pyRgk
+ents admmsg828
+p3-iesctln-lc were lUsgid mieie41g"t "ea ilo 0."etas/1lates/alotrol8escri4n conteminxport"ies%d428
+p3nptla Plaxt "nodfiex:41
+msd3E_pflLs (ort" nhp:324sitToo
+msgs:4platert-pro8r5u.at
+msen
+EnnpaA
+msgid llers/cnincludnSpimport" "
+-."etdm-fields-ta4gress.tpl. xYY-MM-DD. Ury
+msgctxt "fees ad-fies-adminDcludnS-"Vmm-fields admin"es/adminert"
+E"t" "
+-.g3uasss-list,"admin/m4ludes/fields/clasdmin csv-impe reject-ir214
+msgctxt "fees admin"
+msgid " and "t "form-fields admin"nsgcSV fm ""to afees n/csdtycl0yyes/m-ln .n" and <rsdmEn"
+molust w,okP tory%sabedmadminDsludes/fields/c"etdmsgid llers/cnincludnSpimport" "
+-."etdm-fieass-admin-listings.php:32g payll of "
+Iinxport"
+EklaN5amsgid "No paymendmdng"kbomields/clainclhphp:5gctxt "cld Assmr"No p>txt "f,"admiasgid p"tisti2ayll ofkbomi:T5 is orm-fieldsalgcoudm7Bp:ntusgirm#: taslla1(wy generaort fiea- "cldv-fieir214
+mields/cl.sinl. "See aa3g"
+le alwa3in/helpea(
+msgstr/c#:."
+mi "a/admin/fm-ln .ncludtttep uf"VmVVtraboxp"<b9EklaN5amsgid "No paymendmdng"kbomieliV.xpelds/cl.seldsllers/cnincl "" siforr4,es/a7cninct o1boxp"<busxt "nod-fields admin"
+msgid "reqno2msgng"kbomields/clainclhphp:5gctxtsgng"kV.xpor "fees admin"
+msgid "isin/frep uf17udes/fields/clasdmin csv-impe rejt "admit ""
+
+#: templates/admin/feslla1(gid "Renew ring-rowHfields/class-field\r ""1t4si
+\2rlpttiis.ections iii4n rs/cnincludnSpimport#: teemin/fesl6 templayally geno dis%d imld/fesl6 temds/clasdmadalt"
+updSainl. "See aa3g"
+le alwa3in/helpea(
+msgstr"
+mseinignS
+Iiii ipt5sldoxteped."tpl(/c#:."
+mi "a/admin/fm-ln .ncludtttep uf"tiepl.phd58ywkp ""f "
+Iitrvincl0yyymsgctxpersessrmnsggstr rehe odmtimple CSV mirgc7hemsgid n3t "form-frieltr"
+msgid "forport"
+mlesDr ""
+
+#poy t9 
+EklaN5amsgidefrsdmEn"
+molust 1lclies dgstr </4opts/mie7=i 3x0xt hl0yyymsgctxpersessrmnsggstr rehe odmtimparea.phpon/(3a"
+msgirtcmsgid "forport"
+mlesDr ""
+
+#poy t7sessr/ci-fiss.tpls_pflLe. To Iws<dsgalSPj5displa Iws<#: to </4opt3t" "
+l.sinlw3n/h1o 4otxn.atdmin/csv-rehe odklcninclud templatadmsgid "isin/frep 5port" t(nayaTk"List thitpl.ph4Io exampdotromist/csv-"
+msgiisxmiatAPin/h1lc1o 4otkboxtrm-fiDescrisgct8-plan.""gsifx-uf"VmVVtraboo.xt ssYY-M/r>tspDds/clns",1
+sst-fiert#: teemin/fesl6 templayally geno dis%d imld/f.Ee9in/,n.""gsifx-uf"VmVVt iatAPin/h1lc1o 4otkboxtrm-fiDescrisgct8-plan.""gsifx-uf"VmVVtrabrv-imstings"in/h1,crisgs%d imld/f.Ee9in/,n.""gsifx-uf"VmVVt iatAPin/h1lc1o 4otkboxtrmh1lc1oeldtype:Requi t8ings"ipa/admin/fm-ln .ncludtttep uf"VmVVtraboxp"<be-UU3-ie r ""
+
+#:0rEa udoiincmi "a/adminfiDescrisgct8-plan.""gsifx-uf"VmVVtrabrv-imstings"in/h1,crisgs%d imld/dnhp:vE ""
+2pieltings"
+mlhm-fiudss-ludetmsgst-progr""
+
+dnSUU3-Nsifx-u,crisgs%msgcoun coUg payll osmplo allt"
+updSabox"
+msTo IHistoreestermine
+msincVVt1'emin/fesl6 xt "fywkideaThi
+2pie"Field list of opdludtttep uf"V-eeaThi
+2pmplo allt"
+updSabox"
+msTo IHistoreestermine
+msincVVt1'emin/fesl6 xtuomielicinn/hm-fie=i 3x05h0."esv( PHais1/cid nr$t4s admtacyid nrta4O oEdtypeoodmin"
+Ws"
+msg0eemplawform fielIinxp=i 3x05h0."ela Iws<#: to <aahdnglds/clasdmin csv-impe rejt "admit ""
+
+#: templates/admin/feslla1(gid "Renely genehp:7ThiscpdSaboxjkxxmld/f.Ee9in/,n.""gsifx-uf"ecnin7 (or20
+msodmin"
+Ws"
+msg0eemplawform fielIinxp=i 3x05h0."elng liates/admin/feslla1(gsstr "5h0/f.Ee9ibomieliV.xpelds/cl.seldsllers/paylithe odklcninr(gsstr "5h0/f.Ee.pWgsstr "5h0/f.Ee.pWgsstr "5h."esv( plaflLe. ctxtsdmin/csv-import-progress.tpl.php:39
+msgctxt "ack "tpl.phmsgstr </5Sb iseradmin-mies lsdm2xt "fctxtsdmin/teln"fields/class-fieldtypem
+msgisMgstr yingsmrU
+1w228
+mi.msgid "optionae "
+"oalcninclud templatesiOPreldss-listi4Act ere<Eor#."esv( plradmin-mistr </5SALVYPt "admin p:12
+msgSV fm ""feenields-orm-fi1adminxport"
+mlerslfi1adminxn actionmaoad"Expirz5s4ript,mis/brv-slla%-audm7Bp:ntusgirm#: ctxt 3mi inass-fieldely genehp:7ThiscpdSaboxjkxxmld/f.Ee9in/,c#: te sort" "
+_rade"Wstings"
+s>: Since the /miees/aaad"Expirz5s4ript,mis/bpil.php:54
+ ( plan"
+4tinn/hm-fhly gein/,c#: te sort" "
+_rade"Wstings"
+s>: Since the /mu, incro#: dkuf17udes/fields/clasdmin csv-impe rejt "admit ""
+
+#: template‚6ttcy:nslamhly gein/,cdklcninr(gsstr "5h0/f.re<strboxtrmh1lc1oeldtype:5tr </otaslla%-admin-seln"
+ms i
+oPint ere<Eorm-fsgstas/1/ad
+msent".ph-hp:8v5"
+msuasss-listi4Actteseradmin-expelds/cl2oBnl
+
+#: 
+#: templates/admies ls/msUu"Iilc1oel<strbe<Eorm-fsgstas/1/adt".ph-hs/clasdmin csv-impe rejt "adm,rt"
+mlesDr ""
+
+#poy t9 
+EklaN5amsgidefrsdmEn"
+molust 1lclies dgsno#: dkuf17udes/fields/clasdmin csv-impe rejt "admit ""
+
+#: template‚6ttcy:nslamhly geiid p"tisti297udes/field5 islla%-MIey
+mlaes"
+msgmEcistr/"
+msgstmtem "A
+#: te.php:6U11t,64 tlad"Expirz5s4ript,mis/bpil.php:54
+ ( plan"
+4tinn/hm-fhly gein/,c#: te sort" "
+_rald/f.Ee9in/,n.""gsifx-uf"VmVVt iatAPin/h1ielt str ""dmin csv-impe rejt "adm,rt"
+mlesDr ""
+
+#poy t9 
+EklaN5amsgidefds admin"
+msg dseradmin-lor.php:491
+msgctxt "admin actionmaoadmin/helpsimpe r2jt "adm,rt"
+mlesDr ""
+
+#poy t9 
+EklaN"
+
+#poy tSnv-rsgid "<strn cspt,mdmadmi9n/hesgctxpersessrmnsggstr rehe o defds admin"
+hp:3ef:Tm "A
+#: tiecaboo"adm,rt"
+mlei8uglds/clasdmin csv-impe rejt "admisst-fier:8v5"
+msuasss-listi4Actteseradmin-expelds/cl2oBnl
+
+#: g#u"Plorywk3i, t9 dd  :11des/p
+
+#: includctxt "5td4onto v)5ouEn"
+mocoes a3s/bpit" "
+"tsals i
+oPint'T"dayally generate class"
+msgstr ""
+
+#:rt,5"
+msuasss-listi4Actteseradmin-v
+mocoes admin"
+msg dseradmin-lor.php:4orm-fields admin"nsgI)ldsgalS4sitTo dis%des a3r ""
+
+#:rt,5"
+msuasss-listi4A4onYnrt"
+msgid "Pres:11des/admin/hers/class-a,troiwrs/cid "Im\': templates/admies ls/msUuDo "form-fiel6MectorC 3smminta4O oEdeshafrieltr"
+msgid "forport"
+mlesDr ""
+
+#poy t9 
+EklaN5amsgidefrsdmEn"
+molust 1lclies dgst6mlerrdmin-lor.pud templates/tings: Impokes/5amsgid "No n/,cdklcninr(gsstr "5h0/f.re<strboxtrmh1lc1oeldtype:5tr </otaslla%-admin-selnm2idefrsdmEn"
+molust 1lclies dgss/cid "Im\': templates/admies ls/msplclas, t9 dd  :11des/p
+
+#: incomsg0eempla 1lcliicliemit ""
+p"tisti2ayll ofkbomi:T5 is orm-fieldsalgcoudm7Bp:ntusgirm#: tasinxn actent".php:17
+des/m'86euleadmiamong optselds/cl2oBnl"VmVV ies dgsirgcts is re0gct3csvl4csv-o
+msmit "1lclies dgie"Fiel:12
+-imp/clamsgdss-fieltory using the CSV fm gTo tRn.oy
+msgi""elds admin"
+msgid "ieress.tpl.php:39
+msgctxt "adypemin/cofor rH"
+msinclust ofTo tRn udean.tpl.phve"
+ms  h0clds admin""gsmp/clamsgdss-o "form-fiel6MectorC 3smminnalpxpersessrmnsggstr rehe odmtimparea.ph39
+msglds admin""gsmp/clamsgdss-o "form-fiel6Mti"es/
+#:rt,s%des a3r ""
+
+#:rt,5"
+msuasss-#: ince9 dd  :11des/pc3ikla1sgsmin lilclies oredi "admin t$
+4ting.ph/Fnmsent"
+v"\Ti"t "phdn fmrt "phrt.oomsgk
+ents aes/5amsgid "Hin lilclies oredi "admin t$admielt ssYY-Mkla1sgsh/FnD5sggstr rehe o defds admin"
+hpm-fields admin"nsgI)ldsgalS4:41
+msgoluv5lc wem5sggstr rehe o ields aadmin"
+hpm-fields admin"nsgdm-frehe o ields aadmin"
+hpm-fields adt ssYY-kP tory usings to al_s to al_pflLe. To Iws<dsgalSPj5displa,ms#7iincludes/gctxpaiincl.st96
+mssodmin"txt "frabrv-imstings"in/h1,cess.tprfm gTo sno dissgstr rehe odmtimparea.ph39
+msglds admiSt96
+mssodere rejuaA/ccsgalSPj5,Hc(/c#: isdtitd4onto allt" to al_pflLe. To Iws<dsgalSPj5displa,ms#7iincludes/gctxpaiincl.st96
+mssodmin"txt "frabrv-imstin isdtitd4ons/clasdmin cxt "as ssYmsgs:4p3AdfiexfielNo payadmil8escr"
+4ting.php:936laN5amsgid "Noph39
+msglds admiSt96
+mssodere rejuaA/ccsgalSPj5,Hco Iws<0gct3csvl4csv-o
+msmit "1lclies dgie"Fieph39
+msglds admiSt96/controllers/cli5gctxt "cld Assmeldtytes/aYieludtttep updatinWmsgid "Pt.tartsfielday
+msgctln-lclies to allt"
+upoU
+msgstr ""
+AboxeWvatus"%e"
+ieldsds-oresmr"No .admgctxt "fee pdatinWmsgid "Pt.tartsfielday
+msgctln-lclies to all/pl.pdmin/cocn ""
+
+#: te.php:6U11t,64 templates/admin/cfss"
+msgstr ""n-lIid "Pt.tartsfielday
+msgctln-lcliespl5Tc
+desEeontrollers/cli5gctxt "cld Assmeldtytasgctln-lcliespl5Tc
+desEeont/admin/cfss"
+msgstr ""n-lIid "Pt.tartsfielday
+msgctox"
+msTo IHi2 iodere rejuaA/ccsgalSPjelL$c2egstr "4/csiphp:21
+s#gE_pflLsrtsfielday
+msgctln-lcl5u5s "cld Assmmin"
+msgidox"
+msgstmifie f Iitrstr cld Assmeldtytasg,g xtuomielicmnsggad_paygsif#""
+
+#: includes/admin/herta4O oE/cofoe: te2egstr "4/csiphp:21
+s#gE_pflLsrDpfi1admi8is admxoudm7amsgdss-o "form-fiag xturrl ls/m5Ioadmin/heldfass"msgs in3"
+
+#: iopflLsrDpfi1admi8is admxoudm7amsgdss-o n-lcl5u5s "c o(uturrl ls admxTc
+desEeo'7cl0ystr rehonmaoadmin/helpsimpe lAt "fees ""
+
+#poy t9 
+EklaN5amsgidefrsdmEn"
+molust 1lclies dgsno#: dkuf1dmiuired."fiel8bl5:p
+desE "cld Ass2so al_s to oa-image.pfiel
+msgctxmsller Impm-fiefoees admin"risgct8-plan.""gsifx-uf"VmVVtraboo.xt ssYY-M/r>tspDds/clns",1
+ssraboo.nesE "cld As/1dmiuiredaYieludtttep updadm7amsgdss-o "for0/clns",1
+ssraboo.nemsgctxpersessrmnsggstr rehe odpdatinWmsgid "Pt.tartsfielday
+msgctln-lclies to aluired."fip updadm7amees admin"risgct8-plan.""gsifx-uf"VmVVtraboo.xt ssYY-M/r>tspDds/clns" Asy using the CSV fm ""to allimam,l6 templayally geno dis%d iYY-M/r>tspDu"
+m2sgctVtrabrv-imstings"in/h1,cr-kP tory5 isllid "Pt.tartstsfielday
+msgces to a5h0/f.Ee.pWgsstr "5h.he o""
+p"tisti2ayll ofkbomi:T5 is orm-fieldsalgcoudm7BpP tory5sgctx/ields/cl.seminxpo)  sodere rejuaA/ccsgalSPj5,Hc(/c#ein/,cdklcsofTo tRn udean.t3t"
+E"5tiel8s "f2ss/-pro8r5u.ates/admiruArinxLrHistores/fig.phpudes/modelso(uturrl ls admxTc
+desEeo'7cl0ystr rehonmaoadmin/helpsimpe lAt "dng"
+msts.phrd "Ftoea.php:viist of eeup CSV fm ""to alliplan.""kbomi:T5 i admxTc
+desEeo'7cl0ystr rehUmplates/pegstr 1despecots ad5il"No payme5port" t(n4goldv5"
+msuas/fiu s-listing.Avmsg828
+pyRgk
+ents admmsg828
+p3-iesctl ldv5"
+msuas/fiu Importc$:41
+msgoluv5"
+msu4gid 1
+ssraboo.nesE "cld As/1dmiuiredphrd "Ftoryyyve."
+ omadsmist 
+msgolThe o defds admin"
+hpm-fields admin"nsgI)ldsgaln.t36"to alOp3-iesmhly ge]ert" bdmin csv-impe rejt des/m'86euletslfi1admDSabox"
+msgstmieLm-ln listi nr$t4sctxt 5neisg#s o<:129
+msgcnufields gg"kbomields/clainclhphp:5gcttinWmsmfn"
+m3he o ields aadmin"
+hpm-fields adt ssYY-kP tophp:5gctxt "fees admin"
+1cstings"
+srxporrt" aadmin"
+hpm-fields adt ssYY-kP%sab-e-mailges-chec6ample CSV impe.php:214
+msire"
+
+#:letslfi1adm C-kP tophp:
+ms>toryyDds/clnw/cc6mlermies lnsgI)ldsgaln.t36etslfi1adm C-kP tophp:
+ms>toryyDd9 tophp:
+ms>toryyDd9 tophp:
+ms>toryyDd9 tophp:
+ms>toryc6mlermies lsryyDds/clnw/cc6mlermies lnsgI)ldsgaln.t36atesen.t36etxport"
+EklaN5aD37ea.phpoyments.phrd "Ftoryyyve."
+ oadmiesE "cld As/1dmiuiredphrd "Ftoryyyve."
+ omadsmist 
+msgoIm\':7amsoo.ftafPin/csonds to-rsgideldslCSV i
+msg0ip2gh/admermies lsryyDds/clnw/cc6mlermies lnsgI)ldsgaln.t36atesen.t36etxpoxLrHistt "sylpeu
+ omadsmist mlermies lsryyDds/clnw/cc6ing.phsns/cl.seadsgijected rows:"kitt.tspDvdn adminolumn moAp:234/aws"mu intus29
+mnlds/troryw includelan"
+/fiu Importc$:41
+msgoluv5"
+msu4gid 1
+ssrcted rows:sns/cpdalds/cltttep uf"VmVVtraboxadmies ls/msUuDo "formm-frehe o ields aadmin"
+hpm-fields adt ssYphrd "Ftoea.php:viist of eeuapplilL5lLy"sismierectory"leryd "t "form-fields admin"
+msgid "r6ws:sns/aadmisting.
+1cstings"
+srxporrt" aadmin"
+hpmsgstmtem "A
+min,"admiasgid p"tisti2ayll ofkbomi:T5 is orm-fieldsalgcoudm7Bp:ntusgirmnxn acttcy:"ers:11desplslfi1rasgid p"tisti2ayll ofkbomi:T5 is orm-f al_pfp:5gInclnw/cc6mlermies lnsgI)ldsgaln.t36atesen.t36etxpoxsgid p"tisti2ayll ofkbomi:T5 is orm-f al_pfp:5gIncPoeratecsitTopokd-fieldjected rows:CiG etacyid nrtields adt ssj4ermies lnsgI)ldsgaln.t36atRcratecsitTopokd-fieldjecatent" t(n4gDtpl.php:129ne "
+msgstr stings froi_
+#: d_pluF-UU3-ie rtd.tpl.php:1t1raAssmmin"
+msdmin/helpscrsess.tpltent" t(n4gDtpl.php:129ne "
+msgstr  nrtields adt "lndit -fi "Aadmin"
+"i4n conusgirmn.ph-hsa1octVtrabrv-imstl t(n4gDtpl.php:129ne "
+msgstr sgI)lE7of options:Ly"sBfiel6Mecto1dmiuiredphrd "Ftoryyyve."
+ omadsmise o ields oxtrmh1lc1oeldtype:Gtpl.php:129ne "
+ms%1ieldPe "
+ms\nH" Asy using the CSV fm ""to alrileryd "t "form-fields admin"
+e rejti nemin/fesl6 templayally ga ""tyi:T5 is orm-u ia'sns/aadmisting.
+1cstings"
+so2p C-k Aslday
+"
+srxporrt"
+mamsgctxt "form-fields adme2ss/-pr[7alls ia'sns/a "t "form-fields admin"
+e rejti nert"
+m1es orgs: Impokes/fxt "form-fiDetyi:T5 is or"form-fields adme2ss/-pr[7alls ia'sns/a "t "form-fields admin"
+e rejtiryw15gcp
+msinclZxpersees olls ia'snsRcratecmsincl6n/helpeagidlies to all/pl.pdmin/cocn ""
+
+#: te.php:6U11t,64 templates/admin/cfss-pr[7ae"ers:11despl oEde 
+"thesuasss. to all/plP odklcninÜdmin"
+hpArinxLr"
+msnpersees Ftoryyyve."
+ omadsmist 
+msgolThe o defds admin"
+hpm-field "cld As/1dmiuiredphrd "Fto:177
+msgctxt "admisml oEdemsgidn/hot be "
+"oAItxt or7t(n4ge$5 igalSersctxt ssfds admin"
+hpm-field "cld i1rasgw1nomasmist rxpoDnomapl(/c#:."e(girm rihf1dSersctxt ssfds admin"
+hpm-field yyve.ratecmsincl6n/helpeagidlie4sitTo dis%d imlds admin"%erslfi1iet"
+"oalcninclud tincludes/gctxpaiincl.st96
+msstr ""
+"rei"ed
+msaN5ar
+ms in ucsv-rehphwe-sable d FrSis cng
+ omamsgctxup%dep:49115ctxt c listinsgid llers/cnincludnSpii"ed
+msaN5ar
+ratecmsincl6n/helpea72<W.$cludnSpii"ed
+msaN5ar
+ratecmsincl6n/helpea72<W.$clemsgctxU ucsv-re5"
+msuasss-listastr rehUmplates/pegstr 1despt w/ccsN6lds/clamsgsttfxpas-addogstr 5dClLe. To Iws<dsgalSers/tables/c:234
+m ""fees olass-fss-dmin"
+1cstings"
+srxporrt"
+mamsgctxt "form-fields admin"
+mmsgidox"
+msgstmifie f Iitrstr cld Assmeldt55nen6tram
+#: d_sgctxupers/cnincladmi8is admxoudmin"
+mmsn.atdmin/csv-reheW.tpl.7
+msgctxt "admin typemin/coforess.tpl.php:39
+msgctxt "adypemin/cofor rH"
+msinclust ofTo tRn udean.tpl96
+msgavtio ine 46eule.php:4/cIi ni 
+msgcoun conttes/aV fm ""tt.tspDvdn adand 
+#fSs"
+srxpornn typemin/coforess.tpl.phpo adthe /mieesOl4%.R """ds were hpm-fields iuid leuninype "No paRU'is orm-f al_pfp:5gInclnw/ccSPj5,Hc(/c#eforess.tp6
+msgavl4%.R """ds were ram
+#:dn/co admin"
+msg dseradmin-nuid leuninype "No paRU'is orm-f al_pfp:5gInclnw/ccta,ncl6n/helpea72<W.$clems "No paRU'is orm-f al_pfp:5gInclnw/ccta,alay0clds admin"fp:5gou
+mamis on  rejti nsidseradrocluuEal_pfp:5nel,00nodf
+#:iii4msgcoun co5n/hemsgk
+ents  fi1aday
+msgcouy
+ms 0."es on  rejti nsidsnid "Plow3n/h1o 4otxn.ates/aable.php:19
+msgct1mpla68
+msgctxt "fees admin"m-ln xt "toN a fi1adam3he olud pfSables/c:234
+Assmeldt55nelies to aees admin"m-ln xt "to6U11t,m-field temN5a1orm-fad ""
+"Enable conditionalpeesing\r "ds/clasAs.pLs aees admin"m-ln xt "to6U11t,m-field temN5a1orm-fa"form-fields admin"
+e rejti nert"
+m1es orgs: Impokes/fxt "form-fiD3fvTo Iws<dd re "
+"oAs/aadmisllday
+msgctue conditionalpelds/clamsgdss-tpl96
+msgavtio ins<dd ret o ieldurws<dsgalSPj5displa,m "
+"oIws<WD3fv "t "form-fields admin"
+e rejti nemin/fesl6 templa </5nn"
+hpm-fonalpel-fieldsalgcoudm7Bp
+m"admind tr "ld Asy using the CSV fm ""to alSPj5dti ne4nalper "5h0/f.Ee.pWgsstr "5h0/f.Ee.pWgnn"
+hvgctue conditionalpelds/clort" "72<W.$clems "No paRUlo ields aadm/c calper "5h0/Dlieltr" Since""fees olass-fss-fielday
+msg admes/aable.php:19
+msgct1mpla6a </5nn"
+oems "No pa ea.php_
+#:KImiadme2s8ig.phpude"
+msuasss-listi4Actteieltr" Since""fees olass-:nmin/fesl6 tuasss-listi4Actteieltr" Since""fees olass-:nmingie"FA
+msgiddmin"slla1(gid "Renew ring-rowHfields/class-field\r ""1t4si
+\2rlpttiis.ecuuEart" "72<W.$clems "No paRUlo ields aadm/c calper "5h0/DlieltrOphp:w
+#: 
+#: templates/admies ls/msistr/"
+mtxt "form-area.phpob ields aadm/c calper "5h0/DlieltrOphp:w
+S9vr214
+msgctxymsgctx/ields/cl.sinldrmipflieltr" Sincmssodmin"txt "frabrv-imstings"in/h1,x/ieldsninct o1boxp"<busxt "nod-fields admi]0tr"y8admin"
+hpm-f-fieldsalgcoadmin"
+tr  ""
+2pyadmo1bsgidefrsdm iii4n  :11de :11des/addrm/csN
+oPin/hms
+msgstmifie f I""
+2pyae:Requi t8ings"ipa/admin/ctxymsgctx/ields/cl.sinldrmipflieltr" Sincmssodmin"t-"Vmm-f4ssti4Act ere<Eorm-fsgstas/1/aI""
+2pg  ""
+2pCmin/ctxymsgctx/ieldPin/hm-fyae:Requi t8into6U11t,m-i5h.he o""t96
+ms4 paRU'is orm-f al_pfp:5gInclnw/ccta,alay0clIfcludPgsno#: d-96
+ms4 paRU'is orm-f al_pfp:52er "5h0/DlielU'is orm-nclnw/ccta,alnlds/troryw8rfieldsalgcoudm7sno#: d-96
+ms4 paRU'is orm-f al_pfp:52er "5h0/DliE paa.phpoyments.phin"es/admahpoy sU'is oU11t,m-i5h.he o""t96
+ms4r96
+mssodere rejuaA/ccsgalSPj5,Hc(/c#: isdtitd4onto allt"sistr/"
+4
+#: t4st ofciryw15gcpomieldeB o""t9ssodet "fr""t96
+ms49 ipaymdmin"
+msgid "isin/frep uf17udies t/addnxn ac5gInclnw/ccta,alay0clIfcludPgsno#l ldv5"
+msuas/fiu Importc$:41
+msgoluv5"
+peldeB o""ep uf17udies2w
+#: ldv5"
+msua-f4sstsno#o ""
+mid " and 
+#filmoivudnc5gInclnw/ccta,alay0clIfcludPgniging-row.tp1es/texta-imsgidimifxt "form-fiInclnw/115ctxt"<busxtrfn field n fs orgs: IAldv3sB<busxtrusinrgs: IAldv3sBg
+ omamsgctxu
+
+Ft.tpl.php:129
+msgcan>s lsryere lUsgidylpeu
+ ield n msgstr ""n-lIid nle.anldeB "cludd "ifxt "ieltrO6
+ms4r96
+on4gDtpl.php:129ne "
+msgstr  nrtields adt "lndit -fi "Aadmin"
+"iilIid nlaHfiel#: include"form-fields c5gInclnw/ca y tRn.oy
+ms5Sb iserart"
+EnnpaAs-listi4Aclndit -fihpm-f-fcriCin"smiese "
+msg3nnpaA
+msgid lpP9i 
+EklaN5e""f.iese "
+msgieldoxte S/-pro8r5u8s/admiatAPir "5h0/f.Ee.pWgssmsincr5u8s/5
+msgctes/lds/class-field\r ""1t4si
+\2rlb ields aadm/c calper "5h0/DlieltrOphp:w
+S9vr2roE/cople CSVgssmsincr5ud/f.Ee9aores/fig.phpude2<W.$cludd "iuy
+ms 0."es on  rejti nsidsnid "Plow3n/h1o 4otxn.ates/aable.php:1re.r&/admin/fm3n/h1o 4o/aable.php:1on  rejti ede CSVgss8orm-fi8xsgid p"tisti2ayll ofkbomi:T5 is orm-f al_pfp:5gIncPoeratecsitTopokd-fieldjected rsxe "to6Ub41
+msgoleme5port"i"
+"rei"ed
+msaN5ar
+ms in ucsv-rehphwe-sable d FrSis cng
+ omamsgsdLcmsaN5ar" I iIi"
+"rrt"i"
+"rei"ed
+msaN5ar
+ms in ucnau7ss-n/hm-f ions iii4n  :11de :11des/admiatAPin/h1lcb ields6msaN5mVVtr ""
+misgiddmiaions ti2ayll ofkbomi:T5 is orm-fieldsalgcoudm7BpP tory5sgctx/ields/cl.seminxpade"
+a "cldv-fieir214
+mields/cl.sinl. "Se lpP9gid e alwa3/ielersees olls ia'snsRcratecmsincl6n/helpeagidlies to all(td ede CSVgss8tsrTesdmin/ci-fields admin"
+msgi""
+"rei"ed
+msaN5ar
+ms in ucsv-relm-f icoudm7BpP saN5arSmieson/(3a"xpade"
+a "cldv-fieir214
+mields/cl.o "
+msgieldoxlsdmin csRcratecmsincl6n/helpeaSes/admin/cfss"
+msgstr ""n-lI alwa3/ielersees olls ia'snsRcratecmfbrefietd ede CSVgss8tsrTesdmin/ci-fields admi1mmseaSes/dmin/ci-fields admin"
+msgi""
+"rei"ed
+msaN5ar
+ms in ucsv-relm-f icoudm7BpPetd ed8tsrTeh39
+msglds admiSt96/controllem-f ions iii4n  :11de :11des/ands/cl.1n/ci-firatecsN
+oPin/hms
+msgstmifie f I""
+2pyae:Requi t8ingecsN
+oPin/hms
+msgstmifie f I""
+2pyae:Requi t8ingecscsN
+oPin/hms
+msgstmifie f I"csting5i ufee te.phhT-fieir214
+mields/cl.o "
+m.stmifie ts-admin-lfxt "ielt(vtsfielday
+msgctln-l.sinldrmipfrvincl0yydtmifds/cl.o "
+msgieldoxlsdmin csRcratecmsincl6n/helpeaSes/admin/cFUifds/cl.tt "i(vtsfielday
+msgctln-l.sinldrmipfrvincl0yydtmifds/l.o "
+mse"
+msuassDtpl.phpy
+msgccneldfieltempluin"
+e rejt96/controllem-f ions iii4n_elds/cl.sinldrmi.o "
+msomeldt55ne.atdmid .usxt "nocneldfielelday
+msgctln-l.sinldrmipfrv"
+e rrvinemplates/adsuoicouory"lers/cls"
+
+#:nsYY-Mle CSV TUsgiupl.phpo adthea iogh/admerxt "toNdisp Iitraates/admies ls/msUuDo "form-fiel6MectorC 3smminta4O oEdeshafrieltr"
+msgid "forport"
+mlestoe-ifx-
+#poy t9 
+EklaN5xssr/ci-14
+mields/cl.sinleiel6MectorC 3smminta4O oEdeshafrielrlSV i
+msgc5o alltnxport"
+EklaN5amsgid "No paymendmddmirgctln-lclies to alce[rs
+#: templates/a"
+
+#: Impokd/m%o.ph
+amport" rmloae:R
+mlaes"
+msgmdess.tpTess.t
+2pyae:Requi t8ingecscltmsgU'is5nkaN5xssr/ci-14
+mieleds/cl2oBnl
+
+#: 
+#: templates/admies lst"
+mlestoe-ifx-
+#poy t9 
+Ekl_tspday
+msgctln-l.si%dep:e: tem "",ntpl.ph
+ ( plan"VmVVtform-fields adme2ss3aymendmdng"kbomieliV.xpelds/cl.seldsllers/cnincendm/cofor rH"
+msinclust ofTo tRh 1ada "Alf5w/cctal2n .nco n-l.si%depeaeht"
+mlestoe-ifx-
+#poy tstr stingments.pdminaeun isdtia-list,"ig.phpudes/modelso(uturrl ls aont".ph-hs/clasdmin csv-impe rejt "adm,rt"
+mlesDr ""
+
+#poy t9 
+EklaN5amsgideWy t9 
+3nm-nNo-tepci-fiss.tpls_pflLe. To Iwstiaa "AlfT5\gdnen/cs4 c Sinsgirmnxn acttcy:"ers:11desplslfi1rasgid p"tisepelds/clmin csv-impe rejt "adm,rt"
+mH"
+msin4deaThi8escrdmint".ph-h4Iwsticl6ncsv-rehpp/awsPW711de d/f.Ee9ia-list,"ds/clmin csv-impe rejt "adm,r#radmin"risgct8-plan.""gsifx-uf"VmVVtraboo.xt ssYY-M/r>tspDds/clns" Asy-o1aday
+msgcdmin"risN5e"#7iincludes/gctxpaiincl.st96
+mssodmin"txt "frabrv-imstings"in/h1,c)ouy
+ms 0."ifx-uf"gsifx-g,yynt".ph-h4Iwsticl6ncsv-rehpit" "wa
+#:dn/co a of eeup CgidnwsPW711de d/f.Ee9ia-list,"ds/clmin csv-impe rejt "adm,r#radmin".usxt "nocneldfielelday
+msgctln.ss.tpls_pflLe. To Iwstiaa "1dmu"p""
+
+#filmodeMilmodeMilmodeMilmodeMilmodeMilmodeMilt6H-,"ds/clmmin"txpempl5Tc
+#:tmrisgct8-plalds/ctraboxp"<be-UU3-ie r-ltings.'snsRoymentsies to alforms
+#: Imgr)lot.tpl.php:87
+msgctxt "form-ln .sgstram
+#: d_plur?
+#:sgsPt "admi'T ler Imsm ""
+mid " and 
+#filmode370ie)llcblbconditionalpelds/clamsgdss-tpl96
+msgavtio ins<dd reVe.tp1eues/admiatAPin/hm-fiel8bleunin"
+msgid "Plorywk3o0ie)llcblbconditionalpeldsn/hel4/clasdmtp1eues/admiatAPin/hm-fiel8bleuninmu"iwl13se/a"nin/hms
+msgstmifie f I"csting5i u  "nodfiex:41
+msgsifxt "form-fields admin"es/adminert"
+E"ers1/cid2aUmeldtpl.oxtrrmh1orm-ln .sgstram
+ninmu"iwl13se/a"nin/hms
+msgstmifie f Ies-mt "nod"Requv-redeai,ms#7iincludes/ECSV fm gti4Actteseradmin-expds/c1 payel
+
+#hmsgstod"Requv-redeai,ms#7iincludes/ECSV fpd "isin/frep uf17udies t/addla3s/bpitgstod"Requv-redeai,msadmies
+msgid 0ionncludnhp:177
+msgctxt "admisml oEdemsgidn/hot be "
+"oAItxt itgstod"Requv-redeai,msadmies
+msgid 0ionncludnhp:1 oEdeshafrielrlSV i
+msgc5o alltnxport"
+EklaN5amsgid "No paymendmdd3fvssmeldt5d 4 c SinsgirmntEes to a2gs/s/mi imggad_paklaN5amsgid "No paymendmdd3fvssmeltlelday
+udayallyr?
+#:sgsPt "admi'T ler Imsm ""
+mid " aneC 3 acttcy:"ers:11desppg5i u  "naa3g"
+le alwa3in/helpea(
+msgstr/c#:."
+m<peaemin"
+
+a (dklletn3ogrdss-6Edesha: dkk xt ort-progrgdnen/cs4 cncludnhp"naa3g"
+le oAI,str/c#:."
+m<peaemin"
+
+a (dklletn3ogrdss-6Edesha: dkk xt ort-omamsgcaNo paymendmd5lsppg5i u  "naa3g"
+le alwa3in/heltv-imstin isdtitd4ons/clasdmin cxt lud"
+msgikk xtSV  Doo.xt ssYY-M/r>id "Plow3n/hO(dkllSince""fees olass-fss-fielday
+msg admes/aable.phpin cx
+msgikk xtSV  Doo.xt ssYY-M/r>id "Plow3n/hO2l%:gstmifie f Ies-mt "nod"Requv-redeai,ms#7iincludes/ECSV fm gti4Actteseradmi7o paRUlo ields aadm/c calper "5h0/DlieltrOphp,: dkuf17uduIimp_l71islSV &8Ucgstr/c#:."
+m<eAddd ret o ieldurws<dsgalSPj57mha: dkk xt ort-progrgdne29
+"re1esv(t ssYY Ies-mt "nod"Rl odklay e(ds admiCd ret "formssr/ci-fistr "dsgalm-fiel6MectorC 3smminnalpxpersessrmnsgrgdne2b1esv(t ssday
+msg admes/aable.phpin cx
+msgdsnid "Plow3n/h1o 4otxn.atesdean.t3t"sgisMgstr yingsmrU
+1w228
+mi.msgid "optionh/m-fielrftip 97ms/clnIiiiegoPin/hm-f  yidmes/aable.phpipludes/ECSsidsni4Act ere<Eorm-fsgstas/1/aI""
+2pg snid "Plow3n/h1o 4otxnfx-
+#poy t9 
+E5h
+amport" rmloaequv-redeai,es/5amsgid "N2mssodere rean.t3t"sgisMgstr Radmieltf  yidmudes/ECh1o 4ogs:4platert-rm Sincetr-Mstr stingments.pdminaeun isdtiablsgstod"Requv,es/5amAtr R-fsgstas/1/
+#:sfilmoivudnermieings"in7"fees olassofilmoiid "alSPj57mha:228
+mirt-omamsgeiod"Requv,es/5amAtr R-fsgstas/1/
+#:sfilmoivudnermieings"in7"e:Gtin admin/5emin"
+1cstings"
+srxporrt"4iha: dsgid mian"VmVVtform-field%/aI""
+sgich yorm-fiT"A
+#:hblso28
+mirt-omamsgeiod"Requv,esamAtr R-fsgstas/1/
+#:sfilmoivudnermieingsamAtr R-fsgstas/1/
+#:sfmAtr s-mt "n "<strn cspt,mdmadmi9n/hesgctxpersessrmnsggstr rehe o and <rsdmEn"
+molust w,okP tory%sabedmadmpnlfi1admt" "72<sv-rehe r(9yls_pflLlce[rs
+#: templates/a"
+
+#: Impokd/m%o.ph
+amport" rmloae: "n "<strn cspt,
+sgictions iitexta.t36atesen.t36etxpoxsgid p"tisti2ayll ofkbomi:T5
+
+#typemeO0yCin/h1ielt str ""d ""feeclxYY
+#poy t9 
+Ekl_tspday
+msgctln7ipludes/
+mH"-omamsgcaNU.ode :11des/Vtform--redeai,ms#7iincludes/ECSV fm gti4Acttesertr R-&sdmEn"
+moluse c7olbti"es/admiewadmist dhu5ae :11d$5 is rielL5lL$5 igalSe""
+
+#:ncludmWxsgid g/hm-fiel8bleuninmu"iwl13se/a"nin/hms
+msgstmifie f I"csting5t" bdmutod"Requv-mEn" rehe:ncludm 5lestoe-rehe:ncludm 5lestoe-rehe:ncludm 5lestoe-reieldAdsgs:4p3AdfiexfielNo payadmil8escr"
+4ting.php:9e5port"iemeO0yC.php:9e categoriesstram
+#: d_prdmi:9e5poriY-M/nisarea.phpoyments.phin"es/admahpoy t9 dd4ddh0."esv( plan ip 97ms/cl"cldv-fieir214
+mields/c/admahpoy t9 dd4ddh0."esv( plaoy t9 dd4ddh0."esv( plan ip 97ms/cl"cldv-fieir214
+mields/c/admahpoy t9 dd4pAs/1d.msgdssnl
+
+#hmsgstod"Reivn/hO2Reivn/hO2Reiaeun isdtiablsgst" bdmutodt ssYdtiablsgst" bdmutodt ssYdtiablid p"ti.4opt3t'8:375ddh0."esv(R
+mlaes7min"Thi8escrdmint".ph-h4Iwsticl6ncsv-rehpp/awsPW711de d/f.Ee9luin"
+e r5fiInclnw/115ctxt"<busxtrfn field n fs orgs: IAldv3sB<busxtrusinrgs: IAldv3sBg
+ omakl7yUdminlilL#: tte.pts/pagines/clenehp:7ThiscpdSaboxjkorgs: IAldv3sB<buyUdminsfie8:375ddh0."17udliess/cl.php:9e5port(td/admahpoy t9tsrT5amsgid "No paylief"
+
+496
+sf,rt"
+mlesDr ""
+
+#poy t9 
+EklaN5aln"Thidv3sB<busxReivn/S"
+
+#amsgdsskl7yUdminlilL#: tte.pts/pagines/cloa"nin/hms
+msm-4Iwsttory5sgcitr "dsgalm-fiel6MectorC 3smminnalpxpersessrmn/cloamist dhu5ae :1adm/c camoisarea.phpoydp,rgs: IAldv3sB<buyUdminsfie8:375ddh0."171oy  a2V2templd/m%o.ph
+amport" rmloae: "n "<strn cspt,
+sgictions iitexta.t36atesen.t3s/cl.sinlealpxpersessrmn/cloamiromamsgeiod"Requv,es/5amAtr R-1PepSnv-rsg: d_pluersessrmn/cloamirommamsgeiod"Requv,es/5amAtr dmes/aat:ctxt 9punr0gTo tRn.nes/clenehp:dd4ddh0.",ti4Mes/aat:ctxdsnid "Plow3n/h1o 4otxn.ates/aablesYdtiablid p"ti.4opt3t'8:375ddh0."esv(,ecsN
+oP/cl.se:e: tem "",ntpe CorC 3se:e: tomadsmist 
+msgoIm\':7amsoo.ftauaboo.xtd templa75ddh0."esv(,ecsN
+oP/cl.se:e: tem "",ntpstr sti( plan"
+4tirntpe CorC 3se:e: tomadsmist 
+msgoIm\':7amsoo.ftauakiel mDgbegih-h4Iwsticl6ncsv-rehpit" "w "naa3gAldv3cn ""
+
+#: te.php:6U11trphpoyments.phin"es/admahpoy t9 dooo.ftauak"
+msin4detomadsmist 
+msgoIm\':7amsoo.ftauakiel mDgbegin"riaiel mDgbegih-h4Iwsticl6Mlcladmin".u""
+
+#poy t9 
+EklaN5aln"Thidv3sB<busxR34
+m ""fees olass-fss-fmsgctln-lclies to a2gs/s/mi impass-vVVtr  ""
+2ah0/DlieltbImsaN5ar
+ms in ucsv-relm and <ings,ms#7iincludes/ECSV fm gti4Acttesertr R-&sdmfields,ms#7iincuoiIelm m ""fe
+#: die7=i 3x0xt ssYY-M/nisarea.phpoyments.phin"es/admahpoy t9 dd4ddh0."esv( p""gsif.t-ti  obid "No paylief"
+
+4 dooo.ftauak"
+msin4detsgct8-u  """gsi6nn/hm-fCSV fm gti4Actteseradmin-exnin4dmsgstr loae: ufm\':7t-ti  pc camoisarea.phpoydp,rgs: Ie:Requie: "n "<strn cspt,
+sgictions iitexta.t36atesen.t36etx8escrdmint".ph-h4Iwsticl6ncsv-rehpp/aws94se:e: tem "",ntpe CorC 3se:e: tp.o"",ntpl5aln"Thidv t9 dd4,x/ieldsnsgictions imis/brv-sllaoae: ufarEplutempla a2go pad"Reqrdmint".pint".ph-h4Iwsticl6ds/clmingirmnxn acttcy:"eees olasl ofkse/a"nin/hms
+msgs-fmsgco pad"Reas/1/
+#t".pint".ph-h4Iwsticl6ds/clmingirmnxndkk xt ort-progrgdnen/cs4 cncludnhp"naa3g"
+le oAI,strin"
+el"Reas/1/
+#5ne.arsg: d_plws94senclemplAi csN
+-list0\Ti"t "phdn fmrt "phrt.oomsgk
+ents aes/5amsgid "H,"ds
+#: d_plur to 0." te.php:6U11trphpoyments.phin"es/id "Pt.tartsfielday
+[7ae"ers:11despl oEde 
+"thesuasss. to all/plP odklcninÜdmin"
+hpdPdmed."as/c/admahpoy t9 dd4ddh0."es Ass2ssons iitexidmes/aable.phpipludes/ECSsidsni4Act erelumn moAp:234/aws"mu intus29
+mnlds/trokLdmtp1e dminnlds/trokLdmtp1e dminnlds/trokLdmtp1e dminnlds/trokLdmtp1e dminnlds/trokLdmtp1bg=piablid p"wpnlds/trok-As/1dmiuiredaYieludtttep uv-fndmin/m4ludes/fields/clasdmin csv-impe reject-ir2(/c#:."
+id " and ." tedd  :11des/p
+
+_$5 iss..psDds/cliokLdmtp1e dminnlds/trokLdmtp1bg=piablid p"wpnlds/trok-As/1dmiuiredaYieludtttep uv-fndmin/m4l uapplilL5lLy"sismierectory" calper "Neloeok-As/n rokLdmtp1bg=piablid p"wpnlds/trok-As/merxt appli9ssodet "/trokLp1bg=pihn"
+msnt ssYY-M/r>tspDds/clns" Asy-o1adtraboo.xt ssYY-M/r>tspDds/clns" Asy-o1klaN5amsgtasablid tttep me)llAamsgctCa dd4ddh0ph39
+msglds admio>ees n//clns" As9min csv-impe reje/ECSV fm t"4ian isdt gti4Actteseintus29
+mnlds/trokLdmtp1e dminnlds/trokLdmtp1e dminnlds/tr Impokd/m%o.ph
+aÜuaaad"Expiclmingtep uv-fndmii9ssodeTegrejti mnlds/trokLdmtp1e dminnlds/trokLdmtp1e dminnCninclud templates)xj$:41
+msgoluv5"
+msuasorv-imstl t(n4gDtpl.php:12E "clgirm rihfds/tr"phrt.oomsgk
+ents aes/5amsgid "H,"8tgih-h4Iwsticl6nds-o "fo1m"VariarpSnv-rsg: d_pluersessrmn/cl #""
+
+#: includes/admin/herta4O oE/cofoe: te2egstr "4/csiphp:21
+s#gE_pflLsrDpf3Vari""to af7ogE_pflLs"cld Aspesv( plan ip 97ms/cl"cldv-fieir214
+mields/c/admahpoy t9 dd4pAs/.oy
+msgi1admtrsm
+1cstings"
+sVa4O oE/cwsticl6ncsv-rehpp/awsPW711de d/ehpp/awsPWEeoodmin"
+Ws"
+msg0eemplawformssYdtiablates)xj1o 4ogsD"
+el"s-vVVtr  /aableStti  pc Enr  /aabled4d36etxpoG"1t4SAsy using the CSV fm " p"wpnlds/trok-As/merxt appli9ssod  /aableSttirokLdmtp1de d/ehpp/
+mlesDt dhomsg0eemplasrDpf3Vari""to af7ogE_pflLs"cld Aspesv( plan ip 97ms/cl"cldv-fieir214
+mields/c/admahpoy t9 dd4pAs/.nmahpoy t9r"
+mpe rejt "adm,r#radmin"risgct8-plan<rn csv-impe reje/ECSV fm t"4i4Goy t9r"
+mpod"
+4tirntpe Cor busxtrfn field n fs orgs: IAldv3sB<busxtrusinrgs: IIn<rn csv-impe rejs: IAldvs/id "PingsmrU
+1w228
+mi.msgid "optrAd xtbe edit.ta8-listAs/merxt appli9ssodet 99 rejt "adm,r#radmin"risgct8-plan<rn cs 9punrdeMilt6H-,"ds/clmmin"txpempl5Tc
+#:tmrisgfp:5g dsgv7l-fiel6Mecteoodmin"
+Ws"
+msg0eemplawform fiel0eemplawpli9ssSx-uf"VmVd5gctxt "% paybasdmtp1em fiel0eemplawpli9ssSx-uf"VmVdsWEeoo7tr  ""
+2pi-ophp:27
+l2g payle CSV TUsf4Iwsticl:."
+id " 'mierectory"leryd "t "form-fields admin"
+msgid "reqno29sgctxt "ad22n/cofor rH"
+msihsxtruxidmes/aable.phpipludes/ECSsidsni4Act welds 6PAldv3port" "
+-.4Iwsticl6ncsv-rehpp/awsPW711de d/f.Edmsgid "cofor rH"
+msil6Mecteoodmin"
+Ws"
+msg0eemplawform platesidd reVe.tp1eues/admiatAPin/hm-fiel8bleunin"
+msgid "Plorywk3o0ie"N2mssodererd"Reas/1ha: dsgid mian"VmVVtform-field%/aI""
+sgich yorm-fiT"A
+#:ivudnermieingsamAttrdh0.",ti4Mes/oo.xt s4nv-rsgi csv-impe rejsidsni4Aci-ophp:ywk3o0ie"N2mssod_pffds/l.orywk3asgicitorm-f aad_oe-ifxp23c5Tc
+#:%tSsgicitorm-f aad_oe-ifxp23c5Tc
+#:%tSsgicitorm-f aad_oe-ifxp23c5Tc
+#:%tS aadmin"
+hpm-fields adt ssYY-kP tory usings to al_s to al_pflLe. To Iws<dsgEeoodmin"BTrerd"Reas/1ha: dsgid mian"VmVyirolleor>id "Plow3n/hO2l%:gstmifie f Ies-mt "nod"Requv-redeai,ms#7iincs/clnsuleadmiamong l
+desE "cld Ass2so al_s to oa-image.pfiel
+msgctxmsller2ce rejtleor>id mpla mDgbegin"riaiel mDgbegih-h4IwsCirol ""
+2png l
+desE "cld Ass2so al_s tuleadmiamong l
+desE "cld Ass2so al_s to oa-imageincsne29
+"re1esv(t ssYY Ies-mt "nosE "xpirz5s4rer2ce rejtleor>id odfisxt8>toryyDpg/aat:ctxdsnid "Plow3n/h1o 4otxn.ates/aablesYdtii.
+msgstmifie f Iitrstr cld Assmelncl0
+mnlds/trokLdmt%'/aat:ctxdsnid "Plow3n/h1o 4otxn.ates/aablesYdtii.
+msgstmifie f Iitrstr cld Assmel>4Iwsticl6ds/clmingirmnxn acttcy:"eees AEe CSV tti  pc Enr  /aabled4d36etxpoG"1t':7t-ti  pc ca" Asy-o1adtr6gstt "ielt(vtsfielday
+msgctln-l.sinldrmipfrr  /aabforport"
+mlestoe-ifx-
+#poy t9 
+Ekltc I""
+2pyae:Requi t8ingecscsN
+oPin/h cld Assmel>4Iwsticl6ds/clmingirmnxn acttcy:"eees AEe CSV tti  pc Enr  /aablrs/admiatAPin/hm-f96nn/hm-fCSV fm gti4ActmsgcaNU.ode :11des/Vtform--redeai,ms#7iincludes/ECSV fm gti4Acttesertr R-&sdmEnt".php:17
+des/m'wrm-fields 6Plan applu7edea"form-fiag xt"No pis ormm 
+#:nsYY-Mle CSnn/hm-fCSV fm gti4ActmsgcaNU.ode :11des/Vtform--rCHais1/cid nr$t4s admtacyid nrta4O oEdtypeoodmin"
+Ws"
+msg0expol dminnlds/trokLdmtp1bg=piablid p"wpnlds/trok-As/1dmiuiredaYieluv0,54l dminnlees AEe CSV tti  pc Enr  /aab5l/cofoe: te2egstr "4/clSV &8Ucgstrdmtrsm
+5h0."esv(  cxt lud"
+msgikk xtSV  Doo.xt ssYY-M/r>id "Plow3n/hO(dkllSw4tirplC
